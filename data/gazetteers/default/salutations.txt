@@ -1,0 +1,30 @@
+hi
+dear
+hey
+hello
+thanks you for
+All
+good morning
+good afternoon
+good evening
+Hallo
+Hola
+Bonjour
+Guten Tag
+Guten Morgen
+Sehr geehrte
+Bom dia
+Boa tarde
+Olá
+Buenos Días
+Hola Buenos días
+Buongiorno
+Cari Colleghi
+Beste(\s*(heer|mevrouw))?
+Geachte(\s*(heer|mevrouw|heer\/mevrouw|heer, mevrouw|mevrouw, heer))?
+Merhabalar
+Gentilissimi
+Ahoj,
+Prezados, bom dia
+Sehr geehrte Frauen und Herren
+Ciao a tutti
