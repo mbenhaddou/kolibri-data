@@ -11,8 +11,10 @@ Hallo
 Hola
 Bonjour
 Mevr(;|)\s*Mr
+mevrouw,
 Madame(;|)\s*monsieur
 Cher Monsieur
+Ch(è|e)re Madame
 Ch(e|è)re? [A-Z][a-z]+
 Guten Tag
 Guten Morgen

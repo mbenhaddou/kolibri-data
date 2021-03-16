@@ -1,6 +1,6 @@
 a\+
 All the best
-Alvast bedankt
+Alvast bedankt\.?
 Alvast (be)?dankt?\!?
 Amicalement
 Apologies for any inconvenience
@@ -11,6 +11,7 @@ Att(\.|;)
 Atte
 b\.v\.d\.
 Bedankt\.?
+Bàv
 Best Regards?
 Best\.?
 Beste Grüsse
@@ -20,7 +21,7 @@ Bien à toi
 Bien (à|a) vous
 Bien cordialement
 Bij voorbaat dank
-bonne journ[ée]e
+(bonne|Belle) journ[ée]e( à vous)?
 Bonne réception
 BR
 Bvd
@@ -38,16 +39,20 @@ cordialmente saluto
 Cordielement
 Could you please do the needful
 Ďakujem a ostávam s pozdravom
-D\'avance, merci pour (votre|vos) (intervention|explications?)
+D\'avance, merci.\?( pour )?(votre|vos) (intervention|explications?)
+D\’avance je vous remercie, et vous souhaite d’excellentes fêtes de fin d’années
+Dans l'attente de vous lire, je vous prie d'agréer l'expression de mes salutations distinguées.
 Dakujem velmi
 Dakujem
 Dank alvast
 Danke
+Dank\.
 Dank je wel
 Dankjewel!?
 Danke Dir!
 Danke für Ihre Unterstützung
 Dank voor uw begrip en medewerking
+Dank bij voorbaat( voor snelle reactie\.?)?
 Danke und LG
 Danke und liebe Grüsse?
 Danke und beste Grüsse?
@@ -75,6 +80,7 @@ Grazie
 Grazie e buona giornata
 Groet(en|jes)?
 Grt(;|\.)
+Grtj
 Gruße?
 Gruss
 Gruss und Danke
@@ -92,6 +98,7 @@ Je te remercie par avance\.?
 Je vous en remercie\.?
 Merci d'avance
 Je vous (en\s*)?remercie( d’avance)?
+Je vous souhaite déjà meilleurs voeux pour Noël,?
 kind regards?
 Lieben Gruss
 Lieben Gruss und schönes Restwochenende
@@ -107,6 +114,7 @@ merci par avance
 Merci\.?
 Mes salutations
 Met vriendelijke groet/with kind regards
+Met vriendelijke groeten,?
 Met (voorlopig nog\s*)?vriendelijke groet(en)?
 Met energieke groet(en)?
 Met energievolle groeten
@@ -116,6 +124,7 @@ Mit freundlichen Grüßen
 Much appreciated
 Muchas gracias
 Mvg\.?
+Nous comptons sur votre compréhension et, en vous remerciant, nous vous prions d’agréer, Madame, Monsieur, nos salutations les meilleures.
 Obg\.
 Obrigada
 Obrigado
@@ -131,6 +140,8 @@ Salutacions
 Saluti
 Saygılarımla
 Schöne Grüße
+Si vous avez encore des questions, n’hésitez pas à réagir à ce message. Mes collègues et moi-même nous ferons un plaisir de vous aider.
+Si vous avez des questions, n’hésitez pas à nous contacter. Nous nous ferons un plaisir de vous aider
 sincerely
 Sincères Amitiés
 Sincères salutations
@@ -152,6 +163,7 @@ thankyou
 THX
 Thx in advance
 Un saludo
+Un tout grand merci
 Viele Grüße
 Vielen Dank
 Vriendelijke groeten
