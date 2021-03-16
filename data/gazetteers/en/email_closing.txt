@@ -8,14 +8,15 @@ Ats.
 Att(\.|;)
 Atte
 b\.v\.d\.
+Alvast bedankt\!?
 Bedankt
 Best Regards?
 Best\.?
 Beste Grüsse
 Besten Dank und freundliche Grüsse
 bGIF
-Bien à toi
-Bien à vous
+Bien (a|à) toi
+Bien (à|a) vous
 Bien cordialement
 Bij voorbaat dank
 bonne journ[ée]e

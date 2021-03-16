@@ -10,10 +10,14 @@ good evening
 Hallo
 Hola
 Bonjour
+Mevr(;|)\s*Mr
+Madame(;|)\s*monsieur
 Cher Monsieur
-Chère Madame
+Ch(e|è)re? [A-Z][a-z]+
 Guten Tag
 Guten Morgen
+Goeiedag
+Goedemiddag
 Sehr geehrte
 Bom dia
 Boa tarde

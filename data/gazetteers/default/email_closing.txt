@@ -1,6 +1,8 @@
 a\+
 All the best
+Alvast bedankt
 Alvast (be)?dankt?\!?
+Amicalement
 Apologies for any inconvenience
 Atenciosamente
 Atentamente
@@ -8,14 +10,14 @@ Ats.
 Att(\.|;)
 Atte
 b\.v\.d\.
-Bedankt
+Bedankt\.?
 Best Regards?
 Best\.?
 Beste Grüsse
 Besten Dank und freundliche Grüsse
 bGIF
 Bien à toi
-Bien à vous
+Bien (à|a) vous
 Bien cordialement
 Bij voorbaat dank
 bonne journ[ée]e
@@ -36,6 +38,7 @@ cordialmente saluto
 Cordielement
 Could you please do the needful
 Ďakujem a ostávam s pozdravom
+D\'avance, merci pour (votre|vos) (intervention|explications?)
 Dakujem velmi
 Dakujem
 Dank alvast
@@ -44,6 +47,7 @@ Dank je wel
 Dankjewel!?
 Danke Dir!
 Danke für Ihre Unterstützung
+Dank voor uw begrip en medewerking
 Danke und LG
 Danke und liebe Grüsse?
 Danke und beste Grüsse?
@@ -56,8 +60,10 @@ Díky
 Dziękuje
 Dziękuję i pozdarwiam
 Dziekuje
+En vous remerciant (d’avance)?(\s*pour votre suivi)?
+Avec mes salutations
 Energiquement vôtre
-Energiquement votre
+(E|É)nergiquement votre
 Fax Reception Report  Received Time
 Freundliche Grüsse?
 Freundliche Grüße?
@@ -72,20 +78,24 @@ Grt(;|\.)
 Gruße?
 Gruss
 Gruss und Danke
+grts
 Hartelijke groet
 Have a good day
 have a great afternoon
 Have a nice day
 Hezký den
+Hoogachtend
 Ik hoor jullie graag
 (İ|I)lkim
 Im Voraus vielen Dank
-Je te remercie par avance. 
+Je te remercie par avance\.?
+Je vous en remercie\.?
 Merci d'avance
-Je vous remercie
+Je vous (en\s*)?remercie( d’avance)?
 kind regards?
 Lieben Gruss
 Lieben Gruss und schönes Restwochenende
+m\.v\.g\.
 many thanks
 Many thx
 Med vänlig hälsning
@@ -96,14 +106,16 @@ Merci encore
 merci par avance
 Merci\.?
 Mes salutations
- Met vriendelijke groet/with kind regards
-Met vriendelijke groet(en)?
+Met vriendelijke groet/with kind regards
+Met (voorlopig nog\s*)?vriendelijke groet(en)?
 Met energieke groet(en)?
+Met energievolle groeten
+Met dank voor een snelle afhandeling
 Mit freundlichem
 Mit freundlichen Grüßen
 Much appreciated
 Muchas gracias
-Mvg
+Mvg\.?
 Obg\.
 Obrigada
 Obrigado
@@ -112,7 +124,8 @@ Pozdrawiam
 regards
 Rgds
 Ringrazio per la collaborazione
-saltutations\. 
+saltutations\.
+Salutations\'?
 Saludos
 Salutacions
 Saluti
@@ -146,6 +159,7 @@ Vielen Dank und Grüße
 Vielen lieben Dank fürs checken und lG
 Vielen lieben Dank und lG
 warm regards
+Wij danken u alvast voor uw (goede )?medewerking
 With best wishes
 With kind regards?
 With best regards?
