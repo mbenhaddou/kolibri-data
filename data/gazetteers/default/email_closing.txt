@@ -170,6 +170,8 @@ Vriendelijke groeten
 Vielen Dank und Grüße
 Vielen lieben Dank fürs checken und lG
 Vielen lieben Dank und lG
+Voil?(a|à) bonne journ(e|é)e
+Voil?(à|a)\s*, merci pour votre service.
 warm regards
 Wij danken u alvast voor uw (goede )?medewerking
 With best wishes

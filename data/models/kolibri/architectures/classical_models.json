@@ -1,0 +1,84 @@
+{
+    "multi-voter-classifier-lower-case": {
+        "configs": {
+            "do_lower_case": True,
+            "filter-stopwords": True,
+            "models": ["linearsvm", "logreg", "mlp"],
+            "evaluate-performance": True,
+            "pipeline": ["word_tokenizer", "tf_idf_featurizer", "sklearn_classifier"]
+        }
+    },
+    "multi-voter-classifier-lower-case-balanced": {
+        "configs": {
+            "do_lower_case": True,
+            "filter-stopwords": True,
+            "models": ["linearsvm", "logreg", "mlp"],
+            "sampler": "AUTO",
+            "evaluate-performance": True,
+            "pipeline": ["word_tokenizer", "tf_idf_featurizer", "sklearn_classifier"]
+        }
+    },
+
+    "multi-voter-classifier-lower-case-weighted":{
+        "configs":{
+            "do_lower_case": True,
+            "filter-stopwords": True,
+            "models": ["linearsvm", "logreg", "mlp"],
+            "class-weight": True,
+            "evaluate-performance": True,
+            "pipeline":  ["word_tokenizer", "tf_idf_featurizer", "sklearn_classifier"]
+        }
+    },
+    "multi-voter-classifier-cased-weighted": {
+        "configs": {
+            "do_lower_case": False,
+            "filter-stopwords": True,
+            "models": ["linearsvm", "logreg", "mlp"],
+            "class-weight": True,
+            "evaluate-performance": True,
+            "pipeline": ["word_tokenizer", "tf_idf_featurizer", "sklearn_classifier"]
+        }
+    },
+    "multi-voter-classifier-lower-case-weighted-balanced": {
+        "configs": {
+            "do_lower_case": True,
+            "filter-stopwords": True,
+            "sampler": "AUTO",
+            "models": ["linearsvm", "logreg", "mlp"],
+            "class-weight": True,
+            "evaluate-performance": True,
+            "pipeline": ["word_tokenizer", "tf_idf_featurizer", "sklearn_classifier"]
+        }
+    },
+    "multi-voter-classifier-cased-weighted-balanced": {
+        "configs": {
+            "do_lower_case": False,
+            "filter-stopwords": True,
+            "sampler": "AUTO",
+            "models": ["linearsvm", "logreg", "mlp"],
+            "class-weight": True,
+            "evaluate-performance": True,
+            "pipeline": ["word_tokenizer", "tf_idf_featurizer", "sklearn_classifier"]
+        }
+    },
+    "ecoc-classifier-cased": {
+        "configs": {
+            "do_lower_case": False,
+            "filter-stopwords": True,
+            "models": ["linearsvm", "logreg", "mlp"],
+            "evaluate-performance": True,
+            "pipeline": ["word_tokenizer", "tf_idf_featurizer", "ecoc_classifier"]
+        }
+    },
+
+    "ecoc-classifier-lower-case": {
+        "configs": {
+            "do_lower_case": True,
+            "filter-stopwords": True,
+            "models": ["linearsvm", "logreg", "mlp"],
+            "evaluate-performance": True,
+            "pipeline": ["word_tokenizer", "tf_idf_featurizer", "ecoc_classifier"]
+        }
+    }
+
+}
