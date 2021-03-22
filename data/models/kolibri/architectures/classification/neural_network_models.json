@@ -3,7 +3,7 @@
         "configs": {
             "do_lower_case": "True",
             "filter-stopwords": "True",
-            "models": ["fasttext"],
+            "models": "fasttext",
             "sequence_length": 128,
             "evaluate-performance": "True",
             "pipeline": ["word_tokenizer", "dnn_classifier"]
@@ -13,7 +13,7 @@
         "configs": {
             "do_lower_case": "False",
             "filter-stopwords": "True",
-            "models": ["fasttext"],
+            "models": "fasttext",
             "sequence_length": 128,
             "evaluate-performance": "True",
             "pipeline": ["word_tokenizer","dnn_classifier"]
