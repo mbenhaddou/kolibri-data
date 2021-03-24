@@ -22,6 +22,7 @@ Guten Tag
 Guten Morgen
 Goeiedag
 Goedemiddag
+Salutations
 Sehr geehrte
 Bom dia
 Boa tarde

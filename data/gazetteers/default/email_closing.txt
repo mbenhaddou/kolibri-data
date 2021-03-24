@@ -113,10 +113,10 @@ Merci de faire le n[ée]cessaire
 Merci de ton retour
 Merci encore
 merci par avance
-Merci\.?
+Merci\.?(?!\s*de)
 Mes salutations
-Met vriendelijke groet/with kind regards
-Met vriendelijke groeten,?
+Met vriendelijke? groet/with kind regards
+Met vriendelijke? groeten,?
 Met (voorlopig nog\s*)?vriendelijke groet(en)?
 Met energieke groet(en)?
 Met energievolle groeten
