@@ -67,9 +67,8 @@ Dziękuję i pozdarwiam
 Dziekuje
 En vous remerciant (d’avance)?(\s*pour votre suivi)?
 Avec mes salutations
-Energiquement vôtre
-Energetically yours
-(E|É)nergiquement votre
+(E|É)nergiquement v(ô|o)tre
+Energetically your
 Fax Reception Report  Received Time
 Freundliche Grüsse?
 Freundliche Grüße?
@@ -113,7 +112,7 @@ Merci de faire le n[ée]cessaire
 Merci de ton retour
 Merci encore
 merci par avance
-Merci\.?(?!\s*de)
+Merci\.?(?!\s*de|à)
 Mes salutations
 Met vriendelijke? groet/with kind regards
 Met vriendelijke? groeten,?
