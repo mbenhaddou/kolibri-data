@@ -10,6 +10,8 @@ good evening
 Hallo
 Hola
 Bonjour
+Bonsoir ,merci
+Bonsoir
 Mevr(;|)\s*Mr
 mevrouw,
 Madame(;|)\s*monsieur

@@ -2,3 +2,4 @@ Delivery has failed to these recipients or groups:
 \s*-*\s*The following addresses had permanent fatal errors\s*-*
 Diagnostic information for administrators:
 The following organization rejected your message:
+Delivery is delayed to these recipients or groups
