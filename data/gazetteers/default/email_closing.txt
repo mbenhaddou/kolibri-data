@@ -125,7 +125,7 @@ Mit freundlichen Grüßen
 Much appreciated
 Muchas gracias
 Mvg\.?\b
-Nous comptons sur votre compréhension et, en vous remerciant, nous vous prions d’agréer, Madame, Monsieur, nos salutations les meilleures.
+Nous comptons sur votre compréhension et, en vous remerciant,?
 Obg\.\b
 Obrigada
 Obrigado
@@ -167,7 +167,7 @@ Un saludo
 Un tout grand merci
 Viele Grüße
 Vielen Dank
-Vriendelijke groeten
+Vriendelijke groet(en)?
 Vielen Dank und Grüße
 Vielen lieben Dank fürs checken und lG
 Vielen lieben Dank und lG
