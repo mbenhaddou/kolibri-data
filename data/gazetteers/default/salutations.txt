@@ -1,41 +1,41 @@
-hi
-dear
-hey
-hello
-thanks you for
+[hiHI]
+(d|D)ear
+(h|H)ey
+(h|H)ello
+(t|T)hanks you for
 All
-good morning
-good afternoon
-good evening
-Hallo
-Hola
-Bonjour
-Bonsoir ,merci
-Bonsoir
-Mevr(;|)\s*Mr
-mevrouw,
-Madame(;|)\s*monsieur
-Cher Monsieur
-Ch(è|e)re Madame
-Ch(e|è)re? [A-Z][a-z]+
-Guten Tag
-Guten Morgen
-Goeiedag
-Goedemiddag
-Salutations
-Sehr geehrte
-Bom dia
-Boa tarde
-Olá
-Buenos Días
-Hola Buenos días
-Buongiorno
-Cari Colleghi
-Beste(\s*(heer|mevrouw|klant))?
-Geachte(\s*(heer|mevrouw|heer\/mevrouw|heer, mevrouw|mevrouw, heer))?
-Merhabalar
-Gentilissimi
-Ahoj,
-Prezados, bom dia
-Sehr geehrte Frauen und Herren
-Ciao a tutti
+(g|G)ood morning
+(g|G)ood afternoon
+(g|G)ood evening
+(H|h)allo
+(H|h)ola
+(B|b)onjour
+(B|b)onsoir ,merci
+(B|b)onsoir
+(M|m)evr(;|)\s*(M|m)r
+(m|M)evrouw,
+(M|m)adame(;|)\s*(m|M)onsieur
+(C|c)her (M|m)onsieur
+(C|c)h(è|e)re (M|m)adame
+(C|c)h(e|è)re? [A-Z][a-z]+
+(G|g)uten Tag
+(G|)uten (M|m)orgen
+(G|g)oeiedag
+(G|g)oedemiddag
+(S|s)alutations
+(S|s)ehr geehrte
+(B|b)om dia
+(B|b)oa tarde
+(O|o)lá
+(B|b)uenos Días
+(H|h)ola (B|b)uenos días
+(B|b)uongiorno
+(C|c)ari (C|c)olleghi
+(B|b)este(\s*(heer|mevrouw|klant))?
+(G|g)eachte(\s*(heer|mevrouw|heer\/mevrouw|heer, mevrouw|mevrouw, heer))?
+(M|m)erhabalar
+(G|g)entilissimi
+(A|a)hoj,
+(P|p)rezados, bom dia
+(S|s)ehr geehrte (F|f)rauen und (H|h)erren
+(C|c)iao a tutti
