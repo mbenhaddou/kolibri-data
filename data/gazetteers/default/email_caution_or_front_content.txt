@@ -15,4 +15,4 @@ This message was sent securely using TLS\.
 \[Image removed by sender\.\]
 Verified Sender
 Début du message transféré\s*:
-\[?https?:\/\/.*(\.).*
+\[?https?:\/\/.*(\.)[^\s]+

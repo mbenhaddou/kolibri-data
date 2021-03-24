@@ -11,7 +11,7 @@ Atte\b
 b\.v\.d\.
 Bedankt\.?(?!\s*voor)
 Bàv
-Beleefde groeten
+(Met\s)?Beleefde groeten
 Best Regards?
 Best\.
 Beste Grüsse
@@ -58,6 +58,7 @@ Danke und liebe Grüsse?
 Danke und beste Grüsse?
 Danke und beste Grüße?
 Danke und Gruße?
+Dank U wel voor uw antwoord
 Děkuji moc
 Děkuji
 \bDík\b
@@ -69,6 +70,7 @@ En vous remerciant (d’avance)?(\s*pour votre suivi)?
 Avec mes salutations
 (E|É)nergiquement v(ô|o)tre
 Energetically your
+Excellente journ(é|e)e
 Fax Reception Report  Received Time
 Freundliche Grüsse?
 Freundliche Grüße?
