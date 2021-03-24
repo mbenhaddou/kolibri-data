@@ -110,11 +110,12 @@ many thanks
 Many thx
 Med vänlig hälsning
 Meilleures salutations
-Merci de faire le n[ée]cessaire
+Merci de faire le n[ée]cessaire(?!\s*pour)
 Merci de ton retour
 Merci encore
 merci par avance
-Merci\.?(?!\s*de|à|pour)
+Merci.
+Merci\s*(?!de|à|pour)
 Mes salutations
 Met vriendelijke? groet/with kind regards
 Met vriendelijke? groeten,?
@@ -167,6 +168,7 @@ THX
 Thx in advance
 Un saludo
 Un tout grand merci
+Veuillez agréer,? (Monsieur|Madame),?
 Viele Grüße
 Vielen Dank
 Vriendelijke groet(en)?
