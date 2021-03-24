@@ -114,8 +114,8 @@ Merci de faire le n[ée]cessaire(?!\s*pour)
 Merci de ton retour
 Merci encore
 merci par avance
-Merci.
-Merci\s*(?!de|à|pour)
+Merci\.
+Merci(?!\s+(de|à|pour))
 Mes salutations
 Met vriendelijke? groet/with kind regards
 Met vriendelijke? groeten,?
