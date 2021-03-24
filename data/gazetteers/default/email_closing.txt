@@ -124,7 +124,7 @@ Mit freundlichem
 Mit freundlichen Grüßen
 Much appreciated
 Muchas gracias
-Mvg\.?
+Mvg\.?\b
 Nous comptons sur votre compréhension et, en vous remerciant, nous vous prions d’agréer, Madame, Monsieur, nos salutations les meilleures.
 Obg\.\b
 Obrigada
