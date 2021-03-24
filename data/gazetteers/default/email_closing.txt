@@ -98,7 +98,7 @@ Im Voraus vielen Dank
 Je te remercie par avance\.?
 Je vous en remercie\.?
 Merci d'avance
-Je vous (en\s*)?remercie( d’avance)?
+Je vous (en\s*)?remercie( d’avance)?(?!\s*de|pour)
 Je vous souhaite déjà meilleurs voeux pour Noël,?
 kind regards?
 Lieben Gruss
