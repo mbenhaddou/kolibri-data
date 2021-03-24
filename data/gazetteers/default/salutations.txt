@@ -18,7 +18,7 @@ BONJOUR
 (M|m)adame(;|)\s*(m|M)onsieur
 (C|c)her (M|m)onsieur
 (C|c)h(è|e)re (M|m)adame
-(C|c)h(e|è)re? [A-Z][a-z]+
+(C|c)h(e|è)re? [A-Z][a-z-\+]+
 (G|g)uten Tag
 (G|)uten (M|m)orgen
 (G|g)oeiedag
@@ -33,6 +33,7 @@ BONJOUR
 (B|b)uongiorno
 (C|c)ari (C|c)olleghi
 (B|b)este(\s*(heer|mevrouw|klant))?
+Beste Mevrouw, beste heer,
 (G|g)eachte(\s*(heer|mevrouw|heer\/mevrouw|heer, mevrouw|mevrouw, heer))?
 (M|m)erhabalar
 (G|g)entilissimi
@@ -40,3 +41,5 @@ BONJOUR
 (P|p)rezados, bom dia
 (S|s)ehr geehrte (F|f)rauen und (H|h)erren
 (C|c)iao a tutti
+Geachte heer/mevrouw
+(B|b)onjour (M|m)adame/(M|m)onsieur

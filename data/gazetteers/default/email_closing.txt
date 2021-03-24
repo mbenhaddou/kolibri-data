@@ -10,6 +10,7 @@ Att(\.|;)
 Atte\b
 b\.v\.d\.
 Bedankt\.?(?!\s*voor)
+Bedankt alvast\.
 Bàv
 (Met\s)?Beleefde groeten
 Best Regards?
@@ -114,8 +115,7 @@ Merci de faire le n[ée]cessaire(?!\s*pour)
 Merci de ton retour
 Merci encore
 merci par avance
-Merci\.
-Merci(?!\s+(de|à|pour|d'))
+Merci\.?$
 Mes salutations
 Met vriendelijke? groet/with kind regards
 Met vriendelijke? groeten,?

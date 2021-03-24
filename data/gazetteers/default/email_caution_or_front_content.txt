@@ -1,5 +1,6 @@
 This message\scontains?\s[A-Z ]*.*\s+(Sensitivity: [\w ]+)?
 ^##-\s+Please type your reply above this line\s+-##
+##- N’écrivez pas sous cette ligne -##
 \[EXTERNAL EMAIL\].*
 \[EXTERNAL\].*
 \[Image\]
@@ -16,3 +17,15 @@ This message was sent securely using TLS\.
 Verified Sender
 Début du message transféré\s*:
 \[?https?:\/\/.*(\.)[^\s]+
+\[cid:[0-9A-Z-]+\]
+\[cid:\w+\]
+-*\s*(Oorspronkelijk|Forwarded message|Origineel bericht|Message original|Message transféré|Oorspronkelijk bericht|mail transféré|Doorgestuurd bericht|Message transmis|Message d'origine)\s*-*
+L'email ne s'affiche pas correctement ? Voir la version en ligne
+-*
+\[On met plus d’énergie à vous servir\.\]
+(<|[)image\d\.(jpeg|png|gif)(>|])
+Begin doorgestuurd bericht:
+Begin forwarded message:
+Votre courriel m'est bien parvenu et je vous en remercie.
+\[octaplus\]
+^([A-Z]\w+\s)+\|.*\|\sINT\s*:\s\d{4}\s+T\s+:\s*\+[0-9 ]+$
