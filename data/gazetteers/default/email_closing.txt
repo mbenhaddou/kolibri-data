@@ -1,13 +1,13 @@
-\ba\+
+\ba\+\b
 All the best
 Alvast (be)?dankt?\!?(?!t?\s*voor)
 Amicalement
 Apologies for any inconvenience
 Atenciosamente
 Atentamente
-Ats.
+Ats\.\b
 Att(\.|;)
-Atte
+Atte\b
 b\.v\.d\.
 Bedankt\.?(?!\s*voor)
 Bàv
@@ -23,7 +23,7 @@ Bien cordialement
 Bij voorbaat dank
 (bonne|Belle) journ[ée]e( à vous)?
 Bonne réception
-BR
+BR\b
 Bvd
 Cdlt
 cdt
@@ -41,7 +41,7 @@ Could you please do the needful
 Ďakujem a ostávam s pozdravom
 D\'avance, merci.\?( pour )?(votre|vos) (intervention|explications?)
 D\’avance je vous remercie, et vous souhaite d’excellentes fêtes de fin d’années
-Dans l'attente de vous lire, je vous prie d'agréer l'expression de mes salutations distinguées.
+Dans l'attente de vous lire, je vous prie d'agréer
 Dakujem velmi
 Dakujem
 Dank alvast
@@ -60,7 +60,7 @@ Danke und beste Grüße?
 Danke und Gruße?
 Děkuji moc
 Děkuji
-Dík
+\bDík\b
 Díky
 Dziękuje
 Dziękuję i pozdarwiam
@@ -73,7 +73,7 @@ Fax Reception Report  Received Time
 Freundliche Grüsse?
 Freundliche Grüße?
 G[Rr]\s([A-Z][a-z]+)
-gez\.?
+gez\.?\b
 Gracias
 Grato
 Grazie
@@ -126,7 +126,7 @@ Much appreciated
 Muchas gracias
 Mvg\.?
 Nous comptons sur votre compréhension et, en vous remerciant, nous vous prions d’agréer, Madame, Monsieur, nos salutations les meilleures.
-Obg\.
+Obg\.\b
 Obrigada
 Obrigado
 Pekny den
