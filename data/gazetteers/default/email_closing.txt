@@ -13,7 +13,7 @@ Bedankt\.?(?!\s*voor)
 Bàv
 Beleefde groeten
 Best Regards?
-Best\.?
+Best\.
 Beste Grüsse
 Besten Dank und freundliche Grüsse
 bGIF
