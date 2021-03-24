@@ -68,6 +68,7 @@ Dziekuje
 En vous remerciant (d’avance)?(\s*pour votre suivi)?
 Avec mes salutations
 Energiquement vôtre
+Energetically yours
 (E|É)nergiquement votre
 Fax Reception Report  Received Time
 Freundliche Grüsse?
@@ -85,6 +86,7 @@ Gruße?
 Gruss
 Gruss und Danke
 grts
+Hartelijk bedankt voor het bericht
 Hartelijke groet
 Have a good day
 have a great afternoon
