@@ -1,0 +1,17 @@
+This message\scontains?\s[A-Z ]*.*\s+(Sensitivity: [\w ]+)?
+^##-\s+Please type your reply above this line\s+-##
+\[EXTERNAL EMAIL\].*
+\[EXTERNAL\].*
+\[Image\]
+CAUTION.*
+Classified Personnel Information.*
+Please forward suspicious emails as attachments to .*
+For Internal Use Only.*
+(Importance|Importancia):\s+([\w+ ]+)
+Information Classification\s*:\s+([\w+ ]+)
+THIS\s+IS\s+A\s+MASS\s+COMM\s+UNICATION.+
+This is a secure, encrypted message.
+This message was sent securely using TLS\.
+\[Image removed by sender\.\]
+Verified Sender
+\[?https?:\/\/.*(\.).*
