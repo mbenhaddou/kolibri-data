@@ -21,7 +21,7 @@ Début du message transféré\s*:
 \[cid:\w+\]
 -*\s*(Oorspronkelijk|Forwarded message|Origineel bericht|Message original|Message transféré|Oorspronkelijk bericht|mail transféré|Doorgestuurd bericht|Message transmis|Message d'origine)\s*-*
 L'email ne s'affiche pas correctement ? Voir la version en ligne
--*
+-+
 \[On met plus d’énergie à vous servir\.\]
 (<|[)image\d\.(jpeg|png|gif)(>|])
 Begin doorgestuurd bericht:
