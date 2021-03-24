@@ -1,7 +1,6 @@
 a\+
 All the best
-Alvast bedankt\.?
-Alvast (be)?dankt?\!?
+Alvast (be)?dankt?\!?(?!t?\s*voor)
 Amicalement
 Apologies for any inconvenience
 Atenciosamente
