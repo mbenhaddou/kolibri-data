@@ -28,7 +28,7 @@ Buenos Días
 Hola Buenos días
 Buongiorno
 Cari Colleghi
-Beste(\s*(heer|mevrouw))?
+Beste(\s*(heer|mevrouw|klant))?
 Geachte(\s*(heer|mevrouw|heer\/mevrouw|heer, mevrouw|mevrouw, heer))?
 Merhabalar
 Gentilissimi
