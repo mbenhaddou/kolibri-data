@@ -1,4 +1,4 @@
-a\+
+\ba\+
 All the best
 Alvast (be)?dankt?\!?(?!t?\s*voor)
 Amicalement
@@ -9,7 +9,7 @@ Ats.
 Att(\.|;)
 Atte
 b\.v\.d\.
-Bedankt\.?
+Bedankt\.?(?!\s*voor)
 Bàv
 Beleefde groeten
 Best Regards?
@@ -112,7 +112,7 @@ Merci de faire le n[ée]cessaire
 Merci de ton retour
 Merci encore
 merci par avance
-Merci\.?(?!\s*de|à)
+Merci\.?(?!\s*de|à|pour)
 Mes salutations
 Met vriendelijke? groet/with kind regards
 Met vriendelijke? groeten,?

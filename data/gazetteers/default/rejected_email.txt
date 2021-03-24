@@ -3,3 +3,4 @@ The following addresses had permanent fatal errors
 Diagnostic information for administrators:
 The following organization rejected your message:
 Delivery is delayed to these recipients or groups
+I'm sorry to have to inform you that your message could not
