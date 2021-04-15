@@ -98,5 +98,21 @@
             "values": [0.0001, 0.001, 0.01]
           }
         }
+      },
+    "ecoc": {
+      "class": "kolibri.backend.sklearn.meta.EcocEstimator",
+      "parameters": {
+        "code_size": {
+            "value": 6,
+            "type": "integer",
+            "values": [4, 10]
+          },
+        "base_estimator": {
+            "value": "logistic-regression",
+            "type": "categorical",
+            "values": ["logistic-regression", "knn", "mlp"]
+
+        }
       }
+    }
 }
