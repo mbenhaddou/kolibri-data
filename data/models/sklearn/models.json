@@ -103,9 +103,9 @@
       "class": "kolibri.backend.sklearn.meta.EcocEstimator",
       "parameters": {
         "code_size": {
-            "value": 6,
-            "type": "integer",
-            "values": [4, 10]
+            "value": 0.2,
+            "type": "float",
+            "values": [0.1, 1]
           },
         "base_estimator": {
             "value": "logistic-regression",
