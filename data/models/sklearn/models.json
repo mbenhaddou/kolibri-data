@@ -1,0 +1,102 @@
+{
+    "logistic-regression": {
+    "class": "sklearn.linear_model.LogisticRegression",
+    "parameters": {
+      "penalty": {
+        "value": "l2",
+        "type" : "categorical",
+        "values": ["l1", "l2", "none"]
+      },
+      "class_weight":  {
+        "value": null,
+        "type": "categorical",
+        "values": ["balanced", null]
+      },
+      "solver": {
+        "value":"lbfgs" ,
+        "type": "categorical",
+        "values":["newton-cg", "lbfgs"]
+      },
+      "multi_class": {
+        "value": "auto",
+        "type": "categorical",
+        "values": ["auto", "ovr", "multinomial"]
+      },
+      "C": {
+        "value": 1.0,
+        "type": "float",
+        "values": [0.1, 10]
+      },
+      "max_iter": {
+        "value": 500
+      }
+    }
+  },
+    "knn": {
+      "class": "sklearn.neighbors.KNeighborsClassifier",
+      "parameters": {
+        "n_neighbors": {
+          "value": 5,
+          "type": "integer",
+          "values": [ 3, 20]
+        },
+        "weights": {
+          "value": "uniform",
+          "type": "categorical",
+          "values": [
+            "uniform",
+            "distance"
+          ]
+        },
+        "algorithm": {
+          "value": "auto",
+          "type": "categorical",
+          "values": [
+            "auto",
+            "ball_tree",
+            "kd_tree",
+            "brute"
+          ]
+        }
+      }
+    },
+    "mlp": {
+        "class": "sklearn.neural_network.MLPClassifier",
+        "parameters": {
+          "hidden_layer_sizes": {
+            "value": 100,
+            "type": "integer",
+            "values": [
+              50,
+              100,
+              150,
+              200
+            ]
+          },
+          "activation": {
+            "value": "relu",
+            "type": "categorical",
+            "values": [
+              "identity",
+              "logistic",
+              "tanh",
+              "relu"
+            ]
+          },
+          "solver": {
+            "value": "adam",
+            "type": "categorical",
+            "values": [
+              "adam",
+              "lbfgs",
+              "sgd"
+            ]
+          },
+          "learning_rate_init": {
+            "value": 0.001,
+            "type": "float",
+            "values": [0.0001, 0.001, 0.01]
+          }
+        }
+      }
+}
