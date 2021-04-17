@@ -102,16 +102,20 @@
     "ecoc": {
       "class": "kolibri.backend.sklearn.meta.EcocEstimator",
       "parameters": {
-        "code_size": {
-            "value": 0.2,
-            "type": "float",
-            "values": [0.1, 1]
+        "code_matrix": {
+            "value": "rand",
+            "type": "categorical",
+            "values": []
           },
         "base_estimator": {
             "value": "logistic-regression",
             "type": "categorical",
             "values": ["logistic-regression", "knn", "mlp"]
-
+        },
+        "distance": {
+            "value": "ecludian",
+            "type": "categorical",
+            "values": ["ecludian", "hamming"]
         }
       }
     }
