@@ -1,0 +1,12 @@
+{
+    "bilistm": {
+    "class": "kolibri.backend.tensorflow.models.BiLSTM_Model",
+    "parameters": {
+      "units'": {
+        "value": 128,
+        "type" : "categorical",
+        "values": [32, 64, 128, 256]
+      }
+    }
+  }
+}
