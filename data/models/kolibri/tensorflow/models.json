@@ -5,7 +5,7 @@
       "units'": {
         "value": 128,
         "type" : "categorical",
-        "values": [32, 64, 128, 256]
+        "values": [32, 64, 100, 128, 200, 256]
       }
     }
   }
