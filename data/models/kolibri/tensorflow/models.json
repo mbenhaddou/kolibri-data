@@ -1,5 +1,5 @@
 {
-    "bilistm": {
+    "bilstm": {
     "class": "kolibri.backend.tensorflow.models.BiLSTM_Model",
     "parameters": {
       "units'": {
