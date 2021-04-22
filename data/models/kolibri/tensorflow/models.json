@@ -3,7 +3,7 @@
     "class": "kolibri.backend.tensorflow.models.BiLSTM_Model",
     "parameters": {
       "units'": {
-        "value": 128,
+        "value": 100,
         "type" : "categorical",
         "values": [32, 64, 100, 128, 200, 256]
       }
