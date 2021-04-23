@@ -6,6 +6,10 @@
         "value": 100,
         "type" : "categorical",
         "values": [32, 64, 100, 128, 200, 256]
+      },
+      "epochs": {
+        "value": 10,
+        "type": "integer",
       }
     }
   }
