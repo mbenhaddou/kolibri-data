@@ -9,7 +9,8 @@
       },
       "epochs": {
         "value": 10,
-        "type" : "integer"
+        "type" : "integer",
+        "values": [10, 20]
       }
     }
   }
