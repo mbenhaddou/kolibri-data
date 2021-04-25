@@ -15,7 +15,7 @@
     }
   },
     "fasttext": {
-    "class": "kolibri.backend.tensorflow.models.BiLSTM_Model",
+    "class": "kolibri.backend.tensorflow.models.FastText",
     "parameters": {
       "global-pooling": {},
       "epochs": {
