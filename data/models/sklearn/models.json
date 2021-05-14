@@ -99,6 +99,45 @@
           }
         }
       },
+    "svm": {
+        "class": "sklearn.svm.SVC",
+        "parameters": {
+          "C": {
+            "value": 1.0,
+            "type": "integer",
+            "range": [
+              0,
+              2.0
+            ]
+          },
+          "kernel": {
+            "value": "rbf",
+            "type": "categorical",
+            "values": [
+              "linear",
+              "poly",
+              "rbf",
+              "sigmoid"
+            ]
+          },
+          "degree": {
+            "value": 3,
+            "type": "integer",
+            "values": [
+              1, 2, 3, 4
+            ]
+          },
+          "gamma": {
+            "value": "scale",
+            "type": "categorical",
+            "values": ["scale", "auto"]
+          },
+          "probability": {
+            "value": true
+          }
+        }
+      },
+
     "ecoc": {
       "class": "kolibri.backend.sklearn.meta.EcocEstimator",
       "parameters": {
