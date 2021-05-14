@@ -206,6 +206,19 @@
           }
         }
       },
+    "nb-categorical": {
+        "class": "sklearn.naive_bayes.CategoricalNB",
+        "parameters": {
+          "alpha": {
+            "value": 1.0,
+            "type": "float",
+            "range": [
+              0,
+              1.0
+            ]
+          }
+        }
+      },
     "random-forest": {
         "class": "sklearn.ensemble.RandomForestClassifier",
         "parameters": {
