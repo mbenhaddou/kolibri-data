@@ -289,7 +289,7 @@
             "values": [
               "auto",
               "sqrt",
-              "log2",
+              "log2"
             ]
           },
           "class_weight": {
