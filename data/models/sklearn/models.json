@@ -150,6 +150,28 @@
           }
         }
       },
+    "sgd": {
+        "class": "sklearn.linear_model.SGDClassifier",
+        "parameters": {
+          "loss": {
+            "value": "hinge",
+            "type": "categorical",
+            "range": [
+              "hinge", "log", "modified_huber", "squared_hinge", "perceptron"
+            ]
+          },
+          "penalty": {
+            "value": "l2",
+            "type": "categorical",
+            "range": [
+              "l1", "l2","elasticnet"
+            ]
+          },
+          "n_jobs": {
+            "value": -1
+          }
+        }
+      },
     "nb-bernoulli": {
         "class": "sklearn.naive_bayes.MultinomialNB",
         "parameters": {
