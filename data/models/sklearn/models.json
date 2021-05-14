@@ -263,14 +263,6 @@
     "decision-tree": {
         "class": "sklearn.tree.DecisionTreeClassifier",
         "parameters": {
-          "n_estimators": {
-            "value": 100,
-            "type": "integer",
-            "range": [
-              10,
-              200
-            ]
-          },
           "criterion": {
             "value": "gini",
             "type": "categorical",
