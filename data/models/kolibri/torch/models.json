@@ -5,7 +5,7 @@
       "hidden-size": {
         "value": 20,
         "type" : "integer",
-        "values": [10, 20, 30]
+        "values": [10, 20, 30, 40]
       },
       "epochs": {
         "value": 10,
