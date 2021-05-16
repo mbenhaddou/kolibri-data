@@ -2,7 +2,11 @@
   "fasttext": {
     "class": "kolibri.backend.torch.models.text.classification.fasttext.FastText",
     "parameters": {
-      "hidden-size": 30,
+      "hidden-size": {
+        "value": 20,
+        "type" : "integer",
+        "values": [10, 20, 30]
+      },
       "epochs": {
         "value": 10,
         "type" : "integer",
