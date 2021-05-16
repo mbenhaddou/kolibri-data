@@ -1,6 +1,6 @@
 {
   "fasttext": {
-    "class": "kolibri.backend.torch.models.text.classification.fasttext.fasttext",
+    "class": "kolibri.backend.torch.models.text.classification.fasttext.FastText",
     "parameters": {
       "hidden-size": 20,
       "epochs": {
