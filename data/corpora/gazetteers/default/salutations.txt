@@ -1,4 +1,4 @@
-[hiHI]
+[hiHI]+
 (d|D)ear
 (h|H)ey
 (h|H)ello
