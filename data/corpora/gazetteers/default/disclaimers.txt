@@ -4,6 +4,7 @@
 Protect our environment - please only print this if you have to
 Thank you for considering the environmental impact of printing emails
 Responsabilità ambientale. Prima di stampare questo messaggio pensate all'ambiente
+
 LEGAL NOTICE\s*Unless expressly stated otherwise
 AVISO: Este correo electrónico puede contener información confidencial
 BE AWARE OF WIRE SCAM\s*(\!)* - Recently the mortgage industry received
@@ -39,3 +40,8 @@ Your information is more secure with us now\. Introducing the concept of Safe Bo
 -critical NAV communication will be accepted only via IMT
 Ce message e-mail ainsi que tous les fichiers transmis sont confidentiels
 Pour de plus amples informations, contactez notre service clientèle au
+Disclaimer: This email and any attachments are confidential and for the sole use of the recipients
+Disclaimer:The information contained in this e-mail (including any attachments) is intended solely for the use of the intended recipient(s)
+Disclaimer:This email and any files transmitted with it are confidential and intended solely
+NOTICE: This e-mail may contain confidential information, which should not be copied or distributed
+Dit e-mailbericht is bestemd voor de geadresseerde(n) en kan vertrouwelijk zijn
