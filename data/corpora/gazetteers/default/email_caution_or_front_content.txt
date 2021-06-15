@@ -5,6 +5,7 @@ This message\scontains?\s[A-Z ]*.*\s+(Sensitivity: [\w ]+)?
 \[EXTERNAL\].*
 \[Image\]
 CAUTION.*
+\*?-+\s+Sent\s+:.*\s+Received\s+:.*\s+Reply to\s:.*\s+Attachments\s+:.*\s+\*?-*
 Classified Personnel Information.*
 Please forward suspicious emails as attachments to .*
 For Internal Use Only.*

@@ -1,0 +1,7 @@
+^(Thanks? (you for your |for )?(reaching out|message|e-?mail)[.!]\s)?(Unfortunately, )?I([’']m)? (am|'ll|will)?\s?(be|currently|have)?\s?(unavailable|out of|away\s?(on|from)|on)?\s?((the|my)?\s?(office|desk|maternity\s?(leave)?))
+Thank you for your (message|e-?mail). (I am (currently\s?)?out of the office|I (will be|am) away from (my|the) (desk|office))
+Our offices will be closed for the week of
+I have very limited access to my email and will be back in the office on
+This message is automated since I won’t be in the office until
+I’m currently unavailable, but I’ll be back on
+
