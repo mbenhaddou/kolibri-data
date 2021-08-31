@@ -30,3 +30,8 @@ Begin forwarded message:
 Votre courriel m'est bien parvenu et je vous en remercie.
 \[octaplus\]
 ^([A-Z]\w+\s)+\|.*\|\sINT\s*:\s\d{4}\s+T\s+:\s*\+[0-9 ]+$
+\[WARNING : MESSAGE ENCRYPTE\]
+\[EXT\] \[WARNING : MESSAGE ENCRYPTED\]
+\[WARNING : MESSAGE ENCRYPTED\]
+\[EXTERNAL\]
+\[Not Virus Scanned\]

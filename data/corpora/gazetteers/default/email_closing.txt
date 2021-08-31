@@ -9,6 +9,7 @@ Ats\.\b
 Att(\.|;)
 Atte\b
 b\.v\.d\.
+Avec réchauffement des salutations
 Bedankt\.?(?!\s*voor)
 Bedankt alvast\.
 Bàv
@@ -40,6 +41,7 @@ cordialmente saluto
 Cordielement
 Could you please do the needful
 Ďakujem a ostávam s pozdravom
+d'avance merci
 D\'avance, merci.\?( pour )?(votre|vos) (intervention|explications?)
 D\’avance je vous remercie, et vous souhaite d’excellentes fêtes de fin d’années
 Dans l'attente de vous lire, je vous prie d'agréer
@@ -67,9 +69,10 @@ Díky
 Dziękuje
 Dziękuję i pozdarwiam
 Dziekuje
-En vous remerciant (d’avance)?(\s*pour votre suivi)?
+En vous remerciant (d’avance\.?)?(\s*pour votre suivi)?
 Avec mes salutations
 (E|É)nergiquement v(ô|o)tre
+En vous remerciant
 Energetically your
 Excellente journ(é|e)e
 Fax Reception Report  Received Time
@@ -99,8 +102,10 @@ Ik hoor jullie graag
 (İ|I)lkim
 Im Voraus vielen Dank
 Je te remercie par avance\.?
+Je vous remercie pour votre suivi.\?
 Je vous en remercie\.?
 Merci d'avance
+^Merci .+(aide|soins)\.?$
 Je vous (en\s*)?remercie( d’avance)?(?!\s*de|pour)
 Je vous souhaite déjà meilleurs voeux pour Noël,?
 kind regards?
@@ -116,7 +121,7 @@ Merci de ton retour
 Merci encore
 merci par avance
 Merci\.?$
-Mes salutations
+Mes (sincéres\s+)?salutations
 Met vriendelijke? groet/with kind regards
 Met vriendelijke? groeten,?
 Met (voorlopig nog\s*)?vriendelijke groet(en)?
@@ -167,7 +172,7 @@ thankyou
 THX
 Thx in advance
 Un saludo
-Un tout grand merci
+Un (tout )?grand merci
 Veuillez agréer,? (Monsieur|Madame),?
 Viele Grüße
 Vielen Dank

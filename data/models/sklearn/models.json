@@ -137,6 +137,26 @@
           }
         }
       },
+    "linear-svc": {
+        "class": "sklearn.svm.LinearSVC",
+        "parameters": {
+          "C": {
+            "value": 1.0,
+            "type": "float",
+            "range": [
+              0,
+              2.0
+            ]
+          },
+          "dual": {
+            "value": true,
+            "type": "integer",
+            "values": [
+              true, false
+            ]
+          }
+        }
+      },
     "nb-multinomial": {
         "class": "sklearn.naive_bayes.MultinomialNB",
         "parameters": {

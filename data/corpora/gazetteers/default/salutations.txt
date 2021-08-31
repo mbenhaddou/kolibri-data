@@ -16,6 +16,7 @@ BONJOUR
 (M|m)evr(;|)\s*(M|m)r
 (m|M)evrouw,
 (M|m)adame(;|)\s*(m|M)onsieur
+^Cher,$
 (C|c)her (M|m)onsieur
 (C|c)h(è|e)re (M|m)adame
 (C|c)h(e|è)re? [A-Z][a-z-\+]+
