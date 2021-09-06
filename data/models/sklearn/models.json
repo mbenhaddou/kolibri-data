@@ -28,7 +28,7 @@
         "values": [0.1, 10]
       },
       "max_iter": {
-        "value": 500
+        "value": 1000
       }
     }
   },
