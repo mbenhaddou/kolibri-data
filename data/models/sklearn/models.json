@@ -183,9 +183,7 @@
           "penalty": {
             "value": "l2",
             "type": "categorical",
-            "range": [
-              "l1", "l2","elasticnet"
-            ]
+            "range": [  "l1", "l2","elasticnet"  ]
           },
           "n_jobs": {
             "value": -1
