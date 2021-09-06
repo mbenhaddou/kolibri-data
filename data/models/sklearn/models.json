@@ -5,12 +5,12 @@
       "penalty": {
         "value": "l2",
         "type" : "categorical",
-        "values": ["l1", "l2", "none"]
+        "values": ["l1", "l2", null]
       },
       "class_weight":  {
         "value": null,
         "type": "categorical",
-        "values": ["balanced", "none"]
+        "values": ["balanced", null]
       },
       "solver": {
         "value":"lbfgs" ,
