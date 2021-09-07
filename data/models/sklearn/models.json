@@ -10,7 +10,7 @@
       "class_weight":  {
         "value": null,
         "type": "categorical",
-        "values": ["balanced", null]
+        "values": ["balanced",  null]
       },
       "solver": {
         "value":"lbfgs" ,
