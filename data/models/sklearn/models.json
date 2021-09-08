@@ -1,7 +1,7 @@
 {
-    "logistic-regression": {
-    "class": "sklearn.linear_model.LogisticRegression",
-    "parameters": {
+      "logistic-regression": {
+      "class": "sklearn.linear_model.LogisticRegression",
+      "parameters": {
       "penalty": {
         "value": "l2",
         "type" : "categorical",
@@ -30,431 +30,446 @@
       "max_iter": {
         "value": 1000
       }
-    }
-  },
-    "knn": {
-      "class": "sklearn.neighbors.KNeighborsClassifier",
-      "parameters": {
-        "n_neighbors": {
-          "value": 5,
-          "type": "integer",
-          "values": [ 3, 20]
-        },
-        "weights": {
-          "value": "uniform",
-          "type": "categorical",
-          "values": [
-            "uniform",
-            "distance"
-          ]
-        },
-        "algorithm": {
-          "value": "auto",
-          "type": "categorical",
-          "values": [
-            "auto",
-            "ball_tree",
-            "kd_tree",
-            "brute"
-          ]
-        }
-      }
     },
-    "mlp": {
-        "class": "sklearn.neural_network.MLPClassifier",
+      "name": "logistic_regression"
+  },
+      "knn": {
+        "class": "sklearn.neighbors.KNeighborsClassifier",
         "parameters": {
-          "hidden_layer_sizes": {
-            "value": 100,
+          "n_neighbors": {
+            "value": 5,
             "type": "integer",
-            "values": [
-              50,
-              100,
-              150,
-              200
-            ]
-          },
-          "activation": {
-            "value": "relu",
+            "values": [ 3, 20]
+         },
+          "weights": {
+            "value": "uniform",
             "type": "categorical",
             "values": [
-              "identity",
-              "logistic",
-              "tanh",
-              "relu"
+              "uniform",
+              "distance"
             ]
           },
-          "solver": {
-            "value": "adam",
-            "type": "categorical",
-            "values": [
-              "adam",
-              "lbfgs",
-              "sgd"
-            ]
-          },
-          "learning_rate_init": {
-            "value": 0.001,
-            "type": "float",
-            "values": [0.0001, 0.001, 0.01]
-          }
-        }
-      },
-    "svm": {
-        "class": "sklearn.svm.SVC",
-        "parameters": {
-          "C": {
-            "value": 1.0,
-            "type": "float",
-            "range": [
-              0,
-              2.0
-            ]
-          },
-          "kernel": {
-            "value": "rbf",
-            "type": "categorical",
-            "values": [
-              "linear",
-              "poly",
-              "rbf",
-              "sigmoid"
-            ]
-          },
-          "degree": {
-            "value": 3,
-            "type": "integer",
-            "values": [
-              1, 2, 3, 4
-            ]
-          },
-          "gamma": {
-            "value": "scale",
-            "type": "categorical",
-            "values": ["scale", "auto"]
-          },
-          "probability": {
-            "value": true
-          }
-        }
-      },
-    "linear-svc": {
-        "class": "sklearn.svm.LinearSVC",
-        "parameters": {
-          "C": {
-            "value": 1.0,
-            "type": "float",
-            "range": [
-              0,
-              2.0
-            ]
-          },
-          "dual": {
-            "value": true,
-            "type": "integer",
-            "values": [
-              true, false
-            ]
-          }
-        }
-      },
-    "nb-multinomial": {
-        "class": "sklearn.naive_bayes.MultinomialNB",
-        "parameters": {
-          "alpha": {
-            "value": 1.0,
-            "type": "float",
-            "range": [
-              0,
-              2.0
-            ]
-          }
-        }
-      },
-    "sgd": {
-        "class": "sklearn.linear_model.SGDClassifier",
-        "parameters": {
-          "loss": {
-            "value": "hinge",
-            "type": "categorical",
-            "range": [
-              "hinge", "log", "modified_huber", "squared_hinge", "perceptron"
-            ]
-          },
-          "penalty": {
-            "value": "l2",
-            "type": "categorical",
-            "range": [  "l1", "l2","elasticnet"  ]
-          },
-          "n_jobs": {
-            "value": -1
-          }
-        }
-      },
-    "nb-bernoulli": {
-        "class": "sklearn.naive_bayes.MultinomialNB",
-        "parameters": {
-          "alpha": {
-            "value": 1.0,
-            "type": "float",
-            "range": [
-              0,
-              2.0
-            ]
-          },
-          "binarize": {
-            "value": 0.0,
-            "type": "float",
-            "range": [
-              0,
-              1.0
-            ]
-          }
-        }
-      },
-    "nb-gaussian": {
-        "class": "sklearn.naive_bayes.GaussianNB",
-        "parameters": {
-          "var_smoothing": {
-            "value": 1e-09,
-            "type": "float",
-            "range": [
-              0,
-              1e-04
-            ]
-          }
-        }
-      },
-    "nb-categorical": {
-        "class": "sklearn.naive_bayes.CategoricalNB",
-        "parameters": {
-          "alpha": {
-            "value": 1.0,
-            "type": "float",
-            "range": [
-              0,
-              1.0
-            ]
-          }
-        }
-      },
-    "random-forest": {
-        "class": "sklearn.ensemble.RandomForestClassifier",
-        "parameters": {
-          "n_estimators": {
-            "value": 100,
-            "type": "integer",
-            "range": [
-              10,
-              200
-            ]
-          },
-          "criterion": {
-            "value": "gini",
-            "type": "categorical",
-            "values": [
-              "gini",
-              "entropy"
-            ]
-          },
-          "max_depth": {
-            "value": null,
-            "type": "integer",
-            "values": [
-              null,1, 2, 3, 4
-            ]
-          },
-          "min_samples_split": {
-            "value": 2,
-            "type": "float",
-            "range": [0, 1]
-          },
-          "max_features": {
-            "value": "ayto",
-            "type": "categorical",
-            "values": [
-              "auto",
-              "sqrt",
-              "log2"
-            ]
-          },
-          "n_jobs": {
-            "value": -1
-          },
-          "class_weight": {
-            "value": null,
-            "type": "categorical",
-            "values": [
-              "balanced",
-              "balanced_subsample",
-              null
-            ]
-          }
-        }
-      },
-    "decision-tree": {
-        "class": "sklearn.tree.DecisionTreeClassifier",
-        "parameters": {
-          "criterion": {
-            "value": "gini",
-            "type": "categorical",
-            "values": [
-              "gini",
-              "entropy"
-            ]
-          },
-          "splitter": {
-            "value": "best",
-            "type": "categorical",
-            "values": [
-              "best", "random"
-            ]
-          },
-          "max_depth": {
-            "value": null,
-            "type": "integer",
-            "range": [0, 4]
-          },
-          "max_features": {
+          "algorithm": {
             "value": "auto",
             "type": "categorical",
             "values": [
               "auto",
-              "sqrt",
-              "log2"
-            ]
-          },
-          "class_weight": {
-            "value": null,
-            "type": "categorical",
-            "values": [
-              "balanced",
-              "balanced_subsample",
-              null
+              "ball_tree",
+              "kd_tree",
+              "brute"
             ]
           }
-        }
+        },
+        "name": "knn"
       },
-    "xgboost": {
-        "class": "xgboost.XGBClassifier",
-        "parameters": {
-          "booster": {
-            "value": "gbtree",
-            "type": "categorical",
-            "values": [
-              "gbtree", "gblinear", "dart"
-            ]
+        "mlp": {
+          "class": "sklearn.neural_network.MLPClassifier",
+          "parameters": {
+            "hidden_layer_sizes": {
+              "value": 100,
+              "type": "integer",
+              "values": [
+                50,
+                100,
+                150,
+                200
+              ]
+            },
+            "activation": {
+              "value": "relu",
+              "type": "categorical",
+              "values": [
+                "identity",
+                "logistic",
+                "tanh",
+                "relu"
+              ]
+            },
+            "solver": {
+              "value": "adam",
+              "type": "categorical",
+              "values": [
+                "adam",
+                "lbfgs",
+                "sgd"
+              ]
+            },
+            "learning_rate_init": {
+              "value": 0.001,
+              "type": "float",
+              "values": [0.0001, 0.001, 0.01]
+            }
           },
-          "eta": {
-            "value": 0.3,
+          "name": "mlp"
+        },
+        "svm": {
+          "class": "sklearn.svm.SVC",
+          "parameters": {
+            "C": {
+              "value": 1.0,
+              "type": "float",
+              "range": [
+                0,
+                2.0
+              ]
+            },
+            "kernel": {
+              "value": "rbf",
+              "type": "categorical",
+              "values": [
+                "linear",
+                "poly",
+                "rbf",
+                "sigmoid"
+              ]
+            },
+            "degree": {
+              "value": 3,
+              "type": "integer",
+              "values": [
+                1, 2, 3, 4
+              ]
+            },
+            "gamma": {
+              "value": "scale",
+              "type": "categorical",
+              "values": ["scale", "auto"]
+            },
+            "probability": {
+              "value": true
+            }
+          },
+          "name": "svm"
+        },
+        "linear-svc": {
+          "class": "sklearn.svm.LinearSVC",
+          "parameters": {
+            "C": {
+              "value": 1.0,
+              "type": "float",
+              "range": [
+                0,
+                2.0
+              ]
+            },
+            "dual": {
+              "value": true,
+              "type": "integer",
+              "values": [
+                true, false
+              ]
+            }
+          },
+          "name": "linear_svc"
+        },
+        "nb-multinomial": {
+          "class": "sklearn.naive_bayes.MultinomialNB",
+          "name": "multinomial",
+          "parameters": {
+            "alpha": {
+              "value": 1.0,
+              "type": "float",
+              "range": [
+                0,
+                2.0
+              ]
+            }
+          }
+        },
+       "sgd": {
+          "class": "sklearn.linear_model.SGDClassifier",
+         "name": "sgd",
+          "parameters": {
+            "loss": {
+              "value": "hinge",
+              "type": "categorical",
+              "range": [
+                "hinge", "log", "modified_huber", "squared_hinge", "perceptron"
+              ]
+            },
+            "penalty": {
+              "value": "l2",
+              "type": "categorical",
+              "range": [  "l1", "l2","elasticnet"  ]
+            },
+            "n_jobs": {
+              "value": -1
+            }
+          }
+        },
+       "nb-bernoulli": {
+          "class": "sklearn.naive_bayes.MultinomialNB",
+         "name": "bernoulli",
+          "parameters": {
+            "alpha": {
+              "value": 1.0,
+              "type": "float",
+              "range": [
+                0,
+                2.0
+              ]
+            },
+            "binarize": {
+              "value": 0.0,
+              "type": "float",
+              "range": [
+                0,
+                1.0
+              ]
+            }
+          }
+        },
+        "nb-gaussian": {
+          "class": "sklearn.naive_bayes.GaussianNB",
+          "name": "nb_gaussian",
+          "parameters": {
+            "var_smoothing": {
+              "value": 1e-09,
+              "type": "float",
+              "range": [
+                0,
+                1e-04
+              ]
+            }
+          }
+        },
+        "nb-categorical": {
+          "class": "sklearn.naive_bayes.CategoricalNB",
+          "name": "nb_categorical",
+          "parameters": {
+            "alpha": {
+              "value": 1.0,
+              "type": "float",
+              "range": [
+                0,
+                1.0
+              ]
+            }
+          }
+        },
+        "random-forest": {
+          "class": "sklearn.ensemble.RandomForestClassifier",
+          "name": "randomforest",
+          "parameters": {
+            "n_estimators": {
+              "value": 100,
+              "type": "integer",
+              "range": [
+                10,
+                200
+              ]
+            },
+            "criterion": {
+              "value": "gini",
+              "type": "categorical",
+              "values": [
+                "gini",
+                "entropy"
+              ]
+            },
+            "max_depth": {
+              "value": null,
+              "type": "integer",
+              "values": [
+                null,1, 2, 3, 4
+              ]
+            },
+            "min_samples_split": {
+              "value": 2,
+              "type": "float",
+              "range": [0, 1]
+            },
+            "max_features": {
+              "value": "ayto",
+              "type": "categorical",
+              "values": [
+                "auto",
+                "sqrt",
+                "log2"
+              ]
+            },
+            "n_jobs": {
+              "value": -1
+            },
+            "class_weight": {
+              "value": null,
+              "type": "categorical",
+              "values": [
+                "balanced",
+                "balanced_subsample",
+                null
+              ]
+            }
+          }
+        },
+        "decision-tree": {
+          "class": "sklearn.tree.DecisionTreeClassifier",
+           "name": "decision_tree",
+          "parameters": {
+            "criterion": {
+              "value": "gini",
+              "type": "categorical",
+              "values": [
+                "gini",
+                "entropy"
+              ]
+            },
+            "splitter": {
+              "value": "best",
+              "type": "categorical",
+              "values": [
+                "best", "random"
+              ]
+            },
+            "max_depth": {
+              "value": null,
+              "type": "integer",
+              "range": [0, 4]
+            },
+            "max_features": {
+              "value": "auto",
+              "type": "categorical",
+              "values": [
+                "auto",
+                "sqrt",
+                "log2"
+              ]
+            },
+            "class_weight": {
+              "value": null,
+              "type": "categorical",
+              "values": [
+                "balanced",
+                "balanced_subsample",
+                null
+              ]
+            }
+          }
+        },
+        "xgboost": {
+          "class": "xgboost.XGBClassifier",
+          "name": "xgboost",
+          "parameters": {
+            "booster": {
+              "value": "gbtree",
+              "type": "categorical",
+              "values": [
+                "gbtree", "gblinear", "dart"
+              ]
+            },
+            "eta": {
+              "value": 0.3,
+              "type": "float",
+              "range": [
+                0,
+                1
+              ]
+            },
+            "gamma": {
+              "value": 0,
+              "type": "integer",
+              "values": [
+                0, 200
+              ]
+            },
+            "max_depth": {
+              "value": 6,
+              "type": "integer",
+              "range": [3, 9]
+            },
+            "subsample": {
+              "value": 1.0,
+              "type": "float",
+              "range": [
+                0,
+                1.0
+              ]
+            },
+            "tree_method": {
+              "value": "auto",
+              "type": "categorical",
+              "values": [
+                "auto",
+                "exact",
+                "approx",
+                "hist"
+              ]
+            },
+            "nthread": {
+              "value": -1
+            },
+            "num_parallel_tree": {
+              "value": 1,
+              "type": "integer",
+              "range": [1, 3]
+            },
+            "grow_policy": {
+              "value":"depthwise",
+              "type": "categorical",
+              "values": [
+                "lossguide",
+                "depthwise"
+              ]
+            }
+          }
+        },
+        "crf": {
+        "class": "sklearn_crfsuite.CRF",
+          "name": "crf",
+        "parameters": {
+          "min_freq": {
+            "value": 0,
+            "type": "float",
+            "range": [ 0, 1]
+          },
+          "c1": {
+            "value": 0,
             "type": "float",
             "range": [
               0,
               1
             ]
           },
-          "gamma": {
-            "value": 0,
-            "type": "integer",
-            "values": [
-              0, 200
-            ]
-          },
-          "max_depth": {
-            "value": 6,
-            "type": "integer",
-            "range": [3, 9]
-          },
-          "subsample": {
-            "value": 1.0,
+          "c2": {
+            "value": 1,
             "type": "float",
             "range": [
               0,
-              1.0
+              1
             ]
           },
-          "tree_method": {
-            "value": "auto",
+          "algorithm": {
+            "value": "lbfgs",
             "type": "categorical",
             "values": [
-              "auto",
-              "exact",
-              "approx",
-              "hist"
-            ]
-          },
-          "nthread": {
-            "value": -1
-          },
-          "num_parallel_tree": {
-            "value": 1,
-            "type": "integer",
-            "range": [1, 3]
-          },
-          "grow_policy": {
-            "value":"depthwise",
-            "type": "categorical",
-            "values": [
-              "lossguide",
-              "depthwise"
+              "lbfgs",
+              "l2sgd",
+              "ap",
+              "pa",
+              "arow"
             ]
           }
         }
       },
-    "crf": {
-      "class": "sklearn_crfsuite.CRF",
-      "parameters": {
-        "min_freq": {
-          "value": 0,
-          "type": "float",
-          "range": [ 0, 1]
-        },
-        "c1": {
-          "value": 0,
-          "type": "float",
-          "range": [
-            0,
-            1
-          ]
-        },
-        "c2": {
-          "value": 1,
-          "type": "float",
-          "range": [
-            0,
-            1
-          ]
-        },
-        "algorithm": {
-          "value": "lbfgs",
-          "type": "categorical",
-          "values": [
-            "lbfgs",
-            "l2sgd",
-            "ap",
-            "pa",
-            "arow"
-          ]
-        }
-      }
-    },
-    "ecoc": {
-      "class": "kolibri.backend.sklearn.meta.EcocEstimator",
-      "parameters": {
-        "code_matrix": {
-            "value": "rand",
-            "type": "categorical",
-            "values": []
+        "ecoc": {
+        "class": "kolibri.backend.sklearn.meta.EcocEstimator",
+          "name": "ecoc",
+        "parameters": {
+          "code_matrix": {
+              "value": "rand",
+              "type": "categorical",
+              "values": []
+            },
+          "base_estimator": {
+              "value": "logistic-regression",
+              "type": "categorical",
+              "values": ["logistic-regression", "knn", "mlp"]
           },
-        "base_estimator": {
-            "value": "logistic-regression",
-            "type": "categorical",
-            "values": ["logistic-regression", "knn", "mlp"]
-        },
-        "distance": {
-            "value": "ecludian",
-            "type": "categorical",
-            "values": ["ecludian", "hamming"]
+          "distance": {
+              "value": "ecludian",
+              "type": "categorical",
+              "values": ["ecludian", "hamming"]
+          }
         }
       }
-    }
 }
