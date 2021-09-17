@@ -76,6 +76,13 @@
               "kd_tree",
               "brute"
             ]
+          },
+          "radius": {
+            "value": 3,
+            "type": "float",
+            "values": [
+              1, 10
+            ]
           }
         },
         "name": "radius_nn_classifier",
