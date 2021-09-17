@@ -581,7 +581,7 @@
           "alpha": {
           "value": 1.0,
           "type" : "float",
-          "values": [0, 5]
+          "values": [0, 6]
         },
           "class_weight": {
           "value": "none",
