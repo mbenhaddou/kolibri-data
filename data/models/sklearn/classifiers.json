@@ -228,21 +228,6 @@
           },
         "family": "linear"
         },
-      "CategoricalNB": {
-          "class": "sklearn.naive_bayes.CategoricalNB",
-          "name": "nb_categorical",
-          "parameters": {
-            "alpha": {
-              "value": 1.0,
-              "type": "float",
-              "range": [
-                0,
-                1.0
-              ]
-            }
-          },
-        "family": "probabilistic"
-        },
       "RandomForestClassifier": {
           "class": "sklearn.ensemble.RandomForestClassifier",
           "name": "randomforest",
