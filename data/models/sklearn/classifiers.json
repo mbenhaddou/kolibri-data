@@ -417,9 +417,9 @@
               "values": []
             },
           "base_estimator": {
-              "value": "logistic-regression",
+              "value": "LogisticRegression",
               "type": "categorical",
-              "values": ["logistic-regression", "knn", "mlp"]
+              "values": ["LogisticRegression", "KNeighborsClassifier", "MLPClassifier"]
           },
           "distance": {
               "value": "ecludian",
