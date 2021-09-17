@@ -691,7 +691,7 @@
           "value": true
         }
         },
-        "name": "nu_svc_propagation",
+        "name": "nu_svc_classifier",
         "family": "svm"
   },
       "NearestCentroid": {
