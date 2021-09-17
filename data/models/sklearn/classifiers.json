@@ -32,7 +32,9 @@
       }
     },
       "name": "logistic_regression",
-        "family": "linear"
+        "family": "linear",
+        "matrix": "sparse",
+        "performance": "fast"
   },
       "KNeighborsClassifier": {
         "class": "sklearn.neighbors.KNeighborsClassifier",
@@ -62,7 +64,9 @@
           }
         },
         "name": "knn",
-        "family":"neighbors"
+        "family":"neighbors",
+        "matrix": "sparse",
+        "performance": "fast"
       },
        "RadiusNeighborsClassifier": {
         "class": "sklearn.neighbors.RadiusNeighborsClassifier",
@@ -86,7 +90,9 @@
           }
         },
         "name": "radius_nn_classifier",
-        "family":"neighbors"
+        "family":"neighbors",
+          "matrix": "sparse",
+        "performance": "fast"
       },
       "MLPClassifier": {
           "class": "sklearn.neural_network.MLPClassifier",
@@ -127,7 +133,9 @@
             }
           },
           "name": "mlp",
-        "family": "neural_network"
+        "family": "neural_network",
+         "matrix": "sparse",
+        "performance": "fast"
         },
       "SVC": {
           "class": "sklearn.svm.SVC",
@@ -167,7 +175,9 @@
             }
           },
           "name": "svm",
-        "family": "svm"
+        "family": "svm",
+         "matrix": "sparse",
+        "performance": "slow"
         },
       "LinearSVC": {
           "class": "sklearn.svm.LinearSVC",
@@ -189,7 +199,9 @@
             }
           },
           "name": "linear_svc",
-        "family": "svm"
+        "family": "svm",
+         "matrix": "sparse",
+        "performance": "medium"
         },
       "MultinomialNB": {
           "class": "sklearn.naive_bayes.MultinomialNB",
@@ -204,7 +216,9 @@
               ]
             }
           },
-          "family": "probabilistic"
+          "family": "probabilistic",
+         "matrix": "sparse",
+        "performance": "fast"
         },
       "SGDClassifier": {
           "class": "sklearn.linear_model.SGDClassifier",
@@ -226,7 +240,9 @@
               "value": -1
             }
           },
-        "family": "linear"
+        "family": "linear",
+         "matrix": "sparse",
+        "performance": "fast"
         },
       "RandomForestClassifier": {
           "class": "sklearn.ensemble.RandomForestClassifier",
@@ -282,7 +298,9 @@
               ]
             }
           },
-        "family": "ensemble_tree"
+        "family": "ensemble_tree",
+         "matrix": "sparse",
+        "performance": "fast"
         },
       "DecisionTreeClassifier": {
           "class": "sklearn.tree.DecisionTreeClassifier",
@@ -327,7 +345,9 @@
               ]
             }
           },
-        "family": "tree"
+        "family": "tree",
+         "matrix": "sparse",
+        "performance": "fast"
         },
       "XGBClassifier": {
           "class": "xgboost.XGBClassifier",
@@ -395,13 +415,16 @@
               ]
             }
           },
-            "family": "ensemble_tree"
-
+            "family": "ensemble_tree",
+           "matrix": "sparse",
+            "performance": "fast"
         },
       "EcocEstimator": {
         "class": "kolibri.backend.sklearn.meta.EcocEstimator",
           "name": "ecoc",
         "family": "ensemble",
+         "matrix": "sparse",
+        "performance": "medium",
         "parameters": {
           "code_matrix": {
               "value": "rand",
@@ -420,6 +443,23 @@
           }
         }
       },
+        "CategoricalNB": {
+          "class": "sklearn.naive_bayes.CategoricalNB",
+          "name": "nb_categorical",
+          "parameters": {
+            "alpha": {
+              "value": 1.0,
+              "type": "float",
+              "range": [
+                0,
+                1.0
+              ]
+            }
+          },
+        "family": "probabilistic",
+         "matrix": "dense",
+        "performance": "fast"
+        },
       "Perceptron": {
       "class": "sklearn.linear_model.Perceptron",
       "parameters": {
@@ -438,7 +478,9 @@
       }
       },
       "name": "perceptron",
-        "family": "linear"
+        "family": "linear",
+       "matrix": "sparse",
+        "performance": "fast"
   },
       "PassiveAggressiveClassifier": {
       "class": "sklearn.linear_model.PassiveAggressiveClassifier",
@@ -449,7 +491,7 @@
         "values": [0, 5]
       },
         "class_weight": {
-        "value": "none",
+        "value": null,
         "type" : "categorical",
         "values": [ "balanced", "none"]
       },
@@ -458,7 +500,9 @@
       }
       },
       "name": "passive_aggressive_classier",
-        "family":"linear"
+        "family":"linear",
+      "matrix": "sparse",
+        "performance": "fast"
   },
       "LabelPropagation":  {
         "class": "sklearn.semi_supervised.LabelPropagation",
@@ -478,7 +522,9 @@
         }
         },
         "name": "label_propagation",
-        "family": "semi_supervised"
+        "family": "semi_supervised",
+         "matrix": "dense",
+        "performance": "fast"
   },
       "LabelSpreading": {
         "class": "sklearn.semi_supervised.LabelSpreading",
@@ -503,7 +549,9 @@
         }
         },
         "name": "label_spreading",
-        "family": "semi_supervised"
+        "family": "semi_supervised",
+         "matrix": "sparse",
+        "performance": "fast"
   },
       "GradientBoostingClassifier": {
         "class": "sklearn.ensemble.GradientBoostingClassifier",
@@ -521,6 +569,15 @@
             "type": "integer",
             "values": [ 50, 1000]
           },
+          "max_features": {
+            "value": "auto",
+            "type": "categorical",
+            "values": [
+              "auto",
+              "sqrt",
+              "log2"
+            ]
+          },
           "criterion": {
             "value": "friedman_mse",
             "type": "categorical",
@@ -531,17 +588,10 @@
             ]
           }
         },
-          "max_features": {
-            "value": "auto",
-            "type": "categorical",
-            "values": [
-              "auto",
-              "sqrt",
-              "log2"
-            ]
-          },
           "name": "gradient_boosting_classifier",
-        "family": "ensemble"
+        "family": "ensemble",
+        "matrix": "sparse",
+        "performance": "fast"
         },
       "QuadraticDiscriminantAnalysis": {
         "class": "sklearn.discriminant_analysis.QuadraticDiscriminantAnalysis",
@@ -553,7 +603,9 @@
         }
         },
         "name": "quadratic_discriminant_analysis",
-        "family": "discriminant_analysis"
+        "family": "discriminant_analysis",
+        "matrix": "sparse",
+        "performance": "fast"
   },
       "HistGradientBoostingClassifier": {
         "class": "sklearn.ensemble.HistGradientBoostingClassifier",
@@ -565,7 +617,9 @@
         }
         },
         "name": "hist_radient_boosting_classifier",
-        "family": "ensemble"
+        "family": "ensemble",
+         "matrix": "sparse",
+        "performance": "fast"
   },
       "RidgeClassifier": {
         "class": "sklearn.linear_model.RidgeClassifier",
@@ -586,7 +640,9 @@
           "values": ["svd", "auto", "cholesky", "lsqr", "sparse_cg", "sag", "saga"]
         }
         },
-        "name": "ridge_classifier"
+        "name": "ridge_classifier",
+         "matrix": "sparse",
+        "performance": "fast"
   },
       "ExtraTreesClassifier": {
         "class": "sklearn.ensemble.ExtraTreesClassifier",
@@ -606,7 +662,9 @@
         }
         },
         "name": "label_propagation",
-        "family": "ensemble_tree"
+        "family": "ensemble_tree",
+         "matrix": "sparse",
+        "performance": "fast"
 
   },
       "BernoulliNB": {
@@ -619,7 +677,9 @@
         }
         },
         "name": "bernoulli_nb_classifier",
-        "family": "probabilistic"
+        "family": "probabilistic",
+         "matrix": "sparse",
+        "performance": "fast"
   },
       "LinearDiscriminantAnalysis": {
         "class": "sklearn.discriminant_analysis.LinearDiscriminantAnalysis",
@@ -636,7 +696,9 @@
         }
         },
         "name": "linear_descriminent_analysis",
-        "family": "discriminant_analysis"
+        "family": "discriminant_analysis",
+        "matrix": "sparse",
+        "performance": "fast"
   },
       "GaussianNB": {
         "class": "sklearn.naive_bayes.GaussianNB",
@@ -648,7 +710,9 @@
         }
         },
         "name": "gaussian_nb_classifier",
-        "family": "probabilistic"
+        "family": "probabilistic",
+         "matrix": "sparse",
+        "performance": "fast"
   },
       "NuSVC": {
         "class": "sklearn.svm.NuSVC",
@@ -673,7 +737,9 @@
         }
         },
         "name": "nu_svc_classifier",
-        "family": "svm"
+        "family": "svm",
+         "matrix": "sparse",
+        "performance": "fast"
   },
       "NearestCentroid": {
         "class": "sklearn.neighbors.NearestCentroid",
@@ -685,7 +751,9 @@
         }
         },
         "name": "nearest_centroid",
-        "family": "neighbors"
+        "family": "neighbors",
+         "matrix": "sparse",
+        "performance": "fast"
   },
       "ExtraTreeClassifier": {
         "class": "sklearn.tree.ExtraTreeClassifier",
@@ -702,7 +770,9 @@
         }
         },
         "name": "extra_tree_classifier",
-        "family": "tree"
+        "family": "tree",
+         "matrix": "sparse",
+        "performance": "fast"
   },
       "DummyClassifier": {
         "class": "sklearn.dummy.DummyClassifier",
@@ -714,7 +784,9 @@
         }
         },
         "name": "dummy_classifier",
-        "family": "rule_based"
+        "family": "rule_based",
+         "matrix": "sparse",
+        "performance": "fast"
   },
       "BernoulliRBM": {
           "class": "sklearn.neural_network.BernoulliRBM",
@@ -741,6 +813,8 @@
         }
         },
         "name": "bernoulli_rbm_classfier",
-        "family": "neural_network"
+        "family": "neural_network",
+        "matrix": "sparse",
+        "performance": "fast"
         }
 }
