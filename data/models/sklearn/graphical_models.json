@@ -1,0 +1,40 @@
+{
+    "CRF": {
+        "class": "sklearn_crfsuite.CRF",
+        "name": "crf",
+        "parameters": {
+            "min_freq": {
+                "value": 0,
+                "type": "float",
+                "range": [0, 1]
+            },
+            "c1": {
+                "value": 0,
+                "type": "float",
+                "range": [
+                    0,
+                    1
+                ]
+            },
+            "c2": {
+                "value": 1,
+                "type": "float",
+                "range": [
+                    0,
+                    1
+                ]
+            },
+            "algorithm": {
+                "value": "lbfgs",
+                "type": "categorical",
+                "values": [
+                    "lbfgs",
+                    "l2sgd",
+                    "ap",
+                    "pa",
+                    "arow"
+                ]
+            }
+        }
+    },
+}
