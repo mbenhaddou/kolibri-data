@@ -595,7 +595,7 @@
           "values": [0, 5]
         },
           "class_weightdict": {
-          "value": null,
+          "value": "none",
           "type" : "categorical",
           "values": ["balanced", "none"]
         },
