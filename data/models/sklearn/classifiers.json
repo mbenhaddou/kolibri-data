@@ -516,14 +516,6 @@
       "GradientBoostingClassifier": {
         "class": "sklearn.ensemble.GradientBoostingClassifier",
         "parameters": {
-          "gamma": {
-            "value": 20,
-            "type": "integer",
-            "values": [
-              10,
-              50
-            ]
-          },
           "loss": {
             "value": "deviance",
             "type": "categorical",
