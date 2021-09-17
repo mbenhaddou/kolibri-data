@@ -533,7 +533,7 @@
         },
         "name": "label_spreading",
         "family": "semi_supervised",
-         "matrix": "sparse",
+         "matrix": "dense",
         "performance": "fast"
   },
       "GradientBoostingClassifier": {
