@@ -583,7 +583,7 @@
           "type" : "float",
           "values": [0, 5]
         },
-          "class_weightdict": {
+          "class_weight": {
           "value": "none",
           "type" : "categorical",
           "values": ["balanced", "none"]
