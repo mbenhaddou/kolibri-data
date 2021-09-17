@@ -449,9 +449,9 @@
         "values": [0, 5]
       },
         "class_weight": {
-        "value": "weight",
+        "value": "none",
         "type" : "categorical",
-        "values": ["weight", "balanced", "none"]
+        "values": [ "balanced", "none"]
       },
         "n_jobs": {
         "value": -1
