@@ -585,7 +585,7 @@
         },
         "name": "hist_radient_boosting_classifier",
         "family": "ensemble"
-  }, ,
+  },
       "RidgeClassifier": {
         "class": "sklearn.linear_model.RidgeClassifier",
         "parameters": {
