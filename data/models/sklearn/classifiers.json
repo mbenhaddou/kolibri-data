@@ -574,7 +574,7 @@
           "name": "gradient_boosting_classifier",
         "family": "ensemble",
         "matrix": "sparse",
-        "performance": "fast"
+        "performance": "slow"
         },
       "QuadraticDiscriminantAnalysis": {
         "class": "sklearn.discriminant_analysis.QuadraticDiscriminantAnalysis",
@@ -587,7 +587,7 @@
         },
         "name": "quadratic_discriminant_analysis",
         "family": "discriminant_analysis",
-        "matrix": "sparse",
+        "matrix": "dense",
         "performance": "fast"
   },
       "HistGradientBoostingClassifier": {
