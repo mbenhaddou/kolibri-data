@@ -443,23 +443,6 @@
           }
         }
       },
-        "CategoricalNB": {
-          "class": "sklearn.naive_bayes.CategoricalNB",
-          "name": "nb_categorical",
-          "parameters": {
-            "alpha": {
-              "value": 1.0,
-              "type": "float",
-              "range": [
-                0,
-                1.0
-              ]
-            }
-          },
-        "family": "probabilistic",
-         "matrix": "dense",
-        "performance": "fast"
-        },
       "Perceptron": {
       "class": "sklearn.linear_model.Perceptron",
       "parameters": {
