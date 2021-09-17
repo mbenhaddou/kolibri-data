@@ -527,10 +527,7 @@
           "n_estimators": {
             "value": 100,
             "type": "integer",
-            "values": [
-              50,
-              1000
-            ]
+            "values": [ 50, 1000]
           },
           "criterion": {
             "value": "friedman_mse",
