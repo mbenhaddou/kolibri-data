@@ -261,7 +261,7 @@
               "range": [0, 1]
             },
             "max_features": {
-              "value": "ayto",
+              "value": "auto",
               "type": "categorical",
               "values": [
                 "auto",
