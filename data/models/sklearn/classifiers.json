@@ -671,11 +671,6 @@
           "value": "svd",
           "type" : "categorical",
           "values": ["svd", "lsqr", "eigen"]
-        },
-          "shrinkage": {
-          "value": "auto",
-          "type" : "float",
-          "values": [0, 1]
         }
         },
         "name": "linear_descriminent_analysis",
