@@ -680,7 +680,7 @@
         },
         "name": "linear_descriminent_analysis",
         "family": "discriminant_analysis",
-        "matrix": "sparse",
+        "matrix": "dense",
         "performance": "fast"
   },
       "GaussianNB": {
