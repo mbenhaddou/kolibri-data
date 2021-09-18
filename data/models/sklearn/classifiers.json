@@ -689,7 +689,7 @@
         },
         "name": "gaussian_nb_classifier",
         "family": "probabilistic",
-         "matrix": "sparse",
+         "matrix": "dense",
         "performance": "fast"
   },
       "NuSVC": {
