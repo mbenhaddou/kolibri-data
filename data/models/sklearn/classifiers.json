@@ -696,7 +696,7 @@
         "class": "sklearn.svm.NuSVC",
         "parameters": {
           "nu": {
-          "value": 0.5,
+          "value": 1,
           "type" : "float",
           "values": [0, 1]
         },
