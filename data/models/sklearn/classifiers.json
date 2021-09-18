@@ -692,33 +692,6 @@
          "matrix": "dense",
         "performance": "fast"
   },
-      "NuSVC": {
-        "class": "sklearn.svm.NuSVC",
-        "parameters": {
-          "nu": {
-          "value": 1,
-          "type" : "float",
-          "values": [0, 1]
-        },
-          "kernel": {
-          "value": "rbf",
-          "type" : "categorical",
-          "values": ["rbf", "poly", "linear", "sigmoid", "precomputed"]
-        },
-          "degree": {
-          "value": 3,
-          "type" : "int",
-          "values": [1, 6]
-        },
-          "probability": {
-          "value": false
-        }
-        },
-        "name": "nu_svc_classifier",
-        "family": "svm",
-         "matrix": "sparse",
-        "performance": "fast"
-  },
       "NearestCentroid": {
         "class": "sklearn.neighbors.NearestCentroid",
         "parameters": {
