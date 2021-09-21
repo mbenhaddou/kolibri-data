@@ -277,7 +277,6 @@
 
     "TIME_POINT" :{
         "EN": "\\b(today|tomorrow|tonight|yesterday)\\b|\\bnext\\s(day|week|month|year)\\b",
-
         "FR": "\\b(aujourd'hui|demain|cette nuit|hier|avant hier|le lendemain|(semaine|mois|ann?(ée)?|décinie)\\s*prochaine?)\b"
     },
 
