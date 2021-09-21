@@ -271,7 +271,7 @@
     "TIME_POINT" :{
         "EN": "\\b(today|tomorrow|tonight|yesterday)\\b|\\bnext\\s(day|week|month|year)\\b",
 
-        "FR": "\\b(aujourd'hui|demain|cette nuit|hier|avant hier|le lendemain|(semaine|mois|an(ée)?|décinie)prochaine?\b"
+        "FR": "\\b(aujourd'hui|demain|cette nuit|hier|avant hier|le lendemain|(semaine|mois|an(ée)?|décinie)\\s*prochaine?)\b"
     },
 
     "TIME_FREQUENCY" : {
