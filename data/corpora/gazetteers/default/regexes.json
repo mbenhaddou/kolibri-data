@@ -226,7 +226,7 @@
 
     "YEAR" : "(?P<year>(?:20|19)?\\d{2})",
 
-    "TITLES" : ["mr", "mrs", "md", "Phd", "Ph.D", "iii", "ii", "miss", "jr", "sr", "prof", "professor", "dr"],
+    "TITLES" : "(mr|mrs|md|Phd|Ph.D|iii|ii|miss|jr|sr|prof|professor|dr)",
 
     "DATE" : {
         "EN": "\\\b((Mon|Tues|Wedned|thurs|Fri|Satur|Sun)day|(?:3?2?1st|2nd|3rd|[1-9][0-9]th|(?:\\b[1-2][0-9]|\\b0?[1-9]|30|31))),?\\s*(of)?\\s*(?:january|february|march|april|may|june|july|august|september|october|november|december|jan\\.?|feb\\.?|mar\\.?|apr\\.?|may\\.?|jun\\.?|jul\\.?|aug\\.?|sep\\.?|sept\\.?|oct\\.?|nov\\.?|dec\\.?)\\s*(?:3?2?1st|2nd|3rd|[1-9][0-9]th|(?:\\b[1-2][0-9]|\\b0?[1-9]|30|31))?\\b"
@@ -274,12 +274,14 @@
         "FR": "\\b(aujourd'hui|demain|cette nuit|hier|avant hier|le lendemain|(semaine|mois|ann?(ée)?|décinie)\\s*prochaine?)\b"
     },
 
+    "UUID" : "[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}$",
+
     "TIME_FREQUENCY" : {
         "EN": "\\b(annualy|daily|forthnightly|hourly|monthly|nighthly|quarterly|weekly|yearly|bi-?weekly|Bi Weekly|every two weeks|every 2 weeks)\\b"
     },
 
     "DECIMAL_NUMBER" :"\\d+[,\\.]\\d+",
-
+    "FLOAT_NUMBER": "^[+-]?((\\d\\d*\\.?\\d*)|(\\.\\d+))([Ee][+-]?\\d+)?$",
     "TITLE_WORD": "\\b[A-Z]\\w+",
 
     "CREDIT_RATING" : "\\b(AAA|AA|A|BBB|BB|B)[+-]?",
