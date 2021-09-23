@@ -24,7 +24,7 @@
         "OPENQOTE" : "(?P<__OPENQOTE__>«+)",
         "ENDQOTE" : "(?P<__ENDQOTE__>»+)",
         "EXCEPTIONS" : "(?P<WORD>Aujourd\\'hui)",
-        "DOUBLEQOTE" : "(?P<__DOUBLEQOTE__>\"+)",
+        "DOUBLEQOTE" : "(?P<__DOUBLEQOTE__>\\\"+)",
         "SINGLEQOTE" : "(?P<__SINGLEQOTE__>\\'+)",
         "PIPE" : "(?P<PIPE>\\|)",
         "YEAR" : "(?P<__YEAR__>\\b201\\d\\b)",
