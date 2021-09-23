@@ -214,7 +214,7 @@
         }
     },
     "MONTH" : {
-        "EN": "^(?:(jan|febr)uary|march|april|jui?ne?|jully|august|(septem|octo|novem|decem)ber|(jan|feb|mar|apr|may|jun|jul|aug|sep|oct|nov|dec)\\.?)$",
+        "EN": "(?:(jan|febr)uary|march|april|jui?ne?|jully|august|(septem|octo|novem|decem)ber|(jan|feb|mar|apr|may|jun|jul|aug|sep|oct|nov|dec)\\.?)",
         "NL" : "\\b(?:an(uari)?|u(?:ni?|li?))|feb(ruari)?|m(?:aart|ei)|a(?:pril|ug(ustus)?)|(?:(?:(?:sept|nov|dec)(em)?)|o(k|c)to?)(ber)?",
         "FR": "(?:janv|f(?:é|e)vr|mars|avr|mai|juin|juil|ao(?:û|u)t|sept|oct|nov|d(?:é|e)c)(?:\\.|i(?:er|l)|let|(?:em|o)bre)?"
 
