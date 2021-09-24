@@ -19,6 +19,7 @@ BONJOUR
 ^Cher,$
 Geachte dame/heer
 Beste[ ]+dames[ ]+en[ ]+heren
+Geachte[ ]+dames,?[ ]*heren
 Beste,[ ]+Bonjour,?
 Bonjour,[ ]+Beste,?
 Geachte[ ]+klant,?
@@ -49,7 +50,7 @@ Geachte[ ]+mevrouw,[ ]+heer
 Mevrouw,[ ]+Mijnheer,?
 Beste[ ]+Mevrouw,?[ ]+beste[ ]+heer,?
 (G|g)eachte[ ]+(M|m)evrouw,?[ ]+(G|g)eachte[ ]+Heer
-(G|g)eachte[ ]+(H|h)eer?\s*(G|g)eachte[ ]+(M|m)evrouw,
+(G|g)eachte[ ]+(H|h)eer,?[ ]+(G|g)eachte[ ]+(M|m)evrouw,?
 (G|g)eachte[ ]+(M|m)evrouw,?
 (G|g)eachte[ ]+(H|h)eer,?
 Geachte,?
