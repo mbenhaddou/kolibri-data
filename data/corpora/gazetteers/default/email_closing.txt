@@ -1,5 +1,6 @@
 \ba\+\b
 All the best
+Alvast bedankt voor de verdere opvolging
 Alvast (be)?dankt?\!?(?!t?\s*voor)
 Amicalement
 Apologies for any inconvenience
