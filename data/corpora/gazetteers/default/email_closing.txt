@@ -78,6 +78,7 @@ Excellente journ(é|e)e
 Fax Reception Report  Received Time
 Freundliche Grüsse?
 Freundliche Grüße?
+Fijne feesten,
 G[Rr]\s([A-Z][a-z]+)
 gez\.?\b
 Gracias
@@ -120,11 +121,14 @@ Merci de faire le n[ée]cessaire(?!\s*pour)
 Merci de ton retour
 Merci encore
 merci par avance
+merci d'avance
 Merci\.?$
 Mes (sincéres\s+)?salutations
 Met vriendelijke? groet/with kind regards
 Met vriendelijke? groeten,?
 Met (voorlopig nog\s*)?vriendelijke groet(en)?
+Met de meeste hoogachting
+Met hoogachting
 Met energieke groet(en)?
 Met energievolle groeten
 Met dank voor een snelle afhandeling
@@ -142,7 +146,8 @@ Pozdrawiam
 regards
 Rgds
 Ringrazio per la collaborazione
-saltutations\.
+Salutations distinguées
+salt?utations\.
 Salutations\'?
 Saludos
 Salutacions
