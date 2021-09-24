@@ -24,7 +24,7 @@ Début du message transféré\s*:
 L'email ne s'affiche pas correctement ? Voir la version en ligne
 -+
 \[On met plus d’énergie à vous servir\.\]
-(<|[)image\d\.(jpeg|png|gif)(>|])
+(<|\[)image\d\.(jpeg|png|gif)(>|\])
 Begin doorgestuurd bericht:
 Begin forwarded message:
 Votre courriel m'est bien parvenu et je vous en remercie.
