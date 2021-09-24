@@ -3,7 +3,7 @@ Dear
 Hey
 Hello
 BONJOUR
-Ch(e|è)re?|Beste([ ]+Klant)?|Mevrouw|Mijnheer)([ ]+[A-Z][a-zA-Z-\+]{3,})+
+(Ch(e|è)re?|Beste([ ]+Klant)?|Mevrouw|Mijnheer)([ ]+[A-Z][a-zA-Z-\+]{3,})+
 Good[ ]+morning
 Good[ ]+afternoon
 Good[ ]+evening
