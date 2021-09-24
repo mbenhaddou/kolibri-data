@@ -5,6 +5,7 @@
 (t|T)hanks[ ]+you[ ]+for
 All
 BONJOUR
+((C|c)h(e|è)re?|Beste|(m|M)evrouw|(M|m)ijnheer)[ ]+[A-Z][a-zA-Z-\+]+
 (g|G)ood[ ]+morning
 (g|G)ood[ ]+afternoon
 (g|G)ood[ ]+evening
@@ -14,13 +15,12 @@ BONJOUR
 (B|b)onsoir[ ]+,merci
 (B|b)onsoir
 (M|m)evr(;|)\s*(M|m)r
-(m|M)evrouw,
 (M|m)adame(;|)\s*(m|M)onsieur
 ^Cher,$
+Geachte dame/heer
 Beste[ ]+dames[ ]+en[ ]+heren
 Beste,[ ]+Bonjour,?
 Bonjour,[ ]+Beste,?
-Geachte,?
 Geachte[ ]+klant,?
 Geachte (h|H)eer/(m|M)evrouw
 (Beste[ ]+)?(M|m)evrouw,?[[ ]+]+(M|m)ijnheer,
@@ -30,7 +30,6 @@ Geachte (h|H)eer/(m|M)evrouw
 Geachte[ ]+(M|m)evrouw,?[ ]+(M|m)ijnheer(\.|,)?
 (C|c)her[ ]+(M|m)onsieur
 (C|c)h(è|e)re[ ]+(M|m)adame
-((C|c)h(e|è)re?|Beste)[ ]+[A-Z][a-zA-Z-\+]+
 (G|g)uten[ ]+Tag
 (G|)uten[ ]+(M|m)orgen
 (G|g)oeiedag
@@ -53,6 +52,8 @@ Beste[ ]+Mevrouw,?[ ]+beste[ ]+heer,?
 (G|g)eachte[ ]+(H|h)eer?\s*(G|g)eachte[ ]+(M|m)evrouw,
 (G|g)eachte[ ]+(M|m)evrouw,?
 (G|g)eachte[ ]+(H|h)eer,?
+Geachte,?
+(m|M)evrouw,
 (M|m)erhabalar
 (G|g)entilissimi
 (A|a)hoj,
