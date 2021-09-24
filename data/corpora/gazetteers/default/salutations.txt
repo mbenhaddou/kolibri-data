@@ -35,6 +35,7 @@ BONJOUR
 (C|c)ari (C|c)olleghi
 (B|b)este(\s*(heer|mevrouw|klant))?
 Beste Mevrouw, beste heer,
+Geachte Mevrouw, Geachte Heer,
 (G|g)eachte(\s*(heer|mevrouw|heer\/mevrouw|heer, mevrouw|mevrouw, heer))?
 (M|m)erhabalar
 (G|g)entilissimi
