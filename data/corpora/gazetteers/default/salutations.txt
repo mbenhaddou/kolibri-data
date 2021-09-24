@@ -5,7 +5,7 @@
 (t|T)hanks[ ]+you[ ]+for
 All
 BONJOUR
-((C|c)h(e|è)re?|Beste|(m|M)evrouw|(M|m)ijnheer)[ ]+[A-Z][a-zA-Z-\+]+
+((C|c)h(e|è)re?|Beste([ ]+Klant)?|(m|M)evrouw|(M|m)ijnheer)([ ]+[A-Z][a-zA-Z-\+]{3,})+
 (g|G)ood[ ]+morning
 (g|G)ood[ ]+afternoon
 (g|G)ood[ ]+evening
@@ -35,7 +35,7 @@ Geachte[ ]+(M|m)evrouw,?[ ]+(M|m)ijnheer(\.|,)?
 (G|)uten[ ]+(M|m)orgen
 (G|g)oeiedag
 (G|g)oedemiddag
-(S|s)alutations
+(S|s)alutations(?![ ]+distingu(é|e)es?)
 (S|s)ehr[ ]+geehrte
 (B|b)om[ ]+dia
 (B|b)oa[ ]+tarde
