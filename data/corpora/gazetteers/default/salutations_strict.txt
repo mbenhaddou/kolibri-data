@@ -29,7 +29,7 @@ Geachte[ ]+Mevrouw,?[ ]+Mijnheer(\.|,)?
 Cher[ ]+Monsieur
 Ch(è|e)re[ ]+Madame
 Guten[ ]+Tag
-(G|)uten[ ]+Morgen
+Guten[ ]+Morgen
 Goeiedag
 Goedemiddag
 Salutations(?![ ]+distingu(é|e)es?)
