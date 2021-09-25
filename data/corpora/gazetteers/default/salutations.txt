@@ -14,9 +14,8 @@ BONJOUR
 (B|b)onsoir[ ]+,merci
 (B|b)onsoir
 (M|m)evr(;|)[ ]*(M|m)r
-((Ch(è|e)r(e|s)[ ]+)?(M|m|Mes)a?dames?([ ]*(;|,|/|ou|et)[ ]+)?(((C|c)hers?)?[ ]*(m|M)(o|e)n?s?sieurs?)?|([ ]*(C|c)her)?[ ]*(m|M)onsieur([ ]*(;|,|/|ou|et)[ ]+)?(Ch(è|e)re[ ]+)?(M|m)adame)|Chers?[ ]+((Mon|Mes)sieurs?|clients?)|Monsieur(,|\.)|Madame(,|\.)?
+((Ch(è|e)r(e|s)[ ]+)?(M|m|Mes)a?dames?([ ]*(;|,|/|ou|et)[ ]+)?(((C|c)hers?)?[ ]*(m|M)(o|e)n?s?sieurs?)?|([ ]*(C|c)her)?[ ]*(m|M)onsieur([ ]*(;|,|/|ou|et)[ ]+)?(Ch(è|e)re[ ]+)?(M|m)adame)|Chers?[ ]+((Mon|Mes)sieurs?|clients?)|Monsieur(,|\.)?|Cher|Madame(,|\.)?
 ((C|c)h(e|è)re?[ ]*(client|équipe|M\.)?|Beste([ ]+Klant)?|(m|M)evrouw|(M|m)ijnheer)([ ]+[A-Z][a-zA-Z-\+]{3,})+
-Cher,
 Cher / Cher,?( cher / chère)?,?
 Cher / chère
 Geachte dame/heer
