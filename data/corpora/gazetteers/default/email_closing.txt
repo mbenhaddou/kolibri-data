@@ -1,200 +1,200 @@
 \ba\+\b
-All the best
-Alvast bedankt voor de verdere opvolging
-Alvast (be)?dankt?\!?(?!t?\s*voor)
+All[ ]+the[ ]+best
+Alvast[ ]+bedankt[ ]+voor[ ]+de[ ]+verdere[ ]+opvolging
+Alvast[ ]+(be)?dankt?\!?(?!t?\s*voor)
 Amicalement
-Apologies for any inconvenience
+Apologies[ ]+for[ ]+any[ ]+inconvenience
 Atenciosamente
 Atentamente
 Ats\.\b
 Att(\.|;)
 Atte\b
 b\.v\.d\.
-Avec réchauffement des salutations
+Avec[ ]+réchauffement[ ]+des[ ]+salutations
 Bedankt\.?(?!\s*voor)
-Bedankt alvast\.
+Bedankt[ ]+alvast\.
 Bàv
-(Met\s)?Beleefde groeten
-Best Regards?
+(Met\s)?Beleefde[ ]+groeten
+Best[ ]+Regards?
 Best\.
-Beste Grüsse
-Besten Dank und freundliche Grüsse
+Beste[ ]+Grüsse
+Besten[ ]+Dank[ ]+und[ ]+freundliche[ ]+Grüsse
 bGIF
-Bien à toi
-Bien (à|a) vous
-Bien cordialement
-Bij voorbaat dank
-(bonne|Belle) journ[ée]e( à vous)?
-Bonne réception
+Bien[ ]+à[ ]+toi
+Bien[ ]+(à|a)[ ]+vous
+Bien[ ]+cordialement
+Bij[ ]+voorbaat[ ]+dank
+(bonne|Belle)[ ]+journ[ée]e([ ]+à[ ]+vous)?
+(Je[ ]+vous[ ]+souhaite[ ]+(une[ ]+)?)?Bonne[ ]+r(é|e)ception
 BR\b
 Bvd
 Cdlt
 cdt
 cheers
 Ciao
-Com os melhores cumprimentos
+Com[ ]+os[ ]+melhores[ ]+cumprimentos
 Cordialement
 Cordialemet
-Cordiali saluti
+Cordiali[ ]+saluti
 cordially
 Cordialmente
-cordialmente saluto
+cordialmente[ ]+saluto
 Cordielement
-Could you please do the needful
-Ďakujem a ostávam s pozdravom
-d'avance merci
-D\'avance, merci.\?( pour )?(votre|vos) (intervention|explications?)
-D\’avance je vous remercie, et vous souhaite d’excellentes fêtes de fin d’années
-Dans l'attente de vous lire, je vous prie d'agréer
-Dakujem velmi
+Could[ ]+you[ ]+please[ ]+do[ ]+the[ ]+needful
+Ďakujem[ ]+a[ ]+ostávam[ ]+s[ ]+pozdravom
+d'avance[ ]+merci
+D\'avance,[ ]+merci.\?([ ]+pour[ ]+)?(votre|vos)[ ]+(intervention|explications?)
+D\’avance[ ]+je[ ]+vous[ ]+remercie,[ ]+et[ ]+vous[ ]+souhaite[ ]+d’excellentes[ ]+fêtes[ ]+de[ ]+fin[ ]+d’années
+Dans[ ]+l'attente[ ]+de[ ]+vous[ ]+lire,[ ]+je[ ]+vous[ ]+prie[ ]+d'agréer
+Dakujem[ ]+velmi
 Dakujem
-Dank alvast
+Dank[ ]+alvast
 Danke
 Dank\.
-Dank je wel
+Dank[ ]+je[ ]+wel
 Dankjewel!?
-Danke Dir!
-Danke für Ihre Unterstützung
-Dank voor uw begrip en medewerking\.?
-Dank bij voorbaat( voor snelle reactie\.?)?
-Danke und LG
-Danke und liebe Grüsse?
-Danke und beste Grüsse?
-Danke und beste Grüße?
-Danke und Gruße?
-Dank U wel voor uw antwoord
-Děkuji moc
+Danke[ ]+Dir!
+Danke[ ]+für[ ]+Ihre[ ]+Unterstützung
+Dank[ ]+voor[ ]+uw[ ]+begrip[ ]+en[ ]+medewerking\.?
+Dank[ ]+bij[ ]+voorbaat([ ]+voor[ ]+snelle[ ]+reactie\.?)?
+Danke[ ]+und[ ]+LG
+Danke[ ]+und[ ]+liebe[ ]+Grüsse?
+Danke[ ]+und[ ]+beste[ ]+Grüsse?
+Danke[ ]+und[ ]+beste[ ]+Grüße?
+Danke[ ]+und[ ]+Gruße?
+Dank[ ]+U[ ]+wel[ ]+voor[ ]+uw[ ]+antwoord
+Děkuji[ ]+moc
 Děkuji
 \bDík\b
 Díky
 Dziękuje
-Dziękuję i pozdarwiam
+Dziękuję[ ]+i[ ]+pozdarwiam
 Dziekuje
-En vous remerciant (d’avance\.?)?(\s*pour votre suivi)?
-Avec mes salutations
-(E|É)nergiquement v(ô|o)tre
-En vous remerciant
-Energetically your
-Excellente journ(é|e)e
-Fax Reception Report  Received Time
-Freundliche Grüsse?
-Freundliche Grüße?
-Fijne feesten,
+En[ ]+vous[ ]+remerciant[ ]+(d’avance\.?)?(\s*pour[ ]+votre[ ]+suivi)?
+Avec[ ]+mes[ ]+salutations
+(E|É)nergiquement[ ]+v(ô|o)tre
+En[ ]+vous[ ]+remerciant
+Energetically[ ]+your
+Excellente[ ]+journ(é|e)e
+Fax[ ]+Reception[ ]+Report[ ]+[ ]+Received[ ]+Time
+Freundliche[ ]+Grüsse?
+Freundliche[ ]+Grüße?
+Fijne[ ]+feesten,
 G[Rr]\s([A-Z][a-z]+)
 gez\.?\b
 Gracias
 Grato
 Grazie
-Grazie e buona giornata
+Grazie[ ]+e[ ]+buona[ ]+giornata
 Groet(en|jes)?
 Grt(;|\.)
 Grtj
 Gruße?
 Gruss
-Gruss und Danke
+Gruss[ ]+und[ ]+Danke
 grts
-Hartelijk bedankt voor het bericht
-Hartelijke groet
-Have a good day
-have a great afternoon
-Have a nice day
-Hezký den
+Hartelijk[ ]+bedankt[ ]+voor[ ]+het[ ]+bericht
+Hartelijke[ ]+groet
+Have[ ]+a[ ]+good[ ]+day
+have[ ]+a[ ]+great[ ]+afternoon
+Have[ ]+a[ ]+nice[ ]+day
+Hezký[ ]+den
 Hoogachtend
-Ik hoor jullie graag
+Ik[ ]+hoor[ ]+jullie[ ]+graag
 (İ|I)lkim
-Im Voraus vielen Dank
-Je te remercie par avance\.?
-Je vous remercie pour votre suivi.\?
-Je vous en remercie\.?
-Merci d'avance
-^Merci .+(aide|soins)\.?$
-Je vous (en\s*)?remercie( d’avance)?(?!\s*de|pour)
-Je vous souhaite déjà meilleurs voeux pour Noël,?
-kind regards?
-Lieben Gruss
-Lieben Gruss und schönes Restwochenende
+Im[ ]+Voraus[ ]+vielen[ ]+Dank
+Je[ ]+te[ ]+remercie[ ]+par[ ]+avance\.?
+Je[ ]+vous[ ]+remercie[ ]+pour[ ]+votre[ ]+suivi.\?
+Je[ ]+vous[ ]+en[ ]+remercie\.?
+Merci[ ]+d'avance
+^Merci[ ]+.+(aide|soins)\.?$
+Je[ ]+vous[ ]+(en\s*)?remercie([ ]+d’avance)?(?!\s*de|pour)
+Je[ ]+vous[ ]+souhaite[ ]+déjà[ ]+meilleurs[ ]+voeux[ ]+pour[ ]+Noël,?
+kind[ ]+regards?
+Lieben[ ]+Gruss
+Lieben[ ]+Gruss[ ]+und[ ]+schönes[ ]+Restwochenende
 m\.v\.g\.
-many thanks
-Many thx
-Med vänlig hälsning
-Meilleures salutations
-Merci de faire le n[ée]cessaire(?!\s*pour)
-Merci de ton retour
-Merci encore
-merci par avance
-merci d'avance
+many[ ]+thanks
+Many[ ]+thx
+Med[ ]+vänlig[ ]+hälsning
+Meilleures[ ]+salutations
+Merci[ ]+de[ ]+faire[ ]+le[ ]+n[ée]cessaire(?!\s*pour)
+Merci[ ]+de[ ]+ton[ ]+retour
+Merci[ ]+encore
+merci[ ]+par[ ]+avance
+merci[ ]+d'avance
 Merci\.?$
-Mes (sincéres\s+)?salutations
-Met vriendelijke? groet/with kind regards
-Met vriendelijke? groeten,?
-Met (voorlopig nog\s*)?vriendelijke groet(en)?
-Met de meeste hoogachting
-Met hoogachting
-Met energieke groet(en)?
-Met energievolle groeten
-Met dank voor een snelle afhandeling
-Mit freundlichem
-Mit freundlichen Grüßen
-Much appreciated
-Muchas gracias
+Mes[ ]+(sincéres\s+)?salutations
+Met[ ]+vriendelijke?[ ]+groet/with[ ]+kind[ ]+regards
+Met[ ]+vriendelijke?[ ]+groeten,?
+Met[ ]+(voorlopig[ ]+nog\s*)?vriendelijke[ ]+groet(en)?
+Met[ ]+de[ ]+meeste[ ]+hoogachting
+Met[ ]+hoogachting
+Met[ ]+energieke[ ]+groet(en)?
+Met[ ]+energievolle[ ]+groeten
+Met[ ]+dank[ ]+voor[ ]+een[ ]+snelle[ ]+afhandeling
+Mit[ ]+freundlichem
+Mit[ ]+freundlichen[ ]+Grüßen
+Much[ ]+appreciated
+Muchas[ ]+gracias
 Mvg\.?\b
-Nous comptons sur votre compréhension et, en vous remerciant,?
+Nous[ ]+comptons[ ]+sur[ ]+votre[ ]+compréhension[ ]+et,[ ]+en[ ]+vous[ ]+remerciant,?
 Obg\.\b
 Obrigada
 Obrigado
-Pekny den
+Pekny[ ]+den
 Pozdrawiam
 regards
 Rgds
-Ringrazio per la collaborazione
-Salutations distinguées
+Ringrazio[ ]+per[ ]+la[ ]+collaborazione
+Salutations[ ]+distinguées
 salt?utations\.
 Salutations\'?
 Saludos
 Salutacions
 Saluti
 Saygılarımla
-Schöne Grüße
-Si vous avez encore des questions, n’hésitez pas à réagir à ce message. Mes collègues et moi-même nous ferons un plaisir de vous aider.
-Si vous avez des questions, n’hésitez pas à nous contacter. Nous nous ferons un plaisir de vous aider
+Schöne[ ]+Grüße
+Si[ ]+vous[ ]+avez[ ]+encore[ ]+des[ ]+questions,[ ]+n’hésitez[ ]+pas[ ]+à[ ]+réagir[ ]+à[ ]+ce[ ]+message.[ ]+Mes[ ]+collègues[ ]+et[ ]+moi-même[ ]+nous[ ]+ferons[ ]+un[ ]+plaisir[ ]+de[ ]+vous[ ]+aider.
+Si[ ]+vous[ ]+avez[ ]+des[ ]+questions,[ ]+n’hésitez[ ]+pas[ ]+à[ ]+nous[ ]+contacter.[ ]+Nous[ ]+nous[ ]+ferons[ ]+un[ ]+plaisir[ ]+de[ ]+vous[ ]+aider
 sincerely
-Sincères Amitiés
-Sincères salutations
+Sincères[ ]+Amitiés
+Sincères[ ]+salutations
 Sldos,
-talk soon
+talk[ ]+soon
 Teşekkürler
-Thank you for your assistance
-Thank you for your help with this
-thank you for your reply
-Thank you(?!\s(for|very much for))
-Thank you(?!\sfor)
-thanking You
-thanking You
+Thank[ ]+you[ ]+for[ ]+your[ ]+assistance
+Thank[ ]+you[ ]+for[ ]+your[ ]+help[ ]+with[ ]+this
+thank[ ]+you[ ]+for[ ]+your[ ]+reply
+Thank[ ]+you(?!\s(for|very[ ]+much[ ]+for))
+Thank[ ]+you(?!\sfor)
+thanking[ ]+You
+thanking[ ]+You
 thanks
-Thanks (\&|and) Regards
-Thanks a lot in advance
-Thanks in advance
+Thanks[ ]+(\&|and)[ ]+Regards
+Thanks[ ]+a[ ]+lot[ ]+in[ ]+advance
+Thanks[ ]+in[ ]+advance
 thankyou
 THX
-Thx in advance
-Un saludo
-Un (tout )?grand merci
-Veuillez agréer,? (Monsieur|Madame),?
-Viele Grüße
-Vielen Dank
-Vriendelijke groet(en)?
-Vielen Dank und Grüße
-Vielen lieben Dank fürs checken und lG
-Vielen lieben Dank und lG
-Voil?(a|à) bonne journ(e|é)e
-Voil?(à|a)\s*, merci pour votre service.
-warm regards
-Wij danken u alvast voor uw (goede )?medewerking
-With best wishes
-With kind regards?
-With best regards?
-Yours sincerely
-yours truly
-Z góry dziekuje
-Z góry dziękuję za informację zwrotną
+Thx[ ]+in[ ]+advance
+Un[ ]+saludo
+Un[ ]+(tout[ ]+)?grand[ ]+merci
+Veuillez[ ]+agréer,?[ ]+(Monsieur|Madame),?
+Viele[ ]+Grüße
+Vielen[ ]+Dank
+Vriendelijke[ ]+groet(en)?
+Vielen[ ]+Dank[ ]+und[ ]+Grüße
+Vielen[ ]+lieben[ ]+Dank[ ]+fürs[ ]+checken[ ]+und[ ]+lG
+Vielen[ ]+lieben[ ]+Dank[ ]+und[ ]+lG
+Voil?(a|à)[ ]+bonne[ ]+journ(e|é)e
+Voil?(à|a)\s*,[ ]+merci[ ]+pour[ ]+votre[ ]+service.
+warm[ ]+regards
+Wij[ ]+danken[ ]+u[ ]+alvast[ ]+voor[ ]+uw[ ]+(goede[ ]+)?medewerking
+With[ ]+best[ ]+wishes
+With[ ]+kind[ ]+regards?
+With[ ]+best[ ]+regards?
+Yours[ ]+sincerely
+yours[ ]+truly
+Z[ ]+góry[ ]+dziekuje
+Z[ ]+góry[ ]+dziękuję[ ]+za[ ]+informację[ ]+zwrotną
 Поздрави,
