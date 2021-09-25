@@ -5,7 +5,6 @@
 (t|T)hanks[ ]+you[ ]+for
 All
 BONJOUR
-((C|c)h(e|è)re?|Beste([ ]+Klant)?|(m|M)evrouw|(M|m)ijnheer)([ ]+[A-Z][a-zA-Z-\+]{3,})+
 (g|G)ood[ ]+morning
 (g|G)ood[ ]+afternoon
 (g|G)ood[ ]+evening
@@ -14,9 +13,12 @@ BONJOUR
 (B|b)onjour
 (B|b)onsoir[ ]+,merci
 (B|b)onsoir
-(M|m)evr(;|)\s*(M|m)r
-(M|m)adame(;|)\s*(m|M)onsieur
-^Cher,$
+(M|m)evr(;|)[ ]*(M|m)r
+((Ch(è|e)r(e|s)[ ]+)?(M|m|Mes)a?dames?([ ]*(;|,|/|ou|et)[ ]+)?(((C|c)hers?)?[ ]*(m|M)(o|e)n?s?sieurs?)?|([ ]*(C|c)her)?[ ]*(m|M)onsieur([ ]*(;|,|/|ou|et)[ ]+)?(Ch(è|e)re[ ]+)?(M|m)adame)|Chers?[ ]+((Mon|Mes)sieurs?|clients?)|Monsieur(,|\.)|Madame(,|\.)?
+((C|c)h(e|è)re?[ ]*(c
+^Cher,
+Cher / Cher,?( cher / chère)?,?
+Cher / chère
 Geachte dame/heer
 Beste[ ]+dames[ ]+en[ ]+heren
 Geachte[ ]+dames,?[ ]*heren
