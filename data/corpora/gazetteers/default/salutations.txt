@@ -48,7 +48,7 @@ Geachte[ ]+(M|m)evrouw,?[ ]+(M|m)ijnheer(\.|,)?
 (C|c)ari[ ]+(C|c)olleghi
 Geachte[ ]+mevrouw,[ ]+heer
 (Beste|(G|g)eachte)[ ]+heer,[ ]+mevrouw,?
-(B|b)este(\s*(heer|mevrouw|klant))?
+(B|b)este([ ]*(heer|mevrouw|klant))?
 Mevrouw,[ ]+Mijnheer,?
 Beste[ ]+Mevrouw,?[ ]+beste[ ]+heer,?
 (G|g)eachte[ ]+(M|m)evrouw,?[ ]+(G|g)eachte[ ]+Heer
