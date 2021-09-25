@@ -107,6 +107,7 @@ Je[ ]+te[ ]+remercie[ ]+par[ ]+avance\.?
 Je[ ]+vous[ ]+remercie[ ]+pour[ ]+votre[ ]+suivi.\?
 Je[ ]+vous[ ]+en[ ]+remercie\.?
 Merci[ ]+d'avance
+Merci[ ]+beaucoups?
 ^Merci[ ]+.+(aide|soins)\.?$
 Je[ ]+vous[ ]+(en\s*)?remercie([ ]+d’avance)?(?!\s*de|pour)
 Je[ ]+vous[ ]+souhaite[ ]+déjà[ ]+meilleurs[ ]+voeux[ ]+pour[ ]+Noël,?
