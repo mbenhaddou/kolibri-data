@@ -25,7 +25,8 @@ Bien[ ]+(à|a)[ ]+vous
 Bien[ ]+cordialement
 Bij[ ]+voorbaat[ ]+dank
 (bonne|Belle)[ ]+journ[ée]e([ ]+à[ ]+vous)?
-(Je[ ]+vous[ ]+souhaite[ ]+(une[ ]+)?)?Bonne[ ]+r(é|e)ception
+(?<!de )Bonne[ ]+r(é|e)ception
+(Je[ ]+vous[ ]+souhaite[ ]+(une[ ]+)?)Bonne[ ]+r(é|e)ception
 BR\b
 Bvd
 Cdlt
