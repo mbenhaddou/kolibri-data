@@ -8,7 +8,8 @@
     ],
     "i_can_not_doesnt_work" :
     [
-      "(n\\\"|’)?|ne)\\s*marche(?P<i_can_not_doesnt_work>[\\w+' ]+)", "marche\\s*(pas|plus)(?P<i_can_not_doesnt_work>[\\w+' ]+)"
+      "((n\\\"|’)?|ne)\\s*marche(?P<i_can_not_doesnt_work>[\\w+' ]+)",
+      "marche\\s*(pas|plus)(?P<i_can_not_doesnt_work>[\\w+' ]+)"
     ],
     "i_can_not_find" :
     [
