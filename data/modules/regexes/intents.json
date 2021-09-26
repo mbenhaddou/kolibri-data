@@ -2,7 +2,7 @@
   "FR": {
     "i_can_not" :
     [
-      "((n\\\"|’)?|ne|jamais)\\s*(les?)?\\s*(peux|parv(iens|enais)|arrive|sais|r(é|e)ussi))(?P<i_can_not>(?:[\\w°€,’'/\\+ -]+)+)",
+      "((n\\\"|’)?|ne|jamais)\\s*(les?)?\\s*(peux|parv(iens|enais)|arrive|sais|r(é|e)ussi)([ ]+jamais|pas)(?P<i_can_not>(?:[\\w°€,’'/\\+ -]+)+)",
       "((peux|parviens|arrive)\\s*(pas|plus))(?P<i_can_not>(?:[\\w°€,’'/\\+ -]+)+)",
       "imposss?ib(le|ilit(é|e))(\\s*(de|d'|à|du)|(\\s+\\w+)+\\s+(de|d'))\\s*(?P<i_can_not>[\\w+' ]+)"
     ],
