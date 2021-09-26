@@ -21,9 +21,10 @@
     ],
     "i_do_not_have" : ["((n\\\"|’)?|ne)\\s*(les?)?\\s*ai\\s*(toujours?)?\\s*(pas|plus))(?P<i_do_not_have>(?:[\\w°€,’'/\\+ -]+)+)"],
     "there_is_an_error" : [
-      "(?P<there_is_an_error>(une\\s+)?erreur.*(facture|calcul|chez vous|adres))","(?P<there_is_an_error>(?:[\\w()€',\\/ -](\\d\\.\\d)*)+erreur\\s*(\\w+\\s+|l')+adres(?:[\\w()€',\\/ -](\\d\\.\\d)*)+)",
-      "(?P<there_is_an_error>(?:[\\w()€',\\/ -](\\d\\.\\d)*)+((correction\\s*de)|correcte\\s*est)\\s*(?:[\\w()€',\\/ -](\\d\\.\\d)*)+)",
-      "(?P<there_is_an_error>(?:[\\w()€',\\/ -](\\d\\.\\d)*)+(pas|à|est)\\s+(une?)?\\s*?(bon(ne)?|(in)?corr(e|i)|mauvai)(?:[\\w()€',\\/ -](\\d\\.\\d)*)+)"
+                        "(?P<there_is_an_error>(une\\s+)?erreur.*(facture|calcul|chez vous|adres))",
+                        "(?P<there_is_an_error>(?:[\\w()€',\\/ -](\\d\\.\\d)*)+erreur\\s*(\\w+\\s+|l')+adres(?:[\\w()€',\\/ -](\\d\\.\\d)*)+)",
+                        "(?P<there_is_an_error>(?:[\\w()€',\\/ -](\\d\\.\\d)*)+((correction\\s*de)|correcte\\s*est)\\s*(?:[\\w()€',\\/ -](\\d\\.\\d)*)+)",
+                        "(?P<there_is_an_error>(?:[\\w()€',\\/ -](\\d\\.\\d)*)+(pas|à|est)\\s+(une?)?\\s*?(bon(ne)?|(in)?corr(e|i)|mauvai)(?:[\\w()€',\\/ -](\\d\\.\\d)*)+)"
     ],
     "less_cosumption_but_invoice_increased" : [
       "(?P<less_cosumption_but_invoice_increased>consommation.*(pas augmenté|pas changé|baissé|diminue?é?|est inférieure|diminution|légèrement augmenté))"
@@ -33,50 +34,57 @@
     ],
     "why" : ["(?P<why>Pourquoi[\\w+€',\\/ -]+)"],
     "i_notice" : ["(?P<i_notice>(je constate|attire votre attention|Veuillez noter)\\s+qu([\\w+€',\\/ °-]+))"],
-    "there_is_a_mistake" :  ["(?P<there_is_mistake>il\\s*(n')?\\s*y\\s*a\\s*(une|pas\\s+d')?\\s*erreurs?([\\w()€',\\/ -](\\d\\.\\d)*)+)"],
+
+    "there_is_a_mistake" :  ["(?P<there_is_mistake>(il\\s*(n')?\\s*y\\s*a\\s*(une|pas\\s+d')?\\s*erreurs?|c'est une erreur|je soupçonne que)([\\w()€',\\/ -](\\d\\.\\d)*)*)"],
     "my_relative_cannot" :[
-      "(?P<my_relative_cannot>[\\w+€',\\/ -]*(étant|est|de|suite)\\s*(actuellement|au)?\\s+(d(é|e)c(é|è|e)(dée?)?|hospitalisée?|(â|a)gée?|placée?)\\.?[\\w+()€',\\/ -]+)"
+     "(?P<my_relative_cannot>[\\w+€',\\/ -]*(étant|est|de|suite)\\s*(actuellement|au)?\\s+(d(é|e)c(é|è|e)(dée?)?|hospitalisée?|(â|a)gée?|placée?)\\.?[\\w+()€',\\/ -]+)"
     ],
     "not_possible" : [
-      "(si|ce|est|était?|serai(t|s)?)[\\s -](il|ce)?\\s*(donc|enfin|encore|pas)?\\s*poss?s?ible\\s+d[e'](?P<not_possible>[\\w+' ]+)",
-      "imposss?ible(\\s*(de|d'|à|du)|(\\s+\\w+)+\\s+(de|d'))\\s*(?P<not_possible>[\\w+' ]+)"
+       "(si|ce|est|était?|serai(t|s)?)[\\s -](il|ce)?\\s*(donc|enfin|encore|pas)?\\s*poss?s?ible\\s+d[e'](?P<not_possible>[\\w+' ]+)",
+       "imposss?ible(\\s*(de|d'|à|du)|(\\s+\\w+)+\\s+(de|d'))\\s*(?P<not_possible>[\\w+' ]+)"
     ],
     "would_like" : [
-      "(j[e']?|nous)?\\s*(ai|aurai)?\\s*(veu\\w?|voudrais?|d(é|e)sire(rais)?|voul(ai|on)s?|souhait(e|é)?(e?rais?|(ri)?ons|ant)?|aimer(ion|ai)s?)(?P<would_like>(?:\\s+[\\w°€,’'/\\+-]+)+)"
+     "(j[e']?|nous)?\\s*(veu\\w?|voudrais?|d(é|e)sire(rais)?|voulais?|souhaite?(e?rais?|ons|ant)?|aimerais?|En esp(é|e)rant)(?P<would_like>(?:\\s+[\\w°€,’'/\\+-]+)+)"
     ],
     "dont_understand_why": ["(^|\\.|)\\s*([\\w,€']+\\s+)*je ne comprends? pas\\s+pourquoi?(?P<dont_understand_why>(\\s+[\\w,€']+)*)"],
-    "would_like_to_know_why" : "(?:savoir\\s+pourquoi)(?P<would_like_to_know_why>(?:\\s+[\\w°€’'/\\+-]+)+)",
+    "would_like_to_know_why" : ["(?:savoir\\s+pourquoi)(?P<would_like_to_know_why>(?:\\s+[\\w°€’'/\\+-]+)+)"],
     "explain_to_me" : "explique(z|r)(-|\\s+)moi(?P<explain_to_me>[\\w+€',\\/ -]+)",
-    "how_do_you_explain" : "explique(z|r)(-|\\s+)vous(?P<how_do_you_explain>[\\w+€',\\/ -]+)",
+    "how_do_you_explain" : "expliquez(-|\\s+)vous(?P<how_do_you_explain>[\\w+€',\\/ -]+)",
     "dont_understand" : ["(^|\\.|)\\s*([\\w,€']+\\s+)*je ne comprends? pas(?!\\s+pourquoi)(?P<dont_understand>(\\s+[\\w,€']+)*)"],
-    "i_cant" : ["(?P<i_cant>([\\w,€']+\\s+)*)(n|j)?[' ]arrive pas"],
+    "i_cant" : ["(?P<i_cant>([\\w,€']+\\s+)*)(n|j)?[' ]arrive pas",
+     "(?P<context>([\\w,€']+\\s+)*)(n|j)?[' ](arrive|sais) pas(?P<i_cant>(\\s+[\\w,€']+)*)"],
+
     "please_do" : [
-      "pou(vez|rriez)[-\\s*]vous\\s+faire\\s+le\\s+n(e|é)cessaire(?P<please_do>[\\w+' ]+)",
+     "pou(vez|rriez)[-\\s*]vous\\s+faire\\s+le\\s+n(e|é)cessaire(?P<please_do>[\\w+' ]+)",
       "merci\\s*(de|d')(?P<please_do>[\\w+' ]+)"
     ],
+
     "could_you_helpme" : ["pou(vez|rriez)[-\\s*]vous\\s*(dès\\s+lors)?\\s*(?P<could_you_helpme>[\\w+€' ]+)"],
     "could_you" : [
       "(pou(vez|rriez)|vou(l|dr)ez)[-\\s*]vous\\s*(dès\\s+lors)?\\s*(?P<could_you>[\\w+€' ,]+)",
+      "pou(vez|rriez)[-\\s*]vous\\s*(dès\\s+lors|s'il vous plaît)?\\s*(?P<could_you_helpme>[\\w+€î' ]+)",
       "(?P<could_you>(merci|demande)\\s*de([\\w()€',\\/ -](\\d\\.\\d)*)+)",
-      "(?P<for_info>veuillez([\\w()€',\\/ -](\\d\\.\\d)*)+)"
+      "(?P<could_you>veuillez([\\w()€',\\/ -](\\d\\.\\d)*)+)",
+      "(?P<for_info>veuillez([\\w()€',\\/ -](\\d\\.\\d)*)+)",
+      "((pou(vez|rriez)|vou(l|dr)ez)[-\\s*]vous\\s*(dès\\s+lors)?|s'il vous pla(î|i)t)\\s*(?P<could_you>[\\w+€' ,]+)"
     ],
-    "could_you_tell_me" : "pou(ve|rrie)z[-\\s*]vous\\s*m[e']\\s*(dire?\\s+)?(?P<could_you_tell_me>([\\w' €-]+)+)",
-    "I_dont_like" : [
-      "j[e']?\\s*ne\\s+(veu\\w?|voudrais?|d(é|e)sire|voulais?|souhaiterais?|aimerais?)(?P<I_dont_like>(?:\\s+[\\w°€,’'/\\+-]+)+)"
-    ],
+
+    "could_you_tell_me" : ["pou(ve|rrie)z[-\\s*]vous\\s*m[e']\\s*(dire?\\s+)?(?P<could_you_tell_me>([\\w' €-]+)+)"],
+    "I_dont_like" : ["j[e']?\\s*ne\\s+(veu\\w?|voudrais?|d(é|e)sire|voulais?|souhaiterais?|aimerais?)(?P<I_dont_like>(?:\\s+[\\w°€,’'/\\+-]+)+)"],
     "Im_asking" :[
-      "((vous|je)\\s+demande\\s+(de|simplement)\\s+(bien\\s+vouloir\\s+)?)(?P<Im_asking>(?:[\\w°€,’'/\\+ -]+)+)",
+     "((vous|je)\\s+demande|mee?rci)\\s+(de|simplement|de)\\s+(bien\\s+vouloir\\s+)?(?P<Im_asking>(?:[\\w°€,’'/\\+ -]+)+)",
       "((de\\s+bien\\s+vouloir\\s+))(?P<Im_asking>(?:[\\w°€,’'/\\+ -]+)+)",
-      "(puis-?je\\s+(vous)?\\s*demander)(\\s+de)?(?P<Im_asking>(?:[\\w°€,’'/\\+ -]+)+)"
+      "(puis-?je\\s+(vous)?\\s*demander|espérer)(\\s+de)?(?P<Im_asking>(?:[\\w°€,’'/\\+ -]+)+)"
     ],
     "request" : ["(?P<request>^demande de([\\w()€',\\/ -](\\d\\.\\d)*)+)"],
+
     "contanting_about" :
     [
       "(?P<contanting_about>je\\s+vous\\s+contacte?([\\w()€',\\/ -](\\d\\.\\d)*)+)",
       "(?P<contanting_about>([\\w+€'\\/ -]+)concernant([\\w()€',\\/ -](\\d\\.\\d)*)+)"
     ],
     "when" :[
-      "(?P<when>quand(-|\\s+)est\\s*ce\\s+que([\\w()€',\\/ -](\\d\\.\\d)*)+)"
+      "(quand(-|\\s+)(est\\s*ce\\s+que|\\w+-je)|quid)(?P<when>([\\w()€',\\/ :-](\\d\\.\\d)*)+)"
     ],
     "how" : [
       "(?P<how>comment([\\w()€',\\/ -](\\d\\.\\d)*)+)"
@@ -84,18 +92,35 @@
     "question" : ["(?P<question>est(-|\\s+)ce\\squ([\\w()€',\\/ -](\\d\\.\\d)*)+)"],
     "can_i" : [
       "(?P<can_i>pourrais(-|\\s+)je([\\w()€',\\/ -](\\d\\.\\d)*)+)",
-      "(?P<can_i>puis(-|\\s+)je([\\w()€',\\/ -](\\d\\.\\d)*)+)"
+      "(?P<can_i>puis(-|\\s+)je([\\w()€',\\/ -](\\d\\.\\d)*)+)",
+       "\\bpourrais(-|\\s+)je|Est-il possible(?P<can_i>([\\w()€',\\/ -](\\d\\.\\d)*)+)"
     ],
-    "I_did_not_get" :[ "(?P<I_did_not_get>[\\w+€',\\/ -]+(pas|n'ai)\\s*(re(c|ç)u)([\\w()€',\\/ -](\\d\\.\\d)*)+)"],
+    "I_did_not_get" :[ "(?P<I_did_not_get>[\\w+€',\\/ -]+(pas|n'ai)\\s*(re(c|ç)u)([\\w()€',\\/ -](\\d\\.\\d)*)+)",
+      "[\\w+€',\\/ -]+((pas|n'ai)\\s*(encore[ ]+)?(re(c|ç)u)|reçois aucune)[ ]*(?P<I_did_not_get>([\\w()€',\\/ -](\\d\\.\\d)*)+)\"",
+       "\\b(J'|nous)[ ]*attends?[ ]*(toujours?|encore)(?P<I_did_not_get>([\\w()€',\\/ -](\\d\\.\\d)*)+)"
+    ],
     "i_inform_you" :[ "(?P<i_inform_you>je vous (informer?|comm?uniquer?|signale)([\\w()€',\\/ -](\\d\\.\\d)*)+)"],
-    "a_change": [
-      "(?P<a_change>([\\w()€',\\/ -](\\d\\.\\d)*)+(est)?\\s+(a|à|été|signaler|est)\\s*(une?)?(chang|modifi)([\\w()€',\\/ -](\\d\\.\\d)*)+)",
-      "(?P<a_change>([\\w()€',\\/ -](\\d\\.\\d)*)*(changement|modific)([\\w()€',\\/ -](\\d\\.\\d)*)+)"
-    ],
 
     "this_not_that" : ["(?P<this_not_that>(?:\\s+[\\w°€,’'/\\+-]+)+\\s+et\\s*(non)?\\s*(pas|plus)(?:\\s+[\\w°€,’'/\\+-]+)+)"],
     "i_need" : ["((je|j'|on|nous)\\s*(ai|avons|aurais?|a)?\\s*(donc|toujours)?\\s*besoin)(?P<i_need>(?:[\\w°€,’'/\\+ -]+)+)"],
     "what_i_have_to_do" : ["((que)\\s*(dois|devons)[-\\s*](je|nous))(?P<what_i_have_to_do>(?:[\\w°€,’'/\\+ -]+)+)"],
-    "have_i_to" :[ "((dois|devons)[-\\s*](je|nous))(?P<have_i>(?:[\\w°€,’'/\\+ -]+)+)"]
+    "have_i_to" :[ "((dois|devons)[-\\s*](je|nous))(?P<have_i>(?:[\\w°€,’'/\\+ -]+)+)"],
+    "thank_you" : ["\\b(Merci|Merci[ ]+d'avoir)(?P<thank_you>[\\w+\\' ]+)"],
+
+    "please_recieve" : ["\\b(Voir|Veuillez[ ]*trouver|Vous trouverez|trouver ci-joint|je vous (fournis([ ]+ici)?|enverrai|envoi(e|s)?))([ ]+ci-joint)?(?P<please_recieve>[\\w+,' -]+)",
+                      "\\b(ci-joint|(pièces?|sont) jointes?)(?P<please_recieve>[\\w+,/\\.' -]*)"],
+    "i_infrom_you" :[ "(vous informer? que)(?P<i_inform_you>(.*))"],
+
+    "for_info" : ["(?P<for_info>je vous (informer?|comm?uniquer?|signale)([\\w()€',\\/ -](\\d\\.\\d)*)+)"],
+    "no_answer" : ["(?P<no_answer>(.*(j\"ai|e)|nous)[\\w()€',\\/ -]+((pas de|aucune) r(é|e)ponse|nouvelle))[\\w()€',\\/ -]*)"],
+
+    "a_change" :[ "(?P<a_change>([\\w()€',\\/ -](\\d\\.\\d)*)+(est)?\\s+(a|à|été|signaler|est)\\s*(une?)?(chang|modifi)([\\w()€',\\/ -](\\d\\.\\d)*)+)",
+    "(?P<a_change>([\\w()€',\\/ -](\\d\\.\\d)*)*(changement|modific)([\\w()€',\\/ -](\\d\\.\\d)*)+)",
+    "(?P<a_change>([\\w()€',\\/ -](\\d\\.\\d)*)*(changement|modific)([\\w()€',\\/ -](\\d\\.\\d)*)+)"
+    ],
+    "i_have_a_question" : ["(?P<question>([\\w°€,’'/\\+ -]*))(?P<type>((Est|agit|a-t|peut|aurait|puis|faut|sont|avez|doi(t|s))-(ce|il|je|elles?|vous)))(?P<object>([\\w°€,’'/\\+ -]+))"],
+    "there_is_an_issue" :[ "\\b(probl(è|e)me|d(é|e)fectueux)(?P<there_is_an_issue>[\\w+,' -]+)"],
+    "what_is" : ["\\bquel(le)?([ ]est)?(?P<what_is>(.*))"]
+
   }
 }
