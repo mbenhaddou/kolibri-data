@@ -8,7 +8,7 @@
 
 
     "i_have_not_received_my_reimbursement" :[
-      "((n\"|’)?|ne)\\s*(les?)?\\s*(ai)?\\s*(pas|jamais)?\\s*(re(ç|c)u))\\s*(l(a|e|')?s?|mon|ma|notre|une?)\\s*versements?",
+      "((n\"|’)?|ne)\\s*(les?)?\\s*(ai)?\\s*(pas|jamais)?\\s*(re(ç|c)u)\\s*(l(a|e|')?s?|mon|ma|notre|une?)\\s*versements?",
        "(pas\\s*(encore)?\\s*(re(ç|c)u))\\s*(l(a|e|')?s?|mon|ma|notre|une?)\\s*versements?"
     ],
 

@@ -417,7 +417,7 @@
           },
             "family": "ensemble_tree",
            "matrix": "sparse",
-            "performance": "fast"
+            "performance": "slow"
         },
       "EcocEstimator": {
         "class": "kolibri.backend.sklearn.meta.EcocEstimator",
