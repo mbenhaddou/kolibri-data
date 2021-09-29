@@ -601,7 +601,7 @@
         },
         "name": "hist_radient_boosting_classifier",
         "family": "ensemble",
-         "matrix": "sparse",
+         "matrix": "dense",
         "performance": "fast"
   },
       "RidgeClassifier": {
