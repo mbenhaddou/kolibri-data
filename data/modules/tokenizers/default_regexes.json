@@ -1,5 +1,5 @@
 {
-        "WORD" : "(?P<WORD>[^.'\\s,#:!;/\\({\\[\\]\\)}?-]+|(?:'s|'t))",
+        "WORD" : "(?P<WORD>[^.'[ ],#:!;/\\({\\[\\]\\)}?-]+|(?:'s|'t))",
         "OTHER" : "[/\\\\{}\\(\\[\\)\\]#-]",
         "NUM" : "(?P<__NUMBER__>\\d+)",
         "CODE" : "(?P<NUMCODE>\\b[A-Z0-9]*(?=[A-Z0-9]{4,10})(?=[A-Z0-9]*\\d)(?=[A-Z0-9]*)[A-Z0-9-]*\\b)",
@@ -16,8 +16,8 @@
         "SEMICOLON" : "(?P<__PUNCTUATION__>;)",
         "TIMES" : "(?P<__SYMBOL__>\\*)",
         "EQ" : "(?P<__SYMBOL__>=)",
-        "WS" : "(?P<WS>\\s+)",
-        "CANDIDATE" : "(?P<__CANDIDATE__>([A-Z]\\w+\\s(?:de(?:\\sla)|du|di|des|van|of)?\\s*(?:[A-Z]\\w*[ \\.]?){1,2}(?:[A-Z]\\w*[\\.]?)?))",
+        "WS" : "(?P<WS>[ ]+)",
+        "CANDIDATE" : "(?P<__CANDIDATE__>([A-Z]\\w+[ ](?:de(?:[ ]la)|du|di|des|van|of)?[ ]*(?:[A-Z]\\w*[ \\.]?){1,2}(?:[A-Z]\\w*[\\.]?)?))",
         "OPENPARENTHESIS" : "(?P<__OPENPARENTHESIS__>[\\(\\<])",
         "CLOSEPARENTHESIS" : "(?P<__CLOSEPARENTHESIS__>[\\)\\<])",
         "ACORNYM" : "(?P<__ACRONYM__>\\b[A-Z][A-Z0-9-\\&]+\\b)",
