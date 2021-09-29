@@ -49,14 +49,14 @@
         },
         "EXLAMATION": {
                 "value": "\\!",
-                "label": "EXLAMATION"
+                "label": "EXCLAMATION"
         },
         "COLON": {
                 "value": "\\:",
                 "label": "PUNCTUATION"
         },
         "SEMICOLON": {
-                "value": "",
+                "value": ";",
                 "label": "PUNCTUATION"
         },
         "TIMES": {
@@ -97,7 +97,8 @@
         },
         "EXCEPTIONS": {
                 "value": "Aujourd\\'hui",
-                "label": "WORD"
+                "label": "WORD",
+                "flags": "re.IGNORECASE"
         },
         "DOUBLEQOTE": {
                 "value": "\\\"+",
@@ -112,7 +113,7 @@
                 "label": "PIPE"
         },
         "YEAR": {
-                "value": "\\b201\\d\\b",
+                "value": "\\b((20|19)\\d{2})\\b",
                 "label": "YEAR"
         },
         "PAYMENTCOMMUNICATION": {
