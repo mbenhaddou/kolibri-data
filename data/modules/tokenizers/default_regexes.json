@@ -121,7 +121,7 @@
                 "label": "PAYMENTCOMMUNICATION"
         },
         "MULTIPLEWORD": {
-                "value": "(?:\\w+-)(?!\\d{6,})(?:\\w+\\-?)+)",
+                "value": "(?:\\w+-)(?!\\d{6,})(?:\\w+\\-?)+",
                 "label": "MULTIWORD"
         }
 }
