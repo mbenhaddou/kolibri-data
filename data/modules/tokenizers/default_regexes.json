@@ -12,7 +12,7 @@
                  "label": "NUMBER"
         },
         "CODE" : {
-                "value": "\\b([A-Z]+[0-9A-Z]+[0-9]+[0-9A-Z]+)|([0-9]+[0-9A-Z]+[A-Z]+[0-9A-Z]+)\\b)",
+                "value": "\\b([A-Z]+[0-9A-Z]+[0-9]+[0-9A-Z]+)|([0-9]+[0-9A-Z]+[A-Z]+[0-9A-Z]+)\\b",
                 "label": "ALPHANUMCODE"
         },
         "MAYBECODE" : {
