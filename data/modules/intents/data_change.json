@@ -1,0 +1,37 @@
+{
+  "fr": {
+        "change_my_bank_account" :[
+      "(chang(é|e|è)e?(ment|r)?|modifi(er|cation))\\s*(de|d'?|l(a|e|')?s?|mon|ma|notre|une?)?\\s*(compte|coordonn(é|e|è)s?|institution|organisme)?\\s*(en)?\\s*ban(qu|c)(e|aire)",
+       "(chang(é|e|è)e?(ment|r)?|modifi(er|cation))\\s*(dans)?\\s*(de|d'?|l(a|e|')?s?|mon|ma|notre|une?)?\\s*(num(é|e|è)ros?\\s*(de|d'?)?\\s*comptes?|domiciliation|pr(é|e|è)l(é|e|è)vement)",
+    "(compte|coordonn(é|e|è)s?|institution|organisme)?\\s*ban(qu|c)(e|aire)\\s*(est|a|à)?\\s*(chang(é|e|è)e?(ment|r)?|modifi(é|e|è)e?)",
+    "nouveau\\s*num(é|e|è)ro\\s*de\\s*compte",
+      "transf(é|e)rer\\s*(de)?\\s*(la|du)?\\s*domiciliation"
+    ],
+        "change_my_domiciliation_execution_date" : [
+                     "date\\s*d(e|u)\\s*pr(é|e|è)l(é|e|è)vement",
+                   "changer\\s*(la)?\\s*date.*?(domicil(e|iation)s?|pr(é|e|è)l(é|e|è)vement)"
+                   ],
+        "modify_my_address" :[
+          "(modifier|changer|changement|adapt(é|e)|mett(re|iez)[ ]*(à|a)[ ]*jour)[ ]*(de|l'?|les?|mon|ma|mes|ce(s|t)?|notre|nos|son|vos|votre|sa|ses|une?)[ ]*(nouveau|nouvel(le)?)?[ ]*(adresse)",
+        ],
+    "modify_my_name" :[ "(modifier|changer|changement|adapt(é|e)|mett(re|iez)[ ]*(à|a)[ ]*jour)[ ]*(de|l'?|les?|mon|ma|mes|ce(s|t)?|notre|nos|son|vos|votre|sa|ses|une?)[ ]*(nouveau|nouvel(le)?)?[ ]*(noms?|prenom|destinataire)"],
+    "modify_my_birth_date" : ["(modifier|changer|changement|adapt(é|e)|mett(re|iez)[ ]*(à|a)[ ]*jour)[ ]*(de|l'?|les?|mon|ma|mes|ce(s|t)?|notre|nos|son|vos|votre|sa|ses|une?)[ ]*(nouveau|nouvel(le)?)?[ ]*(date[ ]*de[ ]*naissance)"],
+    "modify_data" :[ "(modifier|changer|changement|adapt(é|e)|mett(re|iez)[ ]*(à|a)[ ]*jour)[ ]*(de|l'?|les?|mon|ma|mes|ce(s|t)?|notre|nos|son|vos|votre|sa|ses|une?)[ ]*(nouveau|nouvel(le)?)?[ ]*(informations?|donn(é|e)e?s|coordonn(é|e)es?|dossier|syst(è|e)me)"],
+    "correct_my_name" :[ "(corriger)[ ]*(l'?|les?|mon|mes|ce(s|t)?|notre|nos|son|sa|ses|une?)[ ]*(noms?|prenom|destinataire)"],
+    "correct_my_address" : ["(corriger)[ ]*(l'?|les?|mon|mes|ce(s|t)?|notre|nos|son|sa|ses|une?)[ ]*(adresse)"],
+    "correct_my_birth_date" :[ "(corriger)[ ]*(l'?|les?|mon|mes|ce(s|t)?|notre|nos|son|sa|ses|une?)[ ]*(date[ ]*de[ ]*naissance)"],
+    "correct_my_data" :[ "(corriger)[ ]*(l'?|les?|mon|mes|ce(s|t)?|notre|nos|son|sa|ses|une?)[ ]*(informations?|donn(é|e)s|coordonn(é|e)es?)"],
+        "i_send_act_of_death" : ["(annexe|jointe?s?|copie|trouver|fichier).*(acte|avis|certificat)[ ]*de[ ]*d(é|e)c(è|e)s.*(annexe|jointe?s?|copie|trouver|fichier)"],
+    "modify_my_bank_account_number":["(modifier|changer|changement|adapt(é|e)|mett(re|iez)[ ]*(à|a)[ ]*jour)[ ]*(de|l'?|les?|mon|ma|mes|ce(s|t)?|notre|nos|son|vos|votre|sa|ses|une?)[ ]*(nouveau|nouvel(le)?)?[ ]*(num(é|e)ros?[ ]*de[ ]*compte?s?)"],
+    "correct_my_bank_account_number" : ["(corriger)[ ]*(l'?|les?|mon|mes|ce(s|t)?|notre|nos|son|sa|ses|une?)[ ]*(num(é|e)ros?[ ]*de[ ]*compte?s?)"],
+    "connect_to_my_client_space" :[ "(connect(e|é)r?|acc(é|e|è)(der|s)|joindre|consulter|entrer)[ ]*(a|à|sur|dans)?[ ]*(votre|mon|l(e|'|’)?)?[ ]*(espace|compte)"],
+    "delete" : ["d(é|e)sinscrire|promotionnelles|d(é|e)sabonner"],
+    "change_my_password": ["r(é|e)initialiser[ ]*(l'?|les?|mon|mes|ce(s|t)?|notre|nos|son|sa|ses|une?)?[ ]*mot[ ]*de[ ]*passe"],
+    "password" :[ "mot[ ]*de[ ]*passe"],
+    "change_my_username" : ["r(é|e)initialiser[ ]*(l'?|les?|mon|mes|ce(s|t)?|notre|nos|son|sa|ses|une?)?[ ]*identifiants?"],
+    "username" :[ "identifiants?"],
+     "modify_my_data_email":"(ancienne|nouvelle)[ ]*adresse[ ]*e-?mail",
+    "how_to_change_my_email":"(changer?|modifier?).*adresse[ ]*e?-?mails?"
+
+  }
+}
