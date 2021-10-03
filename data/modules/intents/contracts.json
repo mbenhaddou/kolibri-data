@@ -36,7 +36,7 @@
     ],
     "activate_my_contract" :["(confirmer|activer)[ ]*(mon|mes|les?|un|ce|notre|votre)[ ]*(nouveaux?|anciens?)?[ ]*contrat?s?"],
 
-    "my_contract" : "(mon|mes|les?|un|ce|notre|votre)[ ]*(nouveaux?|anciens?)?[ ]*contrat?s?"
+    "my_contract" : ["(mon|mes|les?|un|ce|notre|votre)[ ]*(nouveaux?|anciens?)?[ ]*contrat?s?"]
   }
 }
 

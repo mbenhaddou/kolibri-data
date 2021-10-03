@@ -4,7 +4,7 @@
     "application" :[ "l'application"],
     "device" :[ "boxx"],
 
-    "activation_code":[ "(code|num(e|é)ro|compte)[ ]*(d\"|’)?|de|pour)?[ ]*(pouvoir)?[ ]*(l'?|le|mon|ce)?[ ]*(nouveau)?[ ]*(activ(er|ation)|confirm(er|ation)|acc(é|e)der|accept(er|ation)|encod(é|e)|(é|e)lectricit(é|e)|contrat|valid(er|ation)|approuver|consulter)"],
+    "activation_code":[ "(code|num(e|é)ro|compte)[ ]*(d('|’)?|de|pour)?[ ]*(pouvoir)?[ ]*(l'?|le|mon|ce)?[ ]*(nouveau)?[ ]*(activ(er|ation)|confirm(er|ation)|acc(é|e)der|accept(er|ation)|encod(é|e)|(é|e)lectricit(é|e)|contrat|valid(er|ation)|approuver|consulter)"],
 
     "connect": ["(m|s)e[ ]*connecter"],
 

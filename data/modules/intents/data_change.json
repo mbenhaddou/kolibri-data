@@ -12,8 +12,9 @@
                    "changer\\s*(la)?\\s*date.*?(domicil(e|iation)s?|pr(é|e|è)l(é|e|è)vement)"
                    ],
         "modify_my_address" :[
-          "(modifier|changer|changement|adapt(é|e)|mett(re|iez)[ ]*(à|a)[ ]*jour)[ ]*(de|l'?|les?|mon|ma|mes|ce(s|t)?|notre|nos|son|vos|votre|sa|ses|une?)[ ]*(nouveau|nouvel(le)?)?[ ]*(adresse)",
+          "(modifier|changer|changement|adapt(é|e)|mett(re|iez)[ ]*(à|a)[ ]*jour)[ ]*(de|l'?|les?|mon|ma|mes|ce(s|t)?|notre|nos|son|vos|votre|sa|ses|une?)[ ]*(nouveau|nouvel(le)?)?[ ]*(adresse)"
         ],
+      "i_would_like_to_change_my_domiciliation":["(autre|dorénavant|modifier|change(r|ment))([ ]\\w+){0,6}[ ]domiciliation"],
     "modify_my_name" :[ "(modifier|changer|changement|adapt(é|e)|mett(re|iez)[ ]*(à|a)[ ]*jour)[ ]*(de|l'?|les?|mon|ma|mes|ce(s|t)?|notre|nos|son|vos|votre|sa|ses|une?)[ ]*(nouveau|nouvel(le)?)?[ ]*(noms?|prenom|destinataire)"],
     "modify_my_birth_date" : ["(modifier|changer|changement|adapt(é|e)|mett(re|iez)[ ]*(à|a)[ ]*jour)[ ]*(de|l'?|les?|mon|ma|mes|ce(s|t)?|notre|nos|son|vos|votre|sa|ses|une?)[ ]*(nouveau|nouvel(le)?)?[ ]*(date[ ]*de[ ]*naissance)"],
     "modify_data" :[ "(modifier|changer|changement|adapt(é|e)|mett(re|iez)[ ]*(à|a)[ ]*jour)[ ]*(de|l'?|les?|mon|ma|mes|ce(s|t)?|notre|nos|son|vos|votre|sa|ses|une?)[ ]*(nouveau|nouvel(le)?)?[ ]*(informations?|donn(é|e)e?s|coordonn(é|e)es?|dossier|syst(è|e)me)"],
