@@ -244,7 +244,7 @@
          "matrix": "sparse",
         "performance": "fast"
         },
-      "RandomForestClassifier": {
+        "RandomForestClassifier": {
           "class": "sklearn.ensemble.RandomForestClassifier",
           "name": "randomforest",
           "parameters": {
