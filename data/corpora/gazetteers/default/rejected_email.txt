@@ -4,3 +4,10 @@ Diagnostic information for administrators:
 The following organization rejected your message:
 Delivery is delayed to these recipients or groups
 I'm sorry to have to inform you that your message could not
+(Non remis|Niet geleverd)[ ]?\:
+Uw bericht kan niet worden bezorgd bij de volgende geadresseerden
+Échec de la remise pour ces destinataires ou groupes
+AVERTISSEMENT: Impossible d'envoyer un message pendant 1 heure
+A message that you sent has not yet been delivered to one or more of its
+La boîte aux lettres du destinataire est pleine et ne peut pas accepter de messages
+your message to ([\w\.-]+@[\w\.-]+) couldn't be delivered

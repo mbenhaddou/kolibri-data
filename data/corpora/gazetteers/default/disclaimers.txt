@@ -48,3 +48,4 @@ Dit e-mailbericht is bestemd voor de geadresseerde(n) en kan vertrouwelijk zijn
 This email has been checked for viruses by
 Souhaitez-vous plus d'informations ou avez-vous des questions? N'hésitez pas à nous contacter
 Si vous souhaitez des informations complémentaires, vous pouvez nous contacter à
+This message was sent from an external source. Please be careful opening attachments.

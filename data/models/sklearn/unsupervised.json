@@ -1,0 +1,159 @@
+{
+      "KMeans": {
+      "class": "sklearn.cluster.KMeans",
+      "parameters": {
+      "n_clusters": {
+        "value": 8,
+        "type" : "integer",
+        "values": [2, 20]
+      },
+      "n_init":  {
+        "value": 10,
+        "type": "integer",
+        "values": [10, 20]
+      },
+      "max_iter": {
+        "value":300 ,
+        "type": "integer",
+        "values":[300, 600]
+      },
+      "random_state": {
+        "value": 42
+      },
+      "algorithm": {
+        "value":"auto" ,
+        "type": "categorical",
+        "values": ["auto", "full", "elkan"]
+      }
+    },
+      "name": "k_means",
+        "family": "",
+        "matrix": "sparse",
+        "performance": "fast"
+  },
+      "AgglomerativeClustering": {
+      "class": "sklearn.cluster.AgglomerativeClustering",
+      "parameters": {
+      "n_clusters": {
+        "value": 2,
+        "type" : "integer",
+        "values": [2, 20]
+      },
+      "affinity":  {
+        "value": "euclidean",
+        "type": "categorical",
+        "values": ["euclidean", "l1", "l2","manhattan", "cosine"]
+      },
+      "linkage": {
+        "value":"ward",
+        "type": "categorical",
+        "values":["ward", "complete", "average", "single"]
+      }
+    },
+      "name": "agglomerative_clustering",
+        "family": "",
+        "matrix": "sparse",
+        "performance": "fast"
+  },
+      "Birch": {
+      "class": "sklearn.cluster.Birch",
+      "parameters": {
+      "n_clusters": {
+        "value": 3,
+        "type" : "integer",
+        "values": [2, 20]
+      },
+      "threshold":  {
+        "value": 0.5,
+        "type": "float",
+        "values": [0.1, 0.9]
+      },
+      "branching_factor": {
+        "value":50,
+        "type": "integer",
+        "values":[25, 100]
+      }
+    },
+      "name": "birch_clustering",
+        "family": "",
+        "matrix": "sparse",
+        "performance": "fast"
+  },
+      "DBSCAN": {
+      "class": "sklearn.cluster.DBSCAN",
+      "parameters": {
+      "leaf_size": {
+        "value": 30,
+        "type" : "integer",
+        "values": [20, 40]
+      },
+      "eps":  {
+        "value": 0.5,
+        "type": "float",
+        "values": [0.1, 0.9]
+      },
+      "min_samples": {
+        "value":5,
+        "type": "integer",
+        "values":[2, 10]
+      },
+     "algorithm": {
+        "value":"auto" ,
+        "type": "categorical",
+        "values": ["auto", "ball_tree", "kd_tree", "brute"]
+      }
+    },
+      "name": "dbscan_clustering",
+        "family": "",
+        "matrix": "sparse",
+        "performance": "fast"
+  },
+      "AffinityPropagation": {
+      "class": "sklearn.cluster.AffinityPropagation",
+      "parameters": {
+      "max_iter": {
+        "value":200 ,
+        "type": "integer",
+        "values":[200, 600]
+      },
+      "damping":  {
+        "value": 0.5,
+        "type": "float",
+        "values": [0.5, 1]
+      },
+      "convergence_iter": {
+        "value":15,
+        "type": "integer",
+        "values":[5, 30]
+      }
+    },
+      "name": "affinity_propagation_clustering",
+        "family": "",
+        "matrix": "sparse",
+        "performance": "fast"
+  },
+      "MiniBatchKMeans": {
+      "class": "sklearn.cluster.MiniBatchKMeans",
+      "parameters": {
+      "n_clusters": {
+        "value":8 ,
+        "type": "integer",
+        "values":[2, 20]
+      },
+      "max_iter":  {
+        "value": 100,
+        "type": "integer",
+        "values": [50, 200]
+      },
+      "batch_size": {
+        "value":1024,
+        "type": "categorical",
+        "values":[256, 512, 1024]
+      }
+    },
+      "name": "mini_batch_kmeans_clustering",
+        "family": "",
+        "matrix": "sparse",
+        "performance": "fast"
+  }
+}
