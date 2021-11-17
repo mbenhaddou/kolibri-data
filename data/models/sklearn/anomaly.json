@@ -1,0 +1,115 @@
+{
+  "PCA": {
+    "class": "pyod.models.pca.PCA",
+    "parameters": {
+      "n_components": {
+        "value": null,
+        "type": "mixed"
+      },
+      "n_selected_components": {
+        "value": null,
+        "type": "integer",
+        "values": [
+          2,
+          20
+        ]
+      },
+      "contamination": {
+        "value": 0.1,
+        "type": "float",
+        "values": [
+          0,
+          0.5
+        ]
+      },
+      "random_state": {
+        "value": 42
+      },
+      "svd_solver": {
+        "value": "auto",
+        "type": "categorical",
+        "values": [
+          "auto",
+          "full",
+          "arpack",
+          "randomized"
+        ]
+      },
+      "weighted": {
+        "value": true,
+        "type" : "boolean",
+        "values":
+                [true,
+                false
+                ]
+      }
+    },
+
+    "name": "Principal Component Analysis",
+    "family": "linear",
+    "matrix": "sparse",
+    "performance": "fast"
+  },
+  "IForest": {
+    "class": "pyod.models.iforest.IForest",
+    "parameters": {
+      "n_estimators": {
+        "value": 100,
+        "type": "integer",
+        "values":
+                [
+                  50,
+                  200
+                ]
+      },
+      "max_samples": {
+        "value": "auto",
+        "type": "mixed",
+        "values": [
+          2,
+          20
+        ]
+      },
+      "contamination": {
+        "value": 0.1,
+        "type": "float",
+        "values": [
+          0,
+          0.5
+        ]
+      },
+      "max_features": {
+        "value": 1,
+        "type": "float",
+        "values":[
+          0.1,
+          1
+        ]
+      },
+      "behaviour": {
+        "value": "old",
+        "type": "categorical",
+        "values": [
+          "old",
+          "new"
+        ]
+      },
+      "bootstrap": {
+        "value": true,
+        "type" : "boolean",
+        "values":
+                [true,
+                false
+                ]
+      },
+      "random_state": {
+        "value": 42
+      }
+    },
+
+    "name": "Isolation Forest",
+    "family": "linear",
+    "matrix": "sparse",
+    "performance": "fast"
+  }
+}
