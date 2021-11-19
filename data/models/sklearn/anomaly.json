@@ -170,6 +170,6 @@
     "family": "linear",
     "matrix": "sparse",
     "performance": "fast"
-  },
+  }
 
 }
