@@ -111,5 +111,65 @@
     "family": "linear",
     "matrix": "sparse",
     "performance": "fast"
-  }
+  },
+  "KNN": {
+    "class": "pyod.models.iforest.KNN",
+    "parameters": {
+      "method": {
+        "value": "largest",
+        "type": "string",
+        "values":
+                [
+                 "largest", "mean", "median"
+                ]
+      },
+      "radius": {
+        "value": 1.0,
+        "type": "integer",
+        "values": [
+          0.1,
+          1.0
+        ]
+      },
+      "contamination": {
+        "value": 0.1,
+        "type": "float",
+        "values": [
+          0,
+          0.5
+        ]
+      },
+      "n_neighbors": {
+        "value": 5,
+        "type": "integer",
+        "values":[
+          3,
+          20
+        ]
+      },
+      "leaf_size": {
+        "value": 30,
+        "type": "integer",
+        "values": [
+          20,
+         50
+        ]
+      },
+      "metric": {
+        "value": true,
+        "type" : "minkowski",
+        "values":
+                [
+                  "minkowski","cityblock", "cosine", "euclidean", "l1", "l2",
+          "manhattan"
+                ]
+      }
+    },
+
+    "name": "k-Nearest Neighbors Detector",
+    "family": "linear",
+    "matrix": "sparse",
+    "performance": "fast"
+  },
+
 }
