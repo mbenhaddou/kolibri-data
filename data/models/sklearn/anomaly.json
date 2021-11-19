@@ -156,8 +156,8 @@
         ]
       },
       "metric": {
-        "value": true,
-        "type" : "minkowski",
+        "value": "knn_results",
+        "type" : "≈string",
         "values":
                 [
                   "minkowski","cityblock", "cosine", "euclidean", "l1", "l2",
