@@ -113,7 +113,7 @@
     "performance": "fast"
   },
   "KNN": {
-    "class": "pyod.models.iforest.KNN",
+    "class": "pyod.models.knn.KNN",
     "parameters": {
       "method": {
         "value": "largest",
