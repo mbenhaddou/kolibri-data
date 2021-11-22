@@ -1,5 +1,5 @@
 {
-      "LinearRegression": {
+  "LinearRegression": {
         "class": "sklearn.linear_model.LinearRegression",
         "parameters": {
           "fit_intercept": {
@@ -34,9 +34,10 @@
               false
             ]
           }
-        }
+        },
+        "name": "Ordinary least squares Linear Regression"
       },
-    "Ridge": {
+  "Ridge": {
         "class": "sklearn.linear_model.Ridge",
         "parameters": {
           "alpha": {
@@ -89,10 +90,11 @@
               false
             ]
           }
-        }
+        },
+        "name": "Linear least squares with l2 regularization"
       },
 
-    "SGDRegressor": {
+  "SGDRegressor": {
         "class": "sklearn.linear_model.SGDRegressor",
         "parameters": {
           "alpha": {
@@ -145,6 +147,7 @@
               0.5
             ]
           }
-        }
+        },
+        "name": "Linear model fitted by minimizing a regularized empirical loss with SGD"
       }
 }
