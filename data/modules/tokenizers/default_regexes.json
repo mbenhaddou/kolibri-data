@@ -72,7 +72,7 @@
                 "label": "WS"
         },
         "CANDIDATE": {
-                "value": "(([A-Z]\\w+[ ])+(?:de(?:[ ]la)|du|di|des|van|of)?[ ]*(?:[A-Z]\\w*[ \\.]?){1,2}(?:[A-Z]\\w*[\\.]?)?)",
+                "value": "(([A-Z]\\w+[ ])+(?:de(?:[ ]la)|du|di|des|van|of)?[ ]*(?:[A-Z]\\w*[ \\.]?){1,2}|(?:[A-Z]\\w*[\\.]?)?)",
                 "label": "CANDIDATE"
         },
         "OPENPARENTHESIS": {
