@@ -66,6 +66,13 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="/data/datasets/nyc_taxi.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value=":" />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="/data/datasets/photovoltaic.csv">
           <value>
             <Attribute>
