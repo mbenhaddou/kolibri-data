@@ -1,6 +1,7 @@
 {
       "LogisticRegression": {
       "class": "sklearn.linear_model.LogisticRegression",
+      "description" : "In statistics, the logistic model is used to model the probability of a certain class or event existing such as pass/fail, win/lose, alive/dead or healthy/sick. This can be extended to model several classes of events such as determining whether an image contains a cat, dog, lion, etc.",
       "parameters": {
       "penalty": {
         "value": "l2",
@@ -38,6 +39,7 @@
   },
       "KNeighborsClassifier": {
         "class": "sklearn.neighbors.KNeighborsClassifier",
+        "description" : "K-nearest neighbors (KNN) is a type of supervised learning algorithm used for both regression and classification. KNN tries to predict the correct class for the test data by calculating the distance between the test data and all the training points. Then select the K number of points which is closet to the test data. The KNN algorithm calculates the probability of the test data belonging to the classes of ‘K’ training data and class holds the highest probability will be selected. In the case of regression, the value is the mean of the ‘K’ selected training points.",
         "parameters": {
           "n_neighbors": {
             "value": 5,
@@ -70,6 +72,7 @@
       },
        "RadiusNeighborsClassifier": {
         "class": "sklearn.neighbors.RadiusNeighborsClassifier",
+        "description" : "Radius Neighbors Classifier is a classification machine learning algorithm. It is an extension to the k-nearest neighbors algorithm that makes predictions using all examples in the radius of a new example rather than the k-closest neighbors. As such, the radius-based approach to selecting neighbors is more appropriate for sparse data, preventing examples that are far away in the feature space from contributing to a prediction.",
         "parameters": {
           "algorithm": {
             "value": "auto",
@@ -96,6 +99,7 @@
       },
       "MLPClassifier": {
           "class": "sklearn.neural_network.MLPClassifier",
+          "description" : "MLPClassifier stands for Multi-layer Perceptron classifier which in the name itself connects to a Neural Network. Unlike other classification algorithms such as Support Vectors or Naive Bayes Classifier, MLPClassifier relies on an underlying Neural Network to perform the task of classification.",
           "parameters": {
             "hidden_layer_sizes": {
               "value": 100,
@@ -139,6 +143,7 @@
         },
       "SVC": {
           "class": "sklearn.svm.SVC",
+          "description" : "The implementation is based on libsvm. The fit time scales at least quadratically with the number of samples and may be impractical beyond tens of thousands of samples. For large datasets consider using LinearSVC or SGDClassifier instead, possibly after a Nystroem transformer. The multiclass support is handled according to a one-vs-one scheme. For details on the precise mathematical formulation of the provided kernel functions and how gamma, coef0 and degree affect each other, see the corresponding section in the narrative documentation: Kernel functions.",
           "parameters": {
             "C": {
               "value": 1.0,
@@ -181,6 +186,7 @@
         },
       "LinearSVC": {
           "class": "sklearn.svm.LinearSVC",
+          "description" : "Similar to SVM with parameter kernel=’linear’, but implemented in terms of liblinear rather than libsvm, so it has more flexibility in the choice of penalties and loss functions and should scale better to large numbers of samples. This class supports both dense and sparse input and the multiclass support is handled according to a one-vs-the-rest scheme.",
           "parameters": {
             "C": {
               "value": 1.0,
@@ -205,6 +211,7 @@
         },
       "MultinomialNB": {
           "class": "sklearn.naive_bayes.MultinomialNB",
+          "description" : "Naive Bayes classifier for multinomial models. The multinomial Naive Bayes classifier is suitable for classification with discrete features (e.g., word counts for text classification). The multinomial distribution normally requires integer feature counts. However, in practice, fractional counts such as tf-idf may also work.",
           "name": "multinomial",
           "parameters": {
             "alpha": {
@@ -222,6 +229,7 @@
         },
       "SGDClassifier": {
           "class": "sklearn.linear_model.SGDClassifier",
+          "description" : "Linear classifiers (SVM, logistic regression, etc.) with SGD training. This estimator implements regularized linear models with stochastic gradient descent (SGD) learning: the gradient of the loss is estimated each sample at a time and the model is updated along the way with a decreasing strength schedule (aka learning rate). SGD allows minibatch (online/out-of-core) learning via the partial_fit method. For best results using the default learning rate schedule, the data should have zero mean and unit variance.",
          "name": "sgd_classifier",
           "parameters": {
             "loss": {
@@ -246,6 +254,7 @@
         },
         "RandomForestClassifier": {
           "class": "sklearn.ensemble.RandomForestClassifier",
+          "description" : "A random forest is a meta estimator that fits a number of decision tree classifiers on various sub-samples of the dataset and uses averaging to improve the predictive accuracy and control over-fitting. The sub-sample size is controlled with the max_samples parameter if bootstrap=True (default), otherwise the whole dataset is used to build each tree.",
           "name": "randomforest",
           "parameters": {
             "n_estimators": {
@@ -304,6 +313,7 @@
         },
       "DecisionTreeClassifier": {
           "class": "sklearn.tree.DecisionTreeClassifier",
+          "description" : "Decision Trees (DTs) are a non-parametric supervised learning method used for classification and regression. The goal is to create a model that predicts the value of a target variable by learning simple decision rules inferred from the data features. A tree can be seen as a piecewise constant approximation.",
            "name": "decision_tree",
           "parameters": {
             "criterion": {
@@ -351,6 +361,7 @@
         },
       "XGBClassifier": {
           "class": "xgboost.XGBClassifier",
+          "description" : "XGBoost is an algorithm that has recently been dominating applied machine learning and Kaggle competitions for structured or tabular data. XGBoost is an implementation of gradient boosted decision trees designed for speed and performance.",
           "name": "xgboost",
           "parameters": {
             "booster": {
@@ -445,6 +456,7 @@
       },
       "Perceptron": {
       "class": "sklearn.linear_model.Perceptron",
+      "description" : "The perceptron is an algorithm for supervised learning of binary classifiers. A binary classifier is a function which can decide whether or not an input, represented by a vector of numbers, belongs to some specific class",
       "parameters": {
         "penalty": {
         "value": "l2",
@@ -467,6 +479,7 @@
   },
       "PassiveAggressiveClassifier": {
       "class": "sklearn.linear_model.PassiveAggressiveClassifier",
+      "description" : "Passive-aggressive classification is one of the available incremental learning algorithms and it is very simple to implement, since it has a closed-form update rule.The core concept is that the classifier adjusts its weight vector for each misclassified training sample it receives, trying to correct it.",
       "parameters": {
         "C": {
         "value": 1.0,
@@ -489,6 +502,7 @@
   },
       "LabelPropagation":  {
         "class": "sklearn.semi_supervised.LabelPropagation",
+        "description" : "Label propagation is a semi-supervised machine learning algorithm that assigns labels to previously unlabeled data points. At the start of the algorithm, a (generally small) subset of the data points have labels (or classifications)",
         "parameters": {
           "gamma": {
           "value": 20,
@@ -511,6 +525,7 @@
   },
       "LabelSpreading": {
         "class": "sklearn.semi_supervised.LabelSpreading",
+        "description" : "LabelSpreading model for semi-supervised learning. This model is similar to the basic Label Propagation algorithm, but uses affinity matrix based on the normalized graph Laplacian and soft clamping across the labels.",
         "parameters": {
           "gamma": {
             "value": 20,
@@ -538,6 +553,7 @@
   },
       "GradientBoostingClassifier": {
         "class": "sklearn.ensemble.GradientBoostingClassifier",
+        "description" : "Gradient Boosting builds an additive model in a forward stage-wise fashion; it allows for the optimization of arbitrary differentiable loss functions. In each stage n_classes_ regression trees are fit on the negative gradient of the binomial or multinomial deviance loss function. Binary classification is a special case where only a single regression tree is induced.",
         "parameters": {
           "loss": {
             "value": "deviance",
@@ -578,6 +594,7 @@
         },
       "QuadraticDiscriminantAnalysis": {
         "class": "sklearn.discriminant_analysis.QuadraticDiscriminantAnalysis",
+        "description" : "A classifier with a quadratic decision boundary, generated by fitting class conditional densities to the data and using Bayes’ rule. The model fits a Gaussian density to each class.",
         "parameters": {
           "reg_param": {
           "value": 0.0,
@@ -592,6 +609,7 @@
   },
       "HistGradientBoostingClassifier": {
         "class": "sklearn.ensemble.HistGradientBoostingClassifier",
+        "description" : "This estimator is much faster than Gradient Boosting Classifier for big datasets (n_samples >= 10 000). This estimator has native support for missing values (NaNs). During training, the tree grower learns at each split point whether samples with missing values should go to the left or right child, based on the potential gain. When predicting, samples with missing values are assigned to the left or right child consequently. If no missing values were encountered for a given feature during training, then samples with missing values are mapped to whichever child has the most samples.",
         "parameters": {
           "learning_rate": {
           "value": 0.1,
@@ -606,6 +624,7 @@
   },
       "RidgeClassifier": {
         "class": "sklearn.linear_model.RidgeClassifier",
+        "description" : "This classifier first converts the target values into {-1, 1} and then treats the problem as a regression task (multi-output regression in the multiclass case).",
         "parameters": {
           "alpha": {
           "value": 1.0,
@@ -629,6 +648,7 @@
   },
       "ExtraTreesClassifier": {
         "class": "sklearn.ensemble.ExtraTreesClassifier",
+        "description" : "This class implements a meta estimator that fits a number of randomized decision trees (a.k.a. extra-trees) on various sub-samples of the dataset and uses averaging to improve the predictive accuracy and control over-fitting.",
         "parameters": {
           "criterion": {
           "value": "gini",
@@ -652,6 +672,7 @@
   },
       "BernoulliNB": {
         "class": "sklearn.naive_bayes.BernoulliNB",
+        "description" : "Like MultinomialNB, this classifier is suitable for discrete data. The difference is that while MultinomialNB works with occurrence counts, BernoulliNB is designed for binary/boolean features.",
         "parameters": {
           "alpha": {
           "value": 1.0,
@@ -666,6 +687,7 @@
   },
       "LinearDiscriminantAnalysis": {
         "class": "sklearn.discriminant_analysis.LinearDiscriminantAnalysis",
+        "description" : "A classifier with a linear decision boundary, generated by fitting class conditional densities to the data and using Bayes’ rule. The model fits a Gaussian density to each class, assuming that all classes share the same covariance matrix. The fitted model can also be used to reduce the dimensionality of the input by projecting it to the most discriminative directions, using the transform method.",
         "parameters": {
           "solver": {
           "value": "svd",
@@ -680,6 +702,7 @@
   },
       "GaussianNB": {
         "class": "sklearn.naive_bayes.GaussianNB",
+        "description" : "A Gaussian Naive Bayes algorithm is a special type of NB algorithm. It's specifically used when the features have continuous values. It's also assumed that all the features are following a gaussian distribution i.e, normal distribution.",
         "parameters": {
           "var_smoothing": {
           "value": 1e-9,
@@ -694,6 +717,7 @@
   },
       "NearestCentroid": {
         "class": "sklearn.neighbors.NearestCentroid",
+        "description" : "Each class is represented by its centroid, with test samples classified to the class with the nearest centroid.",
         "parameters": {
           "shrink_threshold": {
           "value": null,
@@ -708,6 +732,7 @@
   },
       "ExtraTreeClassifier": {
         "class": "sklearn.tree.ExtraTreeClassifier",
+        "description" : "Extra-trees differ from classic decision trees in the way they are built. When looking for the best split to separate the samples of a node into two groups, random splits are drawn for each of the max_features randomly selected features and the best split among those is chosen. When max_features is set 1, this amounts to building a totally random decision tree.",
         "parameters": {
           "criterion": {
           "value": "gini",
@@ -727,6 +752,7 @@
   },
       "DummyClassifier": {
         "class": "sklearn.dummy.DummyClassifier",
+        "description" : "This classifier serves as a simple baseline to compare against other more complex classifiers. The specific behavior of the baseline is selected with the strategy parameter. All strategies make predictions that ignore the input feature values passed as the X argument to fit and predict. The predictions, however, typically depend on values observed in the y parameter passed to fit. Note that the “stratified” and “uniform” strategies lead to non-deterministic predictions that can be rendered deterministic by setting the random_state parameter if needed. The other strategies are naturally deterministic and, once fit, always return a the same constant prediction for any value of X.",
         "parameters": {
           "strategy": {
           "value": "prior",
