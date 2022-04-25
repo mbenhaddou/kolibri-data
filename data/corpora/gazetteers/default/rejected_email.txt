@@ -19,3 +19,4 @@ Quarantine Summary: \[ \d message(s) quarantined from
 Delivery status notification
 Returned mail: see transcript for details
 The following addresses had permanent fatal errors
+Your message couldn't be delivered to
