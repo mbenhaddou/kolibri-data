@@ -11,3 +11,9 @@ AVERTISSEMENT: Impossible d'envoyer un message pendant 1 heure
 A message that you sent has not yet been delivered to one or more of its
 La boîte aux lettres du destinataire est pleine et ne peut pas accepter de messages
 your message to ([\w\.-]+@[\w\.-]+) couldn't be delivered
+Warning: could not send message for past 2 hours
+Undelivered Mail Returned to Sender
+Delivery has failed to these recipients or groups
+Returned mail: see transcript for details
+Quarantine Summary: \[ \d message(s) quarantined from
+Delivery status notification
