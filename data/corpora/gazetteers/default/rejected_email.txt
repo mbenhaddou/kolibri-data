@@ -17,3 +17,5 @@ Delivery has failed to these recipients or groups
 Returned mail: see transcript for details
 Quarantine Summary: \[ \d message(s) quarantined from
 Delivery status notification
+Returned mail: see transcript for details
+The following addresses had permanent fatal errors

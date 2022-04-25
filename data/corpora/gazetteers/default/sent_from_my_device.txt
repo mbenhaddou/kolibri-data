@@ -16,6 +16,7 @@ Verzonden vanuit Mail
 Verzonden vanuit Mail voor Windows 10
 Envoyé d’Outlook Mobile
 Téléchargez Outlook pour iOS
+Télécharger\s+Outlook pour Android
 Envoyé depuis Yahoo Mail pour Android
 Sent from my iPhone
 Envoyé depuis l'application myMail
@@ -24,3 +25,5 @@ Télécharger Outlook pour Android
 Outlook voor iOS downloaden
 الحصول على Outlook for Android
 Expédié de ma galaxie
+Outlook voor iOS downloaden
+Mail voor Windows 10

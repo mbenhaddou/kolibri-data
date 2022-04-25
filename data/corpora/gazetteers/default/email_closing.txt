@@ -73,7 +73,7 @@ Dziękuję[ ]+i[ ]+pozdarwiam
 Dziekuje
 En[ ]+vous[ ]+remerciant[ ]+(d’avance\.?)?(\s*pour[ ]+votre[ ]+suivi)?
 Avec[ ]+mes[ ]+salutations
-(E|É)nergiquement[ ]+v(ô|o)tre
+(E|É|e)nergiquement[ ]+v(ô|o)tre
 En[ ]+vous[ ]+remerciant
 Energetically[ ]+your
 Excellente[ ]+journ(é|e)e
@@ -138,6 +138,7 @@ Met[ ]+dank[ ]+voor[ ]+een[ ]+snelle[ ]+afhandeling
 Mit[ ]+freundlichem
 Mit[ ]+freundlichen[ ]+Grüßen
 Much[ ]+appreciated
+Met dank u te lezen
 Muchas[ ]+gracias
 Mvg\.?\b
 Nous[ ]+comptons[ ]+sur[ ]+votre[ ]+compréhension[ ]+et,[ ]+en[ ]+vous[ ]+remerciant,?
