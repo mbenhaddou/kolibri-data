@@ -38,8 +38,8 @@ def build_index(root):
         uids.add(item.get("package_id"))
 
     # Put it all together
-    json_data = {"kibri_data":{"packages":[]}}
-    json_data["kibri_data"]["packages"].extend(sorted(packages, key=lambda package: package.get("package_id")))
+    json_data = {"kolibri_data":{"packages":[]}}
+    json_data["kolibri_data"]["packages"].extend(sorted(packages, key=lambda package: package.get("package_id")))
     return json_data
 
 
