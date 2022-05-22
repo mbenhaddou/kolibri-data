@@ -1,0 +1,31 @@
+{
+        "BernoulliRBM": {
+          "class": "sklearn.neural_network.BernoulliRBM",
+        "parameters": {
+          "n_components": {
+          "value": 256,
+          "type" : "integer",
+          "values": [100, 1000]
+        },
+          "learning_rate": {
+          "value": 0.1,
+          "type" : "float",
+          "values": [0.001, 1]
+        },
+          "batch_size": {
+          "value": 10,
+          "type" : "int",
+          "values": [10, 128]
+        },
+          "n_iter": {
+          "value": 10,
+          "type" : "int",
+          "values": [10, 128]
+        }
+        },
+        "name": "bernoulli_rbm_classfier",
+        "family": "neural_network",
+        "matrix": "sparse",
+        "performance": "fast"
+        }
+}

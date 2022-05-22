@@ -1,0 +1,21 @@
+
+
+{
+"DATETIME_TYPES":["object", "datetime", "date", "date32", "date64", "time", "time32", "time64", "timestamp", "datetime64", "datetime64[ns]", "datetime[64]", "timedelta[ns]"],
+"OBJECT_TYPES":["object", "object", "array", "list", "vector", "dict"],
+"NUMERIC_TYPES":["int", "decimal", "int_", "bigint", "int8", "int16", "int32", "int64", "uint", "uint8", "uint16", "uint32", "uint64", "binary", "large_binary", "numeric", "float", "float16", "float32", "float64", "float_", "double"],
+"STRING_TYPES":[ "str", "string_", "large_string", "unicode_", "string"],
+"INT_TYPES":["int", "int_", "bigint", "int8", "int16", "int32", "int64", "uint", "uint8", "uint16", "uint32", "uint64", "binary", "large_binary"],
+  "PYTHON_SHORT_TYPES": {"string": "string",
+                      "str": "string",
+                      "integer": "int",
+                      "int": "int",
+                      "float": "float",
+                      "double": "double",
+                      "bool": "boolean",
+                      "boolean": "boolean",
+                      "array": "array",
+                      "null": "null"
+                      },
+"PYTHON_TYPES": {"string": "str", "int": "int", "float": "float", "boolean": "bool"}
+}

@@ -1,0 +1,8 @@
+{
+  "package_id": "taggers",
+  "Description": "Tagger models",
+  "languages": ["en"],
+  "type": "model",
+  "fields": [],
+  "lincence": ""
+}

@@ -1,0 +1,285 @@
+{
+
+    "ZIP_CODE" : {
+    "AD": "\\bAD[1-7]\\d{2}\\b",
+    "AM": "(\\b(37)\\d{4}\\b)|(\\b[0-4]{1,1}\\d{3}\\b)",
+    "AR": "(?!\\b[IO])(\\b[A-Z]?\\d{4,4}[A-Z]{3,3}\\b)",
+    "AS": "\\b96799\\b",
+    "AT": "\\b[1-9]\\d{3}\\b",
+    "AU": "\\b\\d{4}\\b",
+    "AX": "\\b22[1-9]\\d{2}\\b",
+    "AZ": "\\b[0-8]\\d{3}\\b",
+    "BA": "\\b[7-8]\\d{4}\\b",
+    "Bb": "(\\bBB(01|02|03|04|05|06|07|08|10|11)\\d{3})\\b",
+    "BD": "\\b\\d{4}\\b",
+    "BE": "\\b[1-9]\\d{3}\\b",
+    "BG": "\\b\\d{4}\\b",
+    "BH": "\\b((1[0-2]|[2-9])\\d{2})\\b",
+    "BM": "\\b(CR|DD|DV|FL|HM|HS|MA|PG|SN|SB|WK)[ ]?[0-2][0-9]\\b|\\bGE[ ]?(CX|[0-2][0-9])\\b",
+    "BN": "\\b((PE|T[F,H]|B[B,C,D]|K[B,F])[1-4]|(T[C,H,A,G,B]|P[C,A,D]|B[T,G,H,J,E]|K[C,E,A])[1-3]|(KG|PB|T[D,E]|B[L,N,U,F,A,M])[1-2]|(BP1|K[H,D]1|BS8))\\d{3}\\b",
+    "BR": "\\b\\d{5}[\\-]?\\d{3}\\b",
+    "BY": "\\b(224|225|210|211|246|247|230|231|220|223|212|213)\\d{3}\\b",
+    "CA": "\\b([A-CEGHJ-NPR-TVXY]\\d[A-Z])[ ]?\\d[A-Z]\\d$\\b",
+    "CC": "\\b6799\\b",
+    "CH": "\\b[1-468]\\d{3}\\b|\\b([57][0-7]|9[0-6])\\d{2}\\b",
+    "CK": "\\b\\d{4}\\b",
+    "CL": "\\b\\d{7}\\b",
+    "CN": "\\b[0-9]\\d{5}\\b",
+    "C": "\\d{4,5}|\\d{3}-\\d{4}",
+    "CS": "\\b\\d{5}\\b",
+    "CV": "\\b[1-9]\\d{3}\\b",
+    "CX": "\\b6798\\b",
+    "CY": "\\b[1-9]\\d{3}\\b",
+    "CZ": "\\b\\d{3}[ ]?\\d{2}\\b",
+    "DE": "\\b(W|O)-[1-9]\\d{3}\\b|\\b\\d{5}\\b",
+    "DK": "\\b[1-9]\\d{3}\\b",
+    "DO": "\\b\\d{5}\\b",
+    "DZ": "\\b\\d{5}\\b",
+    "EC": "\\b[A-Z]\\d{4}[A-Z]\\b|\\b(?:[A-Z]{2})?\\d{6}\\b",
+    "EE": "\\b[0-4]\\d{4}\\b",
+    "EG": "\\b[1-8]\\d{4}\\b",
+    "ES": "\\b([0-4]\\d|5[0-2])\\d{4}\\b",
+    "ET": "\\b[1-7]\\d{4}\\b",
+    "FI": "\\b\\d{5}\\b",
+    "FO": "\\b(FO[- ])?[1-9]\\d{2}\\b",
+    "F": "\\b\\d{2}[ ]?\\d{3}\\b",
+    "GE": "\\b\\d{4}\\b",
+    "GF": "(\\b9[78]3\\d{2}[ ]CEDEX[ ]?\\d?\\b)|(?![ ]CEDEX)(\\b9[78]3\\d{2}CEDEX\\d?\\b)|(\\b9[78]3\\d{2}\\b)",
+    "GL": "\\b39\\d{2}\\b",
+    "GN": "\\b\\d{3}\\b",
+    "GP": "\\b9[78][01]\\d{2}\\b",
+    "G": "\\b[1-8]\\d{2}[ ]?\\d{2}\\b",
+    "GS": "\\bSIQQ 1ZZ\\b",
+    "GT": "\\b[0-2]\\d{4}\\b",
+    "GW": "\\b\\d{4}\\b",
+    "HM": "\\b\\d{4}\\b",
+    "HN": "\\b[1-5]\\d{4}\\b",
+    "H": "\\b(10|20|21|22|23|31|32|33|34|35|40|42|43|44|47|48|49|51|52|53)\\d{3}\\b",
+    "HT": "\\b\\d{4}\\b",
+    "HU": "\\b[1-9]\\d{3}\\b",
+    "ID": "\\b[1-9]\\d{4}\\b",
+    "IL": "\\b[1-9]\\d{4}\\b",
+    "IN": "\\b[1-9]\\d{5}\\b",
+    "IO": "\\bBBND 1ZZ\\b",
+    "IQ": "\\b(52|64|34|41|62|56|32|42|10|51|44|36|46|58|54)\\d{3}\\b",
+    "IS": "\\b[1-9]\\d{2}\\b",
+    "IT": "\\b\\d{5}\\b",
+    "JO": "\\b[1-7]\\d{4}\\b",
+    "JP": "\\b\\d{3}-\\d{4}\\b",
+    "KE": "\\b\\d{5}\\b",
+    "KG": "\\b\\d{6}\\b",
+    "KH": "\\b\\d{5}\\b",
+    "K": "\\b\\d{3}[\\-]\\d{3}\\b",
+    "KW": "\\b\\d{5}\\b",
+    "KZ": "\\b\\d{6}\\b",
+    "LA": "\\b\\d{5}\\b",
+    "LK": "\\b\\d{5}\\b",
+    "L": "\\b\\d{4}\\b",
+    "LS": "\\b\\d{3}\\b",
+    "LT": "\\b\\d{5}\\b",
+    "LU": "\\b\\d{4}\\b",
+    "LV": "\\b\\d{4}\\b",
+    "MA": "\\b\\d{5}\\b",
+    "MC": "\\b980\\d{2}\\b",
+    "MD": "\\b\\d{4}\\b",
+    "ME": "\\b8\\d{4}\\b",
+    "MG": "\\b\\d{3}\\b",
+    "MK": "\\b\\d{4}\\b",
+    "MN": "\\b\\d{6}\\b",
+    "MQ": "\\b9[78]2\\d{2}\\b",
+    "MT": "\\b[A-Z]{3}[ ]?\\d{2,4}\\b",
+    "MU": "\\b(\\d{3}[A-Z]{2}\\d{3})?\\b",
+    "MV": "\\b\\d{5}\\b",
+    "MX": "\\b\\d{5}\\b",
+    "MY": "\\b\\d{5}\\b",
+    "NC": "\\b988\\d{2}\\b",
+    "NE": "\\b\\d{4}\\b",
+    "NF": "\\b2899\\b",
+    "NG": "\\b(\\d{6})?\\b",
+    "NI": "\\b((\\d{4}-)?\\d{3}-\\d{3}(-\\d{1})?)?\\b",
+    "NL": "\\b\\d{4}[ ]?[A-Z]{2}\\b",
+    "NO": "\\b\\d{4}\\b",
+    "NP": "\\b\\d{5}\\b",
+    "NZ": "\\b\\d{4}\\b",
+    "OM": "\\b(PC )?\\d{3}\\b",
+    "PF": "\\b987\\d{2}\\b",
+    "PG": "\\b\\d{3}\\b",
+    "PH": "\\b\\d{4}\\b",
+    "PK": "\\b\\d{5}\\b",
+    "PL": "\\b\\d{2}-\\d{3}\\b",
+    "PM": "\\b9[78]5\\d{2}\\b",
+    "PN": "\\bPCRN 1ZZ\\b",
+    "P": "\\b00[679]\\d{2}([ \\-]\\d{4})?\\b",
+    "PT": "\\b\\d{4}([\\-]\\d{3})?\\b",
+    "PW": "\\b96940\\b",
+    "PY": "\\b\\d{4}\\b",
+    "RE": "\\b9[78]4\\d{2}\\b",
+    "RO": "\\b\\d{6}\\b",
+    "RS": "\\b\\d{6}\\b",
+    "RU": "\\b\\d{6}\\b",
+    "SA": "\\b\\d{5}\\b",
+    "SE": "\\b\\d{3}[ ]?\\d{2}\\b",
+    "SG": "\\b\\d{6}\\b",
+    "SH": "\\b(ASCN|STHL) 1ZZ\\b",
+    "SI": "\\b\\d{4}\\b",
+    "SJ": "\\b\\d{4}\\b",
+    "SK": "\\b\\d{3}[ ]?\\d{2}\\b",
+    "SM": "\\b4789\\d\\b",
+    "SN": "\\b\\d{5}\\b",
+    "SO": "\\b\\d{5}\\b",
+    "SZ": "\\b[HLMS]\\d{3}\\b",
+    "TC": "\\bTKCA 1ZZ\\b",
+    "TH": "\\b\\d{5}\\b",
+    "TJ": "\\b\\d{6}\\b",
+    "TM": "\\b\\d{6}\\b",
+    "TN": "\\b\\d{4}\\b",
+    "T": "\\b\\d{5}\\b",
+    "TW": "\\b\\d{3}(\\d{2})?\\b",
+    "UA": "\\b\\d{5}\\b",
+    "US": "\\b\\d{5}([ \\-]\\d{4})?\\b",
+    "UY": "\\b\\d{5}\\b",
+    "UZ": "\\b\\d{6}\\b",
+    "VA": "\\b00120\\b",
+    "VE": "\\b\\d{4}\\b",
+    "WF": "\\b986\\d{2}\\b",
+    "XK": "\\b\\d{5}\\b",
+    "YT": "\\b976\\d{2}\\b",
+    "YU": "\\b\\d{5}\\b",
+    "ZA": "\\b\\d{4}\\b",
+    "ZM": "\\b\\d{5}\\b"
+},
+    "CREDIT_CARD" : "(\\d{4}[-\\s]?){3}\\d{4}",
+    "CREDIT_CARD_STRICT" : "((\\d{4}){3}|(\\d{4}-){3}|(\\d{4}\\s){3})\\d{4}",
+    "EMAIL_ADDRESS" :"([A-Za-z0-9!#$%&'*+\/=?^_`{|.}~-]+@(?:[A-Za-z0-9](?:[A-Za-z0-9-]*[A-Za-z0-9])?\\.)+[A-Za-z0-9](?:[A-Za-z0-9-]*[A-Za-z0-9])?)",
+    "IP_V4" : "([01]?\\d{1,2}|2(5[0-5]|[0-4]\\d))\\.([01]?\\d{1,2}|2(5[0-5]|[0-4]\\d))\\.([01]?\\d{1,2}|2(5[0-5]|[0-4]\\d))\\.([0rereer1]?\\d{1,2}|2(5[0-5]|[0-4]\\d))",
+    "MAC_ADDRESS" : "([0-9A-Fa-f]{2}[:-]){5} ([0-9A-Fa-f]{2})",
+    "HEX_VALUE" : "#?([a-f0-9]{6}|[a-f0-9]{3})",
+    "SLUG" : "[a-z0-9]+(?:-[a-z0-9]+)*",
+    "BITCOIN_ADDRESS" : "(?<![a-km-zA-HJ-NP-Z0-9])[13][a-km-zA-HJ-NP-Z0-9]{26,33}(?![a-km-zA-HJ-NP-Z0-9])",
+    "LATITUDE" : "(\\+|-)?(?:90(?:(?:\\.0{1,14})?)|(?:[0-9]|[1-8][0-9])(?:(?:\\.[0-9]{1,14})?))",
+    "LONGITUDE" : "(\\+|-)?(?:180(?:(?:\\.0{1,14})?)|(?:[0-9]|[1-9][0-9]|1[0-7][0-9])(?:(?:\\.[0-9]{1,14})?))",
+    "PHONE_NUMBER" : {
+
+    "FR": "(?:\\+33|0)\\d{9}",
+    "BE": "(((\\+|00)32[ ]?(?:\\(0\\)[ ]?)?)|0){1}(4(60|[789]\\d)\\/?(\\s?\\d{2}\\.?){2}(\\s?\\d{2})|(\\d\\/?\\s?\\d{3}|\\d{2}\\/?\\[ ]?\\d{2})(\\.?\\s?\\d{2}){2})",
+    
+    "ES": "(?:\\+34|0)\\d{9}",
+
+    "DK": "\\b(?:\\+45)?([ ]*\\d){8}(?![ ]\\d+)\\b",
+
+    "UA": "(\\+3|3)?8?([\\- ])?\\(?0[\\(\\- ]{0,2}\\d{2}[\\)\\- ]{0,2}(\\d{2,3}[\\- ]?\\d{1,2}[\\- ]?\\d{2,3})",
+    
+    "US": "\\b(\\+|00)?\\d{1,3}(?:(?:-|\\.| )?)\\(?\\d{2,3}\\)?((?:(?:-|\\.| )?)\\d{3,5}){2,3}[ ]*(ext[:\\.]\\s*\\d{3,5})?\\b"
+},
+    "LICENSE_PLATE" : {
+    
+    "TW": "([A-Z0-9]{2,3}-\\d{2,4}$)|(\\d{2,3}-[A-Z0-9]{2,3}$)|(\\d{4}-[A-Z0-9]{2})",
+    
+    "FR": "([A-Z]{2}-\\d{3}-[A-Z]{2}$)|(\\d{1,4}\\s[A-Z]{1,3}\\s\\d{2})",
+    
+    "GB": "([ABEZHIKMNOPTYXΑΒΕΖΗΙΚΜΝΟΡΤΥΧ]{3}-\\d{4})",
+    
+    "DE": "([A-Z]{1,3}-[A-Z]{1,2}-[1-9][0-9]{0,3}[H,E]{0,1})",
+
+    "BE": "[0-9]-?[A-Z]{3}-?[0-9]{3}"
+    },
+    "TIME_24H_FORMAT" : "(24:00|2[0-3]:[0-5][0-9]|[0-1][0-9]:[0-5][0-9])",
+    "ISO_8601_DATETIME" : "(?P<full>((?P<year>\\d{4})([/-]?(?P<mon>(0[1-9])|(1[012]))([/-]?(?P<mday>(0[1-9])|([12]\\d)|(3[01])))?)?(?:T(?P<hour>([01][0-9])|(?:2[0123]))(\\:?(?P<min>[0-5][0-9])(\\:?(?P<sec>[0-5][0-9]([\\,\\.]\\d{1,10})?))?)?(?:Z|([\\-+](?:([01][0-9])|(?:2[0123]))(\\:?(?:[0-5][0-9]))?))?)?))",
+    "ISBN" : "(?:ISBN(?:-1[03])?:? )?(?=[-0-9 ]{17}$|[-0-9X ]{13}$|[0-9X]{10}$)(?:97[89][- ]?)?[0-9]{1,5}[- ]?(?:[0-9]+[- ]?){2}[0-9X]",
+    "ROMAN_NUMERALS" : "(?=[MDCLXVI])M*(C[MD]|D?C*)(X[CL]|L?X*)(I[XV]|V?I*)",
+    "URL" : "(?:http|ftp)s?://(?:(?:[A-Z0-9](?:[A-Z0-9-]{0,61}[A-Z0-9])?\\.)+(?:[A-Z]{2,6}\\.?|[A-Z0-9-]{2,}\\.?)|localhost|\\d{1,3}\\.\\d{1,3}\\.\\d{1,3}\\.\\d{1,3}|\\[?[A-F0-9]*:[A-F0-9:]+\\]?)(?::\\d+)?(?:/?|[/?]\\s+)",
+    "AMOUNT" : "\\d+([\\.]\\d+)*|\\d+,\\d+\\d+\\b",
+    "DAY" : "(?P<day>\\b(?:31|30|0?1st|0?2nd|0?3rd|[1-9][0-9]th|(?:\\b[1-2][0-9]|\\b0?[1-9]))(?:\\s*of)?)",
+    "YEAR" : "(?P<year>(?:20|19)?\\d{2})",
+    "TITLES" : {
+        "value":"(mr|mrs|md|Phd|Ph.D|iii|ii|miss|jr|sr|prof|professor|dr)",
+        "flags": "re.IGNORECASE"
+            },
+    "DATE" : {
+        "EN": {
+            "value": "\\b(?:january|0?1|february|0?2|march|0?3|april|0?4|may|0?5|june|0?6|july|0?7|august|0?8|september|0?9|october|10|november|11|december|12|(?:(?:jan|feb|mar|apr|may|jun|jul|aug|sep|sept|oct|nov|dec)\\.?))(?:[ ]+|/|\\\\|,| |-|\\.|the)+(?:first|second|third|(?:\\d{1,2}|fif|six|seven|eigh|nin|ten|eleven|twelf|fourteen|thirteen|four|fifteen|sixteen|seventeen|eighteen|nineteen|twentie|thirtie|twenty-(?:four|fif|six|seven|eigh|nin|thirtie))(?:th)?|twenty-first|twenty-second|twenty-third|thirty-first|21st|2?2nd|2?3rd|3?1st)(?:[ ]+|/|\\\\|,| |-|\\.)+\\d{2,4}|(?:(?:Mon|Tues|Wedned|thurs|Fri|Satur|Sun)day[ ]+)?(?:the )?(?:first|second|third|(?:\\d{1,2}|four|fif|six|seven|eigh|nin|ten|eleven|twelf|fourteen|thirteen|fifteen|sixteen|seventeen|eighteen|nineteen|twentie|thirtie|twenty-(?:four|fif|six|seven|eigh|nin|thirtie))(?:th)?|twenty-first|twenty-second|twenty-third|thirty-first|21st|2?2nd|2?3rd|3?1st)(?:[ ]+of[ ]+|[ ]+|/|\\\\|,| \n|-|\\.)(?:january|0?1|february|0?2|march|0?3|april|0?4|may|0?5|june|0?6|july|0?7|august|0?8|september|0?9|october|10|november|11|december|12|(?:(?:jan|feb|mar|apr|may|jun|jul|aug|sep|sept|oct|nov|dec)\\.?))[/\\\\, \\.-]+\\d{2,4}",
+            "flags": "re.IGNORECASE"
+        },
+        "NL": {
+            "value": "\\b([0-3]?[0-9]|1st|2nd|3rd|\\d{,2}th|(?:19|20)\\d{2})[\\.\\/ -]([0-3]?[0-9]|j(?:an(uari)?|u(?:ni?|li?))|feb(ruari)?|m(?:aart|ei)|a(?:pril|ug(ustus)?)|(?:(?:(?:sept|nov|dec)(em)?)|o(k|c)to?)(ber)?)([\\/\\. -]+(?:19|20)?[0-9]{2})?\\b$|\\b(?:an(uari)?|u(?:ni?|li?))|feb(ruari)?|m(?:aart|ei)|a(?:pril|ug(ustus)?)|(?:(?:(?:sept|nov|dec)(em)?)|o(k|c)to?)(ber)?([\\/\\. -]+(?:19|20)?[0-9]{2})?\\b",
+            "flags": "re.IGNORECASE"
+        },
+        "FR": {
+            "value": "(?:\\d{1,2}\\s*)(?:janv|f(?:é|e)vr|mars|avr|mai|juin|juil|ao(?:û|u)t|sept|oct|nov|d(?:é|e)c)(?:\\.|i(?:er|l)|let|(?:em|o)bre)?\\s*(?:(?:19|20)\\d{2})?|(?:\\d{1,2}\\s*)?(?:janv|f(?:é|e)vr|mars|avr|mai|juin|juil|ao(?:û|u)t|sept|oct|nov|d(?:é|e)c)(?:\\.|i(?:er|l)|let|(?:em|o)bre)?\\s*(?:(?:19|20)\\d{2})",
+            "flags": "re.IGNORECASE"
+        }
+    },
+    "MONTH" : {
+        "EN": {
+            "value": "(?:(jan|febr)uary|march|april|jui?ne?|jully|august|(septem|octo|novem|decem)ber|(jan|feb|mar|apr|may|jun|jul|aug|sep|oct|nov|dec)\\.?)",
+            "flags": "re.IGNORECASE"
+        },
+        "NL" : {
+            "value": "\\b(?:an(uari)?|u(?:ni?|li?))|feb(ruari)?|m(?:aart|ei)|a(?:pril|ug(ustus)?)|(?:(?:(?:sept|nov|dec)(em)?)|o(k|c)to?)(ber)?",
+            "flags": "re.IGNORECASE"
+        },
+        "FR": {
+            "value":"(?:janv|f(?:é|e)vr|mars|avr|mai|juin|juil|ao(?:û|u)t|sept|oct|nov|d(?:é|e)c)(?:\\.|i(?:er|l)|let|(?:em|o)bre)?",
+            "flags": "re.IGNORECASE"
+        }
+
+    },
+    "IPV6" : "\\s*(?!.*::.*::)(?:(?!:)|:(?=:))(?:[0-9a-f]{0,4}(?:(?<=::)|(?<!::):)){6}(?:[0-9a-f]{0,4}(?:(?<=::)|(?<!::):)[0-9a-f]{0,4}(?:(?<=::)|(?<!:)|(?<=:)(?<!::):)|(?:25[0-4]|2[0-4]\\d|1\\d\\d|[1-9]?\\d)(?:\\.(?:25[0-4]|2[0-4]\\d|1\\d\\d|[1-9]?\\d)){3})\\s*",
+    "ENTITY" : "[A-Z][\\w-]*\\'?\\w+[,\\.]?(?:[\\. ]*[A-Z][\\w-]*\\'?[\\w-]*)*",
+    "STREET" : {
+        "value": "(\\d{1,4})?[\\w\\s]{1,20}\\b(?:street|st|avenue|ave|road|rd|highway|hwy|square|sq|trail|trl|drive|dr|court|ct|park|parkway|pkwy|circle|cir|boulevard|blvd)\\b\\w?(?=\\s|$)",
+        "flags": "re.IGNORECASE"
+    },
+    "NUMBER" : "\\b[0-9,\\.]+\\b",
+    "PO_BOX" : "P\\.? ?O\\.? Box \\d+",
+    "SOCIAL_SECURITY_NR" : {
+        "US": "\\b\\d{3}-?\\d{2}-?\\d{4}\\b"
+    },
+    "TIMESTAMP": "[0-9]{1,4}[\\/-][0-9]{1,2}[\\/-][0-9]{1,4}([ *]|'?T'?)[0-9]{1,2}:[0-9]{1,2}:[0-9]{1,2}([\\.,*+-]\\d{3,4}[\\+-]?\\d{0,4})?",
+    "STRING" : "\\b[\\w,\\' \\/()-]+",
+    "PARAGRAPH" : ".*",
+    "IBAN" : "(?P<IBAN>[A-Z]{2}[0-9]{2}(?:[ ]?[0-9X]{4}){3,4}(?:[ ]?[0-9X]{1,2})?)",
+    "CODE" : "\\b([A-Z]+[0-9A-Z]+[0-9]+[0-9A-Z]+)|([0-9]+[0-9A-Z]+[A-Z]+[0-9A-Z]+)\\b",
+    "CODE_ISIN" : "\\b([A-Z]{2})([A-Z0-9]{9})([0-9]{1})\\b",
+    "FILE_NAME" : "\\b([A-Za-z0-9\\(\\)\\. _,-])+(\\.)(docx|docx?|xlsx?|pdf|png|jpg|pptx?|rtf|csv|txt)\\b",
+    "QUARTER" : "\\bQ[1-4]\\s*(19|20)\\d{2}\\b",
+    "DURATION" :  {
+        "EN": {
+            "value":"(\\d+[\\.,]?\\d*\\s*(?:\\w+)?\\s*(days?|hours?|minutes?)\\s*(\\d+[?.]?\\d*\\s*(days?|hours?|minutes?))?)|\\b((\\d+)|(half|one|two|three|four|five|six|seven|eight|nine|ten|eleven|twelve|thirteen|fourteen|fifteen|sixteen|seventeen|eighteen|nineteen|twenty|thirty|forty|fifty|sixty|seventy|eighty|ninety| ))+\\s+(seconds?|minutes?|hours?|days?|weeks?|months?|years?)\\b",
+            "flags": "re.IGNORECASE"
+        }
+    },
+    "TIME_POINT" :{
+        "EN": {
+            "value":"\\b(today|tomorrow|tonight|yesterday)\\b|\\bnext\\s(day|week|month|year)\\b",
+            "flags": "re.IGNORECASE"
+        },
+        "FR": {
+            "value": "\\b(aujourd'hui|demain|cette nuit|hier|avant hier|le lendemain|(semaine|mois|ann?(ée)?|décinie)\\s*prochaine?)\b",
+            "flags": "re.IGNORECASE"
+        }
+    },
+    "UUID" : "[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}",
+    "TIME_FREQUENCY" : {
+        "EN": {
+            "value":"\\b(annualy|daily|forthnightly|hourly|monthly|nighthly|quarterly|weekly|yearly|bi-?weekly|Bi Weekly|every two weeks|every 2 weeks)\\b",
+            "flags": "re.IGNORECASE"
+        }
+    },
+    "DECIMAL_NUMBER" :"\\d+[,\\.]\\d+",
+    "FLOAT_NUMBER": "[+-]?((\\d\\d*\\.?\\d*)|(\\.\\d+))([Ee][+-]?\\d+)?",
+    "TITLE_WORD": "\\b[A-Z]\\w+",
+    "CREDIT_RATING" : "\\b(AAA|AA|A|BBB|BB|B)[+-]?",
+    "PERCENT" : "-?[0-9]{1,3}[\\.,][0-9]{1,3}\\%?",
+    "ENERGY_METER_NR": {
+        "BE": {
+            "value":"EAN\\s*:?\\s*\\d{18}\\b",
+            "flags": "re.IGNORECASE"
+        }
+    },
+    "MONEY" : {
+        "value":"(?:(?:-|\\+)?(?:\\$|¢|€|£|¥|฿|₽|лв|R$)[ ]?\\b[0-9]{1,}(?:[,\\. ]?[0-9]{3})*(?:[\\.,][0-9]{2})?)|(?:(?:-|\\+)?\\b[0-9]{1,}(?:[,\\. ]?[0-9]{3})*(?:[\\.,][0-9]{2})?\\s?(?:\\$|¢|€|£|¥|฿|₽|лв|R$|CHF|kr|kn|zl|rub|ron|sek|try|uah|aed|ils|kes|mad|mgn|zar|usd|aud|bdt|hkd|rp|php|sgd|euro?s?))",
+        "flags": "re.IGNORECASE"
+    },
+    "TIME" : "(\\d{1,2}[:hH]\\d{2}\\sGMT)|(\\d{1,2}[:hH]\\d{2})"
+}

@@ -1,0 +1,153 @@
+{
+  "LinearRegression": {
+        "class": "sklearn.linear_model.LinearRegression",
+        "parameters": {
+          "fit_intercept": {
+            "value": true,
+            "type": "boolean",
+            "values": [
+              true,
+              false
+            ]
+          },
+          "normalize": {
+            "value": false,
+            "type": "boolean",
+            "values": [
+              true,
+              false
+            ]
+          },
+          "copy_X": {
+            "value": true,
+            "type": "boolean",
+            "values": [
+              true,
+              false
+            ]
+          },
+          "positive": {
+            "value": false,
+            "type": "boolean",
+            "values": [
+              true,
+              false
+            ]
+          }
+        },
+        "name": "Ordinary least squares Linear Regression"
+      },
+  "Ridge": {
+        "class": "sklearn.linear_model.Ridge",
+        "parameters": {
+          "alpha": {
+            "value": 1.0
+          },
+          "fit_intercept": {
+            "value": true,
+            "type": "boolean",
+            "values": [
+              true,
+              false
+            ]
+          },
+          "normalize": {
+            "value": false,
+            "type": "boolean",
+            "values": [
+              true,
+              false
+            ]
+          },
+          "copy_X": {
+            "value": true,
+            "type": "boolean",
+            "values": [
+              true,
+              false
+            ]
+          },
+          "max_iter": {
+            "value": null,
+            "type": "integer",
+            "values": [
+              1000,
+              15000
+            ]
+          },
+          "solver": {
+            "value": "auto",
+            "type": "string",
+            "values": [
+              "auto", "svd", "cholesky", "lsqr", "sparse_cg", "sag", "saga", "lbfgs"
+            ]
+          },
+          "positive": {
+            "value": false,
+            "type": "boolean",
+            "values": [
+              true,
+              false
+            ]
+          }
+        },
+        "name": "Linear least squares with l2 regularization"
+      },
+
+  "SGDRegressor": {
+        "class": "sklearn.linear_model.SGDRegressor",
+        "parameters": {
+          "alpha": {
+            "value": 0.0001
+          },
+          "fit_intercept": {
+            "value": true,
+            "type": "boolean",
+            "values": [
+              true,
+              false
+            ]
+          },
+          "l1_ratio": {
+            "value": 0.15,
+            "type": "float",
+            "values": [
+              0.01,
+              0.99
+            ]
+          },
+          "epsilon": {
+            "value": 0.1,
+            "type": "boolean",
+            "values": [
+              0.05,
+              0.5
+            ]
+          },
+          "max_iter": {
+            "value": null,
+            "type": "integer",
+            "values": [
+              1000,
+              15000
+            ]
+          },
+          "learning_rate": {
+            "value": "invscaling",
+            "type": "string",
+            "values": [
+              "invscaling", "constant", "optimal", "adaptive"
+            ]
+          },
+          "eta0": {
+            "value": 0.01,
+            "type": "float",
+            "values": [
+              0.001,
+              0.5
+            ]
+          }
+        },
+        "name": "Linear model fitted by minimizing a regularized empirical loss with SGD"
+      }
+}

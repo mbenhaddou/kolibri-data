@@ -1,0 +1,8 @@
+{
+  "package_id": "statistics",
+  "Description": "Various language statistics",
+  "languages": ["ar", "cs", "de", "en", "es", "fi", "fr", "it", "ja", "nl", "pl", "pt", "ru", "zh", "bg", "bn", "ca", "da", "el", "fa", "he", "hi", "hi", "id", "ko", "lv", "sv", "tr", "uk"],
+  "type": "dictionary",
+  "fields": [],
+  "lincence": ""
+}

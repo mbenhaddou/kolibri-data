@@ -1,0 +1,8 @@
+{
+  "package_id": "tokeniers",
+  "Description": "Regexes for kolibri tokenizer",
+  "languages": ["all"],
+  "type": "dictionary",
+  "fields": ["key", "list_of_values"],
+  "lincence": ""
+}

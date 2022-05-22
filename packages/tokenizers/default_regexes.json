@@ -1,0 +1,127 @@
+{
+        "WORD" : {
+                "value": "[\\w+\\.\\',#:!;/\\({\\[\\]\\)}\\?-]+|(?:'s|'t)",
+                "label": "WORD"
+        },
+        "OTHER" : {
+                "value":"[/\\\\{}\\(\\[\\)\\]#-\\<\\>]",
+                "label": "OTHER"
+        },
+        "NUM" : {
+                "value":"\\d+",
+                 "label": "NUMBER"
+        },
+        "CODE" : {
+                "value": "\\b([A-Z]+[0-9A-Z]+[0-9]+[0-9A-Z]+)|([0-9]+[0-9A-Z]+[A-Z]+[0-9A-Z]+)\\b",
+                "label": "ALPHANUMCODE"
+        },
+        "MAYBECODE" : {
+                "value":"\\b\\d{0,3}[ ]?\\d{3}[ ]?\\d{3}[ ]?\\d{3}\\b",
+                "label": "MAYBECODE"
+        },
+        "NUM_TS": {
+                "value": "[0-9]{1,3}(?:,[0-9]{3})*(?:\\.[0-9]+)",
+                "label": "NUMBER"
+        },
+        "PLUS": {
+                "value": "\\+",
+                "label": "SYMBOL"
+        },
+        "MINUS": {
+                "value": "\\-",
+                "label": "SYMBOL"
+        },
+        "ELLIPSIS": {
+                "value": "\\.\\.\\.",
+                "label": "PUNCTUATION"
+        },
+        "DOT": {
+                "value": "\\.",
+                "label": "PUNCTUATION"
+        },
+        "COMA": {
+                "value": ",",
+                "label": "PUNCTUATION"
+        },
+        "QUESTION": {
+                "value": "\\?",
+                "label": "QUESTION"
+        },
+        "EXLAMATION": {
+                "value": "\\!",
+                "label": "EXCLAMATION"
+        },
+        "COLON": {
+                "value": "\\:",
+                "label": "PUNCTUATION"
+        },
+        "SEMICOLON": {
+                "value": ";",
+                "label": "PUNCTUATION"
+        },
+        "TIMES": {
+                "value": "\\*",
+                "label": "SYMBOL"
+        },
+        "EQ": {
+                "value": "=",
+                "label": "SYMBOL"
+        },
+        "WS": {
+                "value": "\\s+",
+                "label": "WS"
+        },
+        "CANDIDATE": {
+                "value": "(([A-Z]\\w+[ ])+(?:de(?:[ ]la)|du|di|des|van|of)?[ ]*(?:[A-Z]\\w*[ \\.]?){1,2}|[A-Z]\\w+\\b)",
+                "label": "CANDIDATE"
+        },
+        "OPENPARENTHESIS": {
+                "value": "[\\(\\<]",
+                "label": "OPENPARENTHESIS"
+        },
+        "CLOSEPARENTHESIS": {
+                "value": "[\\)\\<]",
+                "label": "CLOSEPARENTHESIS"
+        },
+        "ACORNYM": {
+                "value": "\\b[A-Z][A-Z0-9-\\&]+\\b",
+                "label": "ACRONYM"
+        },
+        "OPENQOTE": {
+                "value": "«+",
+                "label" : "OPENQOTE"
+        },
+        "ENDQOTE": {
+                "value": "»+",
+                "label": "ENDQOTE"
+        },
+        "EXCEPTIONS": {
+                "value": "Aujourd\\'hui",
+                "label": "WORD",
+                "flags": "re.IGNORECASE"
+        },
+        "DOUBLEQOTE": {
+                "value": "\\\"+",
+                "label": "DOUBLEQOTE"
+        },
+        "SINGLEQOTE": {
+                "value": "\\'+",
+                "label": "SINGLEQOTE"
+        },
+        "PIPE": {
+                "value": "\\|",
+                "label": "PIPE"
+        },
+        "YEAR": {
+                "value": "\\b((20|19)\\d{2})\\b",
+                "label": "YEAR"
+        },
+        "PAYMENTCOMMUNICATION": {
+                "value": "\\b(?:\\d{3}[\\/-]\\d{4}[\\/-]\\d{5})\\b",
+                "label": "PAYMENTCOMMUNICATION"
+        },
+        "MULTIPLEWORD": {
+                "value": "(?:\\w+-)(?!\\d{6,})(?:\\w+\\-?)+",
+                "label": "MULTIWORD"
+        }
+}

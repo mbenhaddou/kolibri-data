@@ -1,0 +1,45 @@
+ {
+  "close_contract" : [
+    "mettre[ ]*(un)?[ ]*(fin|terme|term)[ ]*(au|à|aux)?[ ]*(l'?|les?|mon|mes|ce(s|t)?|notre|nos|son|sa|ses|une?)?[ ]*(contrat?|abonnements?)",
+    "(fermer|cl(ô|o)turer?|r(é|e)silier|annuler|arr(e|ê)ter|terminer|supprimer)[ ]*(imm(é|e)diatement|au plus vite)?[ ]*(et|ou)?(ouvrir|transf(é|e)rer|fermer)?[ ]*(l'?|les?|mon|mes|ce(s|t)?|notre|nos|son|sa|ses|une?)[ ]*(compteurs?|compte|contrat?|abonnement|factures?|(e|é)lectricit(e|é)|gaz)"
+  ],
+    "continue_contract" :[
+      "(reprendre|prolonger)[ ]*(momentan(é|e)ment|temporairement)?[ ]*(l'?|les?|mon|mes|ce(s|t)?|notre|nos|son|sa|ses|une?)[ ]*(m(ê|e)me)?[ ]*(compteurs?|contrat?|abonnement|factures?|(e|é)lectricit(e|é)|gaz)",
+    "(continuer|poursuivre|assumer|garder|maintenir|rester)[ ]*(l'?|les?|mon|mes|ce(s|t)?|notre|nos|son|sa|ses|une?|avec|chez)[ ]*(m(ê|e)me)?[ ]*(contrat?|abonnement|vous|engie)"
+    ],
+    "continue_contract_with_you" : ["continuer[ ]*à?[ ]*(utiliser|être[ ]votre[ ]client|bénéficier[ ]de|profiter[ ]de)[ ]*(vos)?[ ]*(service)?"],
+    "transfer_contract" : ["(trans?f(e|é)r(er|iez)|changer)[ ]*(l'?|les?|mon|mes|ce(s|t)?|notre|nos|son|sa|ses|une?)[ ]*(compteurs?|contrat?|abonnement|factures?|(e|é)lectricit(e|é)|gaz|compte)"],
+    "modify_my_contract" : ["(modifier|changer)[ ]*(l'?|les?|mon|mes|ce(s|t)?|notre|nos|son|sa|ses|une?)[ ]*(acompte|contrat?|abonnement|factures?|montant)"],
+    "i_want_a_new_contract" : [
+      "connecter[ ]*avec[ ]*(vous|engie)",
+     "ouverture[ ]*(d'?|du|des?)[ ]*(mon|mes|un)?[ ]*(nouveau)?[ ]*(compteurs?|contrat?|abonnement|compte)",
+    "devenir[ ]*(un)?[ ]*(nouveau)?[ ]*client",
+     "(souscrire|ouvrir|faire|(é|e)tablir|prendre|contracter)[ ]*(à)?[ ]*(les?|l'?|une?|notre|mon)[ ]*(nouveau)?[ ]*(contrat?abonnement|compteur|compte)"
+    ],
+    "can_you_make_me_an_offer" : ["offre[ ]*(de|d'?|pour)?[ ]*(prix|contrat?|(é|e)lectricit(é|e)|votre|(é|e)nergie|gaz)"],
+    "resume_contract_in_another_name" : [
+      "r(é|e)ouverture[ ]*(d'?|du|des?)[ ]*(mon|mes|un)?[ ]*(nouveau)?[ ]*(compteurs?|contrat?|abonnement|compte)",
+        "(r(é|e)ouvrir|r(é|e)active|r(é|e)tablir|remettre|reprise)[ ]*(l'?|une?|les?|notre|mon|son|de|d')[ ]*(contrat?|abonnement|compteurs?|compte|(e|é)lectricit(e|é)|gaz)",
+     "(mettre|mis|factur(e|é)s?|adress(é|e)e?r?s?|trans?f(e|é)r(é|e|er|iez)|remplac(é|e)r?s?|reprendre|reprise?|soi(t|ent)|devienne|modifier|libell(é|e)e?s?|(é|e)tablir)[ ]*(l'ensemble)?[ ]*(de|du|d'?)?[ ]*(le|son|ses|mon)?[ ]*(contrat?|compteurs?|index)?[ ]*(a|à|en)[ ]*(mon|son|sa)[ ]*nom"
+    ],
+
+    "contract_code" :[
+     "(\\d+|deux|trois|quatre|cinq|six|sept|huit|neuf|dix)[ ]*chiffres?.*contrat?",
+    "contrat?.*(\\d+|deux|trois|quatre|cinq|six|sept|huit|neuf|dix)[ ]*chiffres?"
+    ],
+
+    "download_my_invoices" : [
+      "t(é|e)l(é|e)charger.*(factures?|d(é|e)compte)",
+                         "t(é|e)l(é|e)charger.*contrat?",
+                         "contrat?.*t(é|e)l(é|e)charger?"
+    ],
+    "activate_my_contract" :["(confirmer|activer)[ ]*(mon|mes|les?|un|ce|notre|votre)[ ]*(nouveaux?|anciens?)?[ ]*contrat?s?"],
+
+    "my_contract" : ["(mon|mes|les?|un|ce|notre|votre)[ ]*(nouveaux?|anciens?)?[ ]*contrat?s?"]
+  }
+
+
+
+
+
+

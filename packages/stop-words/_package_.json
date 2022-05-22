@@ -1,0 +1,8 @@
+{
+  "package_id": "stop-words",
+  "Description": "Stop words list",
+  "languages": ["all"],
+  "type": "list",
+  "fields": [],
+  "lincence": ""
+}

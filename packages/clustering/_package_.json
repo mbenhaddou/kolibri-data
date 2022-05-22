@@ -1,0 +1,7 @@
+{
+  "package_id": "clustering",
+  "Description": "Clustering ressources and thir party libraries",
+  "languages": ["all"],
+  "type": "models",
+  "lincence": ""
+}

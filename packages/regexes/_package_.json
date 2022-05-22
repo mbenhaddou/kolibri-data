@@ -1,0 +1,8 @@
+{
+  "package_id": "regexes",
+  "Description": "Various regexes to mach various entities",
+  "languages": ["all"],
+  "type": "dictionary",
+  "fields": ["key", "list_of_values"],
+  "lincence": ""
+}

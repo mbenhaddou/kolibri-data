@@ -1,0 +1,536 @@
+{
+  "PCA": {
+    "class": "pyod.models.pca.PCA",
+    "parameters": {
+      "n_components": {
+        "value": null,
+        "type": "mixed"
+      },
+      "n_selected_components": {
+        "value": null,
+        "type": "integer",
+        "values": [
+          2,
+          20
+        ]
+      },
+      "contamination": {
+        "value": 0.1,
+        "type": "float",
+        "values": [
+          0,
+          0.5
+        ]
+      },
+      "random_state": {
+        "value": 42
+      },
+      "svd_solver": {
+        "value": "auto",
+        "type": "categorical",
+        "values": [
+          "auto",
+          "full",
+          "arpack",
+          "randomized"
+        ]
+      },
+      "weighted": {
+        "value": true,
+        "type" : "boolean",
+        "values":
+                [true,
+                false
+                ]
+      }
+    },
+
+    "name": "Principal Component Analysis",
+    "family": "linear",
+    "matrix": "sparse",
+    "performance": "fast"
+  },
+  "IForest": {
+    "class": "pyod.models.iforest.IForest",
+    "parameters": {
+      "n_estimators": {
+        "value": 100,
+        "type": "integer",
+        "values":
+                [
+                  50,
+                  200
+                ]
+      },
+      "max_samples": {
+        "value": "auto",
+        "type": "mixed",
+        "values": [
+          2,
+          20
+        ]
+      },
+      "contamination": {
+        "value": 0.1,
+        "type": "float",
+        "values": [
+          0,
+          0.5
+        ]
+      },
+      "max_features": {
+        "value": 1,
+        "type": "float",
+        "values":[
+          0.1,
+          1
+        ]
+      },
+      "behaviour": {
+        "value": "old",
+        "type": "categorical",
+        "values": [
+          "old",
+          "new"
+        ]
+      },
+      "bootstrap": {
+        "value": true,
+        "type" : "boolean",
+        "values":
+                [true,
+                false
+                ]
+      },
+      "random_state": {
+        "value": 42
+      }
+    },
+
+    "name": "Isolation Forest",
+    "family": "linear",
+    "matrix": "sparse",
+    "performance": "fast"
+  },
+  "KNN": {
+    "class": "pyod.models.knn.KNN",
+    "parameters": {
+      "method": {
+        "value": "largest",
+        "type": "string",
+        "values":
+                [
+                 "largest", "mean", "median"
+                ]
+      },
+      "radius": {
+        "value": 1.0,
+        "type": "integer",
+        "values": [
+          0.1,
+          1.0
+        ]
+      },
+      "contamination": {
+        "value": 0.1,
+        "type": "float",
+        "values": [
+          0,
+          0.5
+        ]
+      },
+      "n_neighbors": {
+        "value": 5,
+        "type": "integer",
+        "values":[
+          3,
+          20
+        ]
+      },
+      "leaf_size": {
+        "value": 30,
+        "type": "integer",
+        "values": [
+          20,
+         50
+        ]
+      },
+      "metric": {
+        "value": "minkowski",
+        "type" : "≈string",
+        "values":
+                [
+                  "minkowski","cityblock", "cosine", "euclidean", "l1", "l2",
+          "manhattan"
+                ]
+      }
+    },
+
+    "name": "k-Nearest Neighbors Detector",
+    "family": "linear",
+    "matrix": "sparse",
+    "performance": "fast"
+  },
+  "ABOD": {
+    "class": "pyod.models.abod.ABOD",
+    "parameters": {
+      "method": {
+        "value": "largest",
+        "type": "string",
+        "values":
+                [
+                 "fast", "default"
+                ]
+      },
+      "contamination": {
+        "value": 0.1,
+        "type": "float",
+        "values": [
+          0,
+          0.5
+        ]
+      },
+      "n_neighbors": {
+        "value": 10,
+        "type": "integer",
+        "values":[
+          5,
+          20
+        ]
+      }
+    },
+
+    "name": "Angle-base Outlier Detection",
+    "family": "linear",
+    "matrix": "sparse",
+    "performance": "fast"
+  },
+  "CBLOF":  {
+    "class": "pyod.models.cblof.CBLOF",
+    "parameters": {
+      "clustering_estimator": {
+        "value": "fast",
+        "type": "string",
+        "values":
+                [
+                 "fast", "default"
+                ]
+      },
+      "contamination": {
+        "value": 0.1,
+        "type": "float",
+        "values": [
+          0,
+          0.5
+        ]
+      },
+      "n_clusters": {
+        "value": 8,
+        "type": "integer",
+        "values":[
+          5,
+          16
+        ]
+      },
+      "alpha": {
+        "value": 0.9,
+        "type": "float",
+        "values":[
+          0.5,
+          1
+        ]
+      },
+      "beta": {
+        "value": 5.0,
+        "type": "float",
+        "values":[
+          1.0,
+          20.0
+        ]
+      },
+      "random_state": {
+        "value": null
+      }
+    },
+
+    "name": "Clustering Based Local Outlier Factor (CBLOF)",
+    "family": "linear",
+    "matrix": "sparse",
+    "performance": "fast"
+  },
+  "SVM":  {
+    "class": "pyod.models.ocsvm.OCSVM",
+    "parameters": {
+      "kernel": {
+        "value": "rbf",
+        "type": "string",
+        "values":
+                [
+                  "linear", "poly", "rbf", "sigmoid"
+                ]
+      },
+      "contamination": {
+        "value": 0.1,
+        "type": "float",
+        "values": [
+          0,
+          0.5
+        ]
+      },
+      "nu": {
+        "value": 0.5,
+        "type": "float",
+        "values":[
+          0.01,
+          1
+        ]
+      },
+      "degree": {
+        "value": 3,
+        "type": "integer",
+        "values":[
+          2,
+          4
+        ]
+      }
+    },
+
+    "name": "One-class SVM detector. Implemented on scikit-learn library",
+    "family": "linear",
+    "matrix": "sparse",
+    "performance": "fast"
+  },
+  "XGBOD":  {
+    "class": "pyod.models.xgbod.XGBOD",
+    "parameters": {
+      "estimator_list": {
+        "value": null,
+        "type": "string"
+      },
+      "learning_rate": {
+        "value": 0.1,
+        "type": "float",
+        "values": [
+          0,
+          0.5
+        ]
+      },
+      "max_depth": {
+        "value": 3,
+        "type": "integer",
+        "values":[
+          1,
+          6
+        ]
+      },
+      "booster": {
+        "value": "gbtree",
+        "type": "string",
+        "values":[
+          "gbtree", "gblinear" , "dart"
+        ]
+      },
+      "n_estimators": {
+        "value": 100,
+        "type": "integer",
+        "values":[
+          50,
+          500
+        ]
+      }
+
+    },
+
+    "name": "Supervised Outlier Detection with Unsupervised Representation Learning",
+    "family": "linear",
+    "matrix": "sparse",
+    "performance": "fast"
+  },
+  "COF":  {
+    "class": "pyod.models.cof.COF",
+    "parameters": {
+      "method": {
+        "value": "largest",
+        "type": "string",
+        "values":
+                [
+                 "fast", "memory"
+                ]
+      },
+      "contamination": {
+        "value": 0.1,
+        "type": "float",
+        "values": [
+          0,
+          0.5
+        ]
+      },
+      "n_neighbors": {
+        "value": 20,
+        "type": "integer",
+        "values":[
+          10,
+          30
+        ]
+      }
+    },
+
+    "name": "Connectivity-Based Outlier Factor (COF) Algorithm",
+    "family": "linear",
+    "matrix": "sparse",
+    "performance": "fast"
+  },
+  "HBOS":  {
+    "class": "pyod.models.hbos.HBOS",
+    "parameters": {
+      "nbins": {
+        "value": 10,
+        "type": "integer",
+        "values":
+                [
+                 5, 20
+                ]
+      },
+      "contamination": {
+        "value": 0.1,
+        "type": "float",
+        "values": [
+          0,
+          0.5
+        ]
+      },
+      "alpha": {
+        "value": 0.1,
+        "type": "float",
+        "values":[
+          0.01,
+          1
+        ]
+      }
+    },
+
+    "name": "Histogram-based Outlier Detection (HBOS)",
+    "family": "linear",
+    "matrix": "sparse",
+    "performance": "fast"
+  },
+  "LOF":  {
+    "class": "pyod.models.lof.LOF",
+    "parameters": {
+      "algorithm": {
+        "value": "AUTO",
+        "type": "string",
+        "values":
+                [
+                "auto", "ball_tree", "kd_tree", "brute"
+                ]
+      },
+      "contamination": {
+        "value": 0.1,
+        "type": "float",
+        "values": [
+          0,
+          0.5
+        ]
+      },
+      "n_neighbors": {
+        "value": 20,
+        "type": "integer",
+        "values":[
+          10,
+          30
+        ]
+      },
+      "novelty": {
+        "value": false,
+        "type": "boolean",
+        "values":[
+          true,
+          false
+        ]
+      }
+    },
+
+    "name": "Local Outlier Factor (LOF)",
+    "family": "linear",
+    "matrix": "sparse",
+    "performance": "fast"
+  },
+  "SOD":  {
+    "class": "classpyod.models.sod.SOD",
+    "parameters": {
+      "alpha": {
+        "value": 0.8,
+        "type": "float",
+        "values":
+                [
+                 0,
+                  1
+                ]
+      },
+      "contamination": {
+        "value": 0.1,
+        "type": "float",
+        "values": [
+          0,
+          0.5
+        ]
+      },
+      "n_neighbors": {
+        "value": 20,
+        "type": "integer",
+        "values":[
+          10,
+          30
+        ]
+      },
+      "ref_set": {
+        "value": 10,
+        "type": "integer",
+        "values":[
+          5,
+          20
+        ]
+      }
+    },
+
+    "name": "Subspace Outlier Detection (SOD)\n\n",
+    "family": "linear",
+    "matrix": "sparse",
+    "performance": "fast"
+  },
+  "SOS":  {
+    "class": "pyod.models.sos.SOS",
+    "parameters": {
+      "metric": {
+        "value": "ecludean",
+        "type": "string",
+        "values":
+                [
+                "euclidean","braycurtis", "canberra", "chebyshev", "correlation", "dice", "hamming", "jaccard", "kulsinski", "mahalanobis", "matching", "minkowski", "rogerstanimoto", "russellrao", "seuclidean", "sokalmichener", "sokalsneath", "sqeuclidean", "yule"
+                ]
+      },
+      "contamination": {
+        "value": 0.1,
+        "type": "float",
+        "values": [
+          0,
+          0.5
+        ]
+      },
+      "perplexity": {
+        "value": 4.5,
+        "type": "float",
+        "values":[
+          1,
+          30
+        ]
+      }
+    },
+
+    "name": "Stochastic Outlier Selection (SOS)",
+    "family": "linear",
+    "matrix": "sparse",
+    "performance": "fast"
+  }
+}

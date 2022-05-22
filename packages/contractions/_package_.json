@@ -1,0 +1,8 @@
+{
+  "package_id": "contractions",
+  "Description": "Language contraction dictionary",
+  "type": "dictionary",
+  "fields": ["key", "value"],
+  "languages": ["en"],
+  "lincence": ""
+}

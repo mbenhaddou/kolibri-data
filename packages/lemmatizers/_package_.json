@@ -1,0 +1,8 @@
+{
+  "package_id": "lemmatizers",
+  "Description": "Lemmatizer models for various languages",
+  "languages": ["fr"],
+  "type": "model",
+  "fields": [],
+  "lincence": ""
+}

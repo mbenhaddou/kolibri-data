@@ -1,0 +1,8 @@
+{
+  "package_id": "language_detector",
+  "Description": "Language detector models",
+  "languages": ["all"],
+  "type": "model",
+  "fields": [],
+  "lincence": ""
+}

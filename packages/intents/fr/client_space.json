@@ -1,0 +1,41 @@
+ {
+    "activate_my_client_space":["(activer|cr(é|e)er)[ ]*(votre|mon|l(e|'|’)?|un)?[ ]*(espace|compte)"],
+    "application" :[ "l'application"],
+    "device" :[ "boxx"],
+
+    "activation_code":[ "(code|num(e|é)ro|compte)[ ]*(d('|’)?|de|pour)?[ ]*(pouvoir)?[ ]*(l'?|le|mon|ce)?[ ]*(nouveau)?[ ]*(activ(er|ation)|confirm(er|ation)|acc(é|e)der|accept(er|ation)|encod(é|e)|(é|e)lectricit(é|e)|contrat|valid(er|ation)|approuver|consulter)"],
+
+    "connect": ["(m|s)e[ ]*connecter"],
+
+    "adapt_my_invoice":["(adapter|ajuster|modifier)[ ]*(mon|mes|les?)[ ]*(acomptes?|montants?|facture)"],
+    "i_would_like_receive_invoice_in_paper":[
+                    "(version|sur|factures?|en|sous|au|par|mode)[ ]*(la)?[ ]*(form(at|e))?[ ]*\"?papiers?\"?",
+                   "form(at|e)[ ]*\"?papiers?\"?",
+                   "(par|via)[ ]*(la|voie|envoi)?[ ]*(b?post(ale?)?|courrier)"
+                  ],
+    "download_my_invoices":[
+                    "t(é|e)l(é|e)charger.*(factures?|d(é|e)compte)",
+                  "(factures?|d(é|e)compte).*t(é|e)l(é|e)charger",
+                  "t(é|e)l(é|e)charger.*contrats?",
+                  "contrats?.*t(é|e)l(é|e)charger"
+                  ],
+    "download_my_contract":["t(é|e)l(é|e)charger.*contrats?",
+                  "contrats?.*t(é|e)l(é|e)charger"],
+    "copy_of_invoice_in_paper":"[(copies?|duplicata)[ ]*papiers?[ ]*(d(e|')?)?[ ]*(toutes)?[ ]*(la|les?|mes|ma|des?|une?|vos|mon|notre|du)[ ]*(derni(è|e)res?)?[ ]*factures?]",
+    "copy_of_invoice_in_pdf":"[(copies?|duplicata)[ ]*(pdf|digitale)[ ]*(d(e|')?)?[ ]*(toutes)?[ ]*(la|les?|mes|ma|des?|une?|vos|mon|notre|du)[ ]*(derni(è|e)res?)?[ ]*factures?]",
+    "copy_of_invoice":[
+      "(copies?|duplicata)[ ]*de[ ]*la[ ]*facture",
+      "(copies?|duplicata)[ ]*[ ]*(d(e|')?)?[ ]*(toutes)?[ ]*(la|les?|mes|ma|des?|une?|vos|mon|notre|du)[ ]*(derni(è|e)res?)?[ ]*factures?"
+    ],
+    "copy_of_contract_in_paper":["(copies?|duplicata)[ ]*papiers?[ ]*(de)?[ ]*(la|les?|mes|ma|des?|une?|vos|mon|notre|du)[ ]*contrats?"],
+    "copy_of_contract_in_pdf":["(copies?|duplicata)[ ]*pdf?[ ]*(de)?[ ]*(la|les?|mes|ma|des?|une?|vos|mon|notre|du)[ ]*contrats?"],
+
+    "copy_of_contract":["(copies?|duplicata)[ ]*(papier|pdf)?[ ]*(de)?[ ]*(la|les?|mes|ma|des?|une?|vos|mon|notre|du)[ ]*contrats?"],
+    "copy_of_annual_invoice":["(copies?|duplicata)[ ]*(papier|pdf)?[ ]*(d(e|')?)?[ ]*(toutes)?[ ]*(la|les?|mes|ma|des?|une?|vos|mon|notre|du)[ ]*(derni(è|e)res?)?[ ]*d(é|e)comptes?"],
+    "print_my_invoice":["imprimer[ ]*(toutes)?[ ]*(la|les?|mes|ma|des?|une?|vos|mon|notre|du)[ ]*(derni(è|e)res?)?[ ]*(d(é|e)comptes?|factures?)"],
+
+    "print_my_contract":["imprimer[ ]*(toutes)?[ ]*(la|les?|mes|ma|des?|une?|vos|mon|notre|du)[ ]*(derni(è|e)res?)?[ ]*contrats?"],
+    "via_email":["(via|par)[ ]*e?([ ]*|-)?mails?"],
+    "change_my_settings_language":["(fran(ç|c)ais|n(é|e)erlandais|allemand)"]
+
+  }

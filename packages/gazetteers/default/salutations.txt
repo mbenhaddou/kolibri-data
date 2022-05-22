@@ -1,0 +1,66 @@
+[hH][Ii]
+(d|D)ear
+(h|H)ey
+(h|H)ello
+(t|T)hanks[ ]+you[ ]+for
+All
+BONJOUR
+(g|G)ood[ ]+morning
+(g|G)ood[ ]+afternoon
+(g|G)ood[ ]+evening
+(H|h)allo
+(H|h)ola
+(B|b)onjour
+(B|b)onsoir[ ]+,merci
+(B|b)onsoir
+(M|m)evr(;|)[ ]*(M|m)r
+((Ch(è|e)r(e|s)[ ]+)?(M|m|Mes)a?dames?([ ]*(;|,|/|ou|et)[ ]+)?(((C|c)hers?)?[ ]*(m|M)(o|e)n?s?sieurs?)?|([ ]*(C|c)her)?[ ]*(m|M)onsieur([ ]*(;|,|/|ou|et)[ ]+)?(Ch(è|e)re[ ]+)?(M|m)adame)|Chers?[ ]+((Mon|Mes)sieurs?|clients?)|Monsieur(,|\.)?|Cher|Madame(,|\.)?
+((C|c)h(e|è)re?[ ]*(client|équipe|M\.)?|Beste([ ]+Klant)?|(m|M)evrouw|(M|m)ijnheer)([ ]+[A-Z][a-zA-Z-\+]{3,})+
+Cher / Cher,?( cher / chère)?,?
+Cher / chère
+Geachte dame/heer
+Beste[ ]+dames[ ]+en[ ]+heren
+Geachte[ ]+dames,?[ ]*heren
+Beste,[ ]+Bonjour,?
+Bonjour,[ ]+Beste,?
+Geachte[ ]+klant,?
+Geachte (h|H)eer/(m|M)evrouw
+(Beste[ ]+)?(M|m)evrouw,?[[ ]+]+(M|m)ijnheer,
+(Beste[ ]+)?(M|m)eneer,?[ ]+(M|m)evrouw,?
+(Beste[ ]+)?(M|m)evrouw,?[ ]+(M|m)eneer,?
+(Beste[ ]+)?(M|m)ijnheer,?[ ]+(M|m)evrouw,?
+Geachte[ ]+(M|m)evrouw,?[ ]+(M|m)ijnheer(\.|,)?
+(C|c)her[ ]+(M|m)onsieur
+(C|c)h(è|e)re[ ]+(M|m)adame
+(G|g)uten[ ]+Tag
+(G|)uten[ ]+(M|m)orgen
+(G|g)oeiedag
+(G|g)oedemiddag
+(S|s)alutations(?![ ]+distingu(é|e)es?)
+(S|s)ehr[ ]+geehrte
+(B|b)om[ ]+dia
+(B|b)oa[ ]+tarde
+(O|o)lá
+(B|b)uenos[ ]+Días
+(H|h)ola[ ]+(B|b)uenos[ ]+días
+(B|b)uongiorno
+(C|c)ari[ ]+(C|c)olleghi
+Geachte[ ]+mevrouw,[ ]+heer
+(Beste|(G|g)eachte)[ ]+heer,[ ]+mevrouw,?
+(B|b)este([ ]*(heer|mevrouw|klant))?
+Mevrouw,[ ]+Mijnheer,?
+Beste[ ]+Mevrouw,?[ ]+beste[ ]+heer,?
+(G|g)eachte[ ]+(M|m)evrouw,?[ ]+(G|g)eachte[ ]+Heer
+(G|g)eachte[ ]+(H|h)eer,?[ ]+(G|g)eachte[ ]+(M|m)evrouw,?
+(G|g)eachte[ ]+(M|m)evrouw,?
+(G|g)eachte[ ]+(H|h)eer,?
+Geachte,?
+(m|M)evrouw,
+(M|m)erhabalar
+(G|g)entilissimi
+(A|a)hoj,
+(P|p)rezados,[ ]+bom[ ]+dia
+(S|s)ehr[ ]+geehrte[ ]+(F|f)rauen[ ]+und[ ]+(H|h)erren
+(C|c)iao[ ]+a[ ]+tutti
+Geachte[ ]+heer/mevrouw
+(B|b)onjour[ ]+(M|m)adame/(M|m)onsieur

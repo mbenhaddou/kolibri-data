@@ -1,0 +1,62 @@
+H[Ii]
+Dear
+Hey
+Hello
+BONJOUR
+(Ch(e|è)re?|Beste([ ]+Klant)?|Mevrouw|Mijnheer)([ ]+[A-Z][a-zA-Z-\+]{3,})+
+Good[ ]+morning
+Good[ ]+afternoon
+Good[ ]+evening
+Hallo
+Hola
+Bonjour
+Bonsoir[ ]+,merci
+Bonsoir
+Mevr(;|)\s*Mr
+Madame(;|)\s*Monsieur
+Geachte dame/heer
+Beste[ ]+dames[ ]+en[ ]+heren
+Geachte[ ]+dames,?[ ]*heren
+Beste,[ ]+Bonjour,?
+Bonjour,[ ]+Beste,?
+Geachte[ ]+klant,?
+Geachte (h|H)eer/Mevrouw
+(Beste[ ]+)?Mevrouw,?[[ ]+]+Mijnheer,
+(Beste[ ]+)?Meneer,?[ ]+Mevrouw,?
+(Beste[ ]+)?Mevrouw,?[ ]+Meneer,?
+(Beste[ ]+)?Mijnheer,?[ ]+Mevrouw,?
+Geachte[ ]+Mevrouw,?[ ]+Mijnheer(\.|,)?
+Cher[ ]+Monsieur
+Ch(è|e)re[ ]+Madame
+Guten[ ]+Tag
+Guten[ ]+Morgen
+Goeiedag
+Goedemiddag
+Salutations(?![ ]+distingu(é|e)es?)
+Sehr[ ]+geehrte
+Bom[ ]+dia
+Boa[ ]+tarde
+(O|o)lá
+Buenos[ ]+Días
+hola[ ]+Buenos[ ]+días
+Buongiorno
+Cari[ ]+Colleghi
+Geachte[ ]+mevrouw,[ ]+heer
+(Beste|Geachte)[ ]+heer,[ ]+mevrouw,?
+Beste(\s*(heer|mevrouw|klant))?
+Mevrouw,[ ]+Mijnheer,?
+Beste[ ]+Mevrouw,?[ ]+beste[ ]+heer,?
+Geachte[ ]+Mevrouw,?[ ]+Geachte[ ]+Heer
+Geachte[ ]+(H|h)eer,?[ ]+Geachte[ ]+Mevrouw,?
+Geachte[ ]+Mevrouw,?
+Geachte[ ]+(H|h)eer,?
+Geachte,?
+Mevrouw,
+Merhabalar
+Gentilissimi
+Ahoj,
+Prezados,[ ]+bom[ ]+dia
+Sehr[ ]+geehrte[ ]+(F|f)rauen[ ]+und[ ]+(H|h)erren
+Ciao[ ]+a[ ]+tutti
+Geachte[ ]+heer/mevrouw
+Bonjour[ ]+Madame/Monsieur

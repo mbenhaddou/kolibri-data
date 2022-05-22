@@ -1,0 +1,122 @@
+{
+    "keep_my_reimbursement_for_feature_invoices" : ["rembours(é|e|è)e?(r|ment)?.*BE(\\s|\\d)+.*prochaine?s?\\s*(factures?|paiements?|d(é|e)comptes?|mensualit(é|e)s?)",
+      "rembours(é|e|è)e?(r|ment)?.*prochaine?s?\\s*(factures?|paiements?|d(é|e)comptes?|mensualit(é|e)s?).*BE(\\s|\\d)+",
+    "BE(\\s|\\d)+.*rembours(é|e|è)e?(r|ment)?.*prochaine?s?\\s*(factures?|paiements?|d(é|e)comptes?|mensualit(é|e)s?)",
+      "rembours(é|e|è)e?(r|ment)?.*prochaine?s?\\s*(factures?|paiements?|d(é|e)comptes?|mensualit(é|e)s?)"
+    ],
+
+    "can_i_have_a_payment_delay":["(demander|avoir|accorder|laisser) un délais?| d(é|e)lai"],
+    "i_have_not_received_my_reimbursement" :[
+      "((n\"|’)?|ne)\\s*(les?)?\\s*(ai)?\\s*(pas|jamais)?\\s*(re(ç|c)u)\\s*(l(a|e|')?s?|mon|ma|notre|une?)\\s*versements?",
+       "(pas\\s*(encore)?\\s*(re(ç|c)u))\\s*(l(a|e|')?s?|mon|ma|notre|une?)\\s*versements?"
+    ],
+
+    "i_would_like_to_be_reimbursed" :[
+      "rembours(é|e|è)e?(r|ment)?.*(mon compte\b|BE(\\s|\\d)+)",
+     "BE(\\s|\\d)+.*rembours(é|e|è)e?(r|ment)?"
+    ],
+     "i_payed_wrong_amount" : ["au\\s*lieu.*?\\d{1,3}\\s*(\\.|,)\\s*\\d{1,2}\\s*(euro?s?|€)"],
+    "i_payed_but_i_forgot_communication_msg" : ["(oubli((é|e)e?r?|ant)|sans\\s*(ajouter|mentionner)|pas\\s*mis).*?(annonce|communication|structur(é|e))"],
+    "i_payed_but_used_wrong_communication_msg" :[ "(tromp(é|e)e?r?.*?(annonce|communication|structur(é|e)|r(é|e)f(é|e)rence))|(au\\s*lieu.*?\\d{3}(\\s*|/)\\d{4}(\\s*|/)\\d{5})"],
+    "i_already_payed_the_invoice" :
+                   [
+                     "été pay(er|é)|effectué[ ](le)[ ]versement|(factures?|montant).*?(été|d(e|é)j(a|à)|est)\\s*(pay(é|e)e?|effectu(é|e)e?)",
+                      "(factures?|montant|d(è|e|é)compte).*?((è|e|é)t(è|e|é)e?|d(e|é)j(a|à)|est|ai|(è|e|é)taient)[ ]*(pay(è|e|é)e?|effectu(é|e)e?|honor(è|e|é)e?|d(è|e|é)bit(è|e|é)e?|fait)",
+                     "((è|e|é)t(è|e|é)e?|d(e|é)j(a|à)|est|ai|(è|e|é)taient)[ ]*(pay(è|e|é)e?|effectu(é|e)e?|d(è|e|é)bit(è|e|é)e?|fait).*?(factures?|montant|d(è|e|é)compte)",
+                    "(preuves?[ ]*de[ ]*(payement|paiement|versement))|((l|m)a[ ]*preuve|(è|e|é)cran)|(je[ ]*viens[ ]*de[ ]*payer)"
+                   ],
+
+    "domiciliation_is_active_but_payment_is_late" :[
+                     "activ(é|e|è)r?\\s*(la|ma|une?)?\\s*(domicil(e|iation)|pr(é|e|è)l(é|e|è)vement).*?(impay(é|e|è)e?s?|retard)",
+                    "(impay(é|e|è)e?s?|retard).*?activ(é|e|è)r?\\s*(la|ma|une)?\\s*(domicil(e|iation)|pr(é|e|è)l(é|e|è)vement)"
+                   ],
+    "i_would_like_to_pay_via_domiciliation":["(reactiver|faire|activ(e|é)r?|mettre en place|envoyer|opte|souhaiterai|voudrais?|créer|nouveau|nouvel(le)?|demande|via)([ ]\\w+){0,4}[ ]domiciliation"],
+    "i_would_like_to_activate_my_domiciliation" : ["activ(é|e|è)r?\\s*(la|ma|une)?\\s*(domicil(e|iation)|pr(é|e|è)l(é|e|è)vement)"],
+    "is_my_domiciliation_active" : ["(domicil(e|iation)|pr(é|e|è)l(é|e|è)vement)\\s*(bancaire)?\\s*(est)\\s*(toujours)?\\s*(bien)?\\s*(active|actif)"],
+    "how_to_activate_my_domiciliation" : ["faire\\s*une\\s*(domicil(e|iation)|pr(é|e|è)l(é|e|è)vement)"],
+    "reimbursement":[ "rembours(é|e)e?(r|ment)?"],
+    "domiciliation_is_active_but_i_have_not_received_my_invoice" :
+                   [
+                     "(domicil(e|iation)|pr(é|e|è)l(é|e|è)vement).*?pas\\s*reçu.*?factures?",
+                   "pas\\s*reçu.*?factures?.*?(domicil(e|iation)|pr(é|e|è)l(é|e|è)vement)"
+                   ],
+    "stop_domiciliation" :[
+                     "mettre\\s*(un)?\\s*(fin|terme|term)\\s*(au|à|aux)?\\s*(l'?|les?|mon|mes|ce(s|t)?|notre|nos|son|sa|ses|une?)?\\s*(domicil(e|iation)|pr(é|e|è)l(é|e|è)vement)",
+                   "(fermer|cl(ô|o)turer?|r(é|e)silier|annuler|arr(e|ê)ter|terminer|supprimer)\\s*(imm(é|e)diatement|au plus vite)?\\s*(l'?|les?|mon|mes|ce(s|t)?|notre|nos|son|sa|ses|une?)\\s*(domicil(e|iation)|pr(é|e|è)l(é|e|è)vement)"
+                   ],
+    "can_i_have_a_copy_of_my_invoice" :[
+                     "(copies?|duplicata)\\s*de\\s*(l|m)a\\s*facture",
+                     "(copies?|duplicata)\\s*\\s*(d(e|')?)?\\s*(toutes)?\\s*(la|les?|mes|ma|des?|une?|vos|mon|notre|du|ces?)\\s*(derni(è|e)res?)?\\s*factures?"],
+
+    "can_i_have_a_payment_plan" : ["\\b(pour|sollicite|demanderai|aimerai|désire|souhaiterais|possib(le|ilité) d(e|'|)|voudrais)[ ]*(m(a|'|)accorder|avoir|établir|prendre|demander?|que)?.*(un|le|de) plan de paiement",
+     "(obtenir|demande(ra?i?)?|prendre|souhaiterais|convenir)[ ]*(d?'?un|de)?[ ]*plan[ ]*d",
+     "(facture|payer|paie?ment|(é|e)taler)[ ](en|sur)[ ]+(\\d{1,2}|deux|trois|quatre|cinq|six|sept|huit|neuf|dix)[ ]+(versements? mensuels?|(f|m)ois)\\b",
+     "(avoir|(é|e)tablir|faire|via|demandé|) (un|le|) plan de paiement"
+    ],
+
+    "payment_is_blocked" : ["(payement|virement|transfert).*bloqu(é|e)s?"],
+
+    "activate_autopayment":["(activ(er|ation)|faire|demander)[ ]*(ma|de|une?|la|de[ ]*la)[ ]*domiciliation"],
+
+    "adapt_my_invoice" : ["(adapter|ajuster|modifier)[ ]*(mon|mes|les?)[ ]*(acomptes?|montants?)"],
+    "adapt_my_invoice_frequency":["(adapter|ajuster|modifier|)[ ]*(mon|mes|les?|ma)[ ]*fr(é|e)quence"],
+    "send_me_my_invoice":[
+                        "m[ ]*'[ ]*envoyer[ ]*(la|les?|mes|ma|des?|une?|vos|mon|notre|du)[ ]*(derni(è|e)res?)?[ ]*factures?",
+                      "pas[ ]*re(ç|c)us?[ ]*(toutes)?[ ]*(la|les?|mes|ma|des?|une?|vos|mon|notre|du)[ ]*(derni(è|e)res?)?[ ]*(d(é|e)comptes?|factures?)"
+                      ],
+    "i_havent_received_my_invoice":["pas[ ]*re(ç|c)us?[ ]*(toutes)?[ ]*(la|les?|mes|ma|des?|une?|vos|mon|notre|du)[ ]*(derni(è|e)res?)?[ ]*(d(é|e)comptes?|factures?).*envoyer",
+      "reçois (plus|pas).*facture"],
+    "send_me_my_annual_invoice":["(m'|je|nous)[ ](envoyer|recevoir)[ ]*(la|les?|mes|ma|des?|une?|vos|mon|notre|du)[ ]*(derni(è|e)res?)?[ ]*d(é|e)comptes?"],
+    "forgot_communication_msg" : ["(oubli((é|e)e?r?|ant)|sans[ ]*(ajouter|mentionner)|pas[ ]*mis|communiquer).*?(communication[ ]+structur(é|e)e?)",
+      "(tromp(é|e)e?r?.*?(communication|structur(é|e)|r(é|e)f(é|e)rence))|(au[ ]*lieu.*?\\d{3}([ ]*|/)\\d{4}([ ]*|/)\\d{5})"],
+    "i_have_not_received_the_invoice_cancel_recall_cost" : ["(rappel|frais).*?([ ]n('|’)?|ne)[ ]*(les?)?[ ]*(ai)?[ ]*(pas|jamais|plus)?[ ]*(re(ç|c)u)[ ]*(de|la|les?|votre|cette|une?|m(a|e)s?)?[ ]*factures?",
+"([ ]n('|’)?|ne)[ ]*(les?)?[ ]*(ai)?[ ]*(pas|jamais|plus)?[ ]*(re(ç|c)u)[ ]*(de|la|les?|votre|cette|une?|m(a|e)s?)?[ ]*factures?.*?(rappel|frais)",
+ "(rappel|frais).*?(pas|jamais|plus|rien)[ ]*(encore)?[ ]*(re(ç|c)u)[ ]*(de|la|les?|votre|cette|une?|m(a|e)s?)?[ ]*factures?",
+ "(pas|jamais|plus|rien)[ ]*(encore)?[ ]*(re(ç|c)u)[ ]*(de|la|les?|votre|cette|une?|m(a|e)s?)?[ ]*factures?.*?(rappel|frais)",
+"(rappel|frais).*?spams?",
+"spams?.*?(rappel|frais)"
+    ],
+"i_have_not_received_the_invoice" :[ "([ ]n('|’)?|ne)[ ]*(les?)?[ ]*(ai)?[ ]*(pas|jamais|plus)?[ ]*(re(ç|c)u)[ ]*(de|la|les?|votre|cette|une?|m(a|e)s?)?[ ]*factures?",
+ "(pas|jamais|plus|rien)[ ]*(encore)?[ ]*(re(ç|c)u)[ ]*(de|la|les?|votre|cette|une?|m(a|e)s?)?[ ]*factures?"
+],
+
+"please_cancel_recall_costs" :[
+  "(annuler|pas[ ]*payer)[ ]*les?[ ]*frais",
+ "supprimer[ ]*(les?|ces?)[ ]*frais",
+"(frais de rappel).*(geste commercial)",
+ "(annul(ation|er|(e|é)|iez)|retirer).*?frais",
+ "frais.*?(annul(ation|er|(e|é)|iez)|retirer)"
+],
+
+"i_payed_twice" :[ "(r(é|e)gl(é|e)e?r?|pay(é|e)e?r?|effectu(é|e)e?r?|vir(é|e)e?r?|vers(é|e)e?r?).*?(2|deux)[ ]*(fois|x|virements?)"],
+"i_payed_twice_can_you_reimburse" : ["(r(é|e)gl(é|e)e?r?|pay(é|e)e?r?|effectu(é|e)e?r?|vir(é|e)e?r?|vers(é|e)e?r?).*?(2|deux)\\s*(fois|x|virements?)"],
+   
+"why_i_received_a_rappel_while_im_in_plan" : [
+  "(frais|sommation|retard|rappel|mise[ ]*en[ ]*demeure).*?plan[ ]*d",
+ "plan[ ]*d.*?(frais|sommation|rappel|mise[ ]*en[ ]*demeure)"
+],
+    "why_my_payment_plan_is_canceled" :[
+      "(annul(ation|er|(e|é))|suppression).*?plan[ ]*de?",
+ "plan[ ]*de?.*?(annul(ation|er|(e|é))|suppression)"]
+  ,
+
+"i_would_like_to_change_my_payment_date" :[ "(ajuster|changer|modifier)[ ]*la[ ]*date[ ]*de[ ]*pa"],
+"explain_to_me_why_the_recall_costs" :
+[ "(justifi|explications).*?(retard|frais)",
+"(retard|frais).*?[ ](justifi|explications)"],
+
+"i_would_like_to_have_more_information_about_my_invoice" : ["plus[ ]*d[ ]*'?[ ]*information.*?factur"],
+
+"i_would_like_receive_invoice_in_paper" :[
+  "(version|sur|factures?|en|sous|au|par|mode)[ ]*(la)?[ ]*(form(at|e))?[ ]*\"?papiers?\"?",
+"form(at|e)[ ]*\"?papiers?\"?",
+"(par|via)[ ]*(la|voie|envoi)?[ ]*(b?post(ale?)?|courrier)"
+],
+"i_have_not_received_the_recall_invoice" : ["(pas[ ]+)?re(ç|c)u[ ]*(de|aucun)[ ]*rappel"],
+"less_cosumption_but_invoice_increased":["consommation.*(pas augmenté|pas changé|baissé|diminue?é?|est inférieure|diminution|légèrement augmenté)"],
+    
+    "invoice_too_high":["(facture|montant|paiement).*(aussi|plus|très|comprend pas|pourquoi|estime|trop).*\b(é|e)levé"],
+      "i_would_like_to_adapt_my_intermediary_payments":["(diminuer?|augmenter|adapter|reconsidér|payer|changer|opt(er|é))([ ]\\w+){0,4}[ ](facture|montant|acomptes?|prélèvement|avances|décompte|paiement|forfait|\\d+€|provisions?|)[ ]*mensuels?(les?)?\\b",
+        "(le|Ces|ce|un)[ ]+(sommes?|montant|decompte).*\b(exorbitant|(é|e)lev(é|e))\b"]
+
+  }

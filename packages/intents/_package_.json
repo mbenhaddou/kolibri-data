@@ -1,0 +1,8 @@
+{
+  "package_id": "intents",
+  "Description": "Intent regex library",
+  "languages": ["fr"],
+  "type": "dictionary",
+  "fields": ["key", "list_of_values"],
+  "lincence": ""
+}
