@@ -45,5 +45,5 @@ def build_index(root):
 
 json_string=build_index("/Users/mohamedmentis/Dropbox/Mac (2)/Documents/Mentis/Development/Python/kolibri-data/packages")
 
-with open("../index.json", 'w') as outfile:
+with open("../../index.json", 'w') as outfile:
     json.dump(json_string, outfile)
