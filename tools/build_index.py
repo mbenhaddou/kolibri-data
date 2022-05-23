@@ -14,7 +14,7 @@ def build_index(root, recreate_packages=False):
     packages = []
     for pkg_json, zf, subdir in find_packages(os.path.join(root), recreate_packages):
         zipstat = os.stat(zf.filename)
-        url = f"{os.path.split(zf.filename)[1]}"
+        url = f"https://github.com/mbenhaddou/kolibri-data/blob/main/packages/{subdir}/{os.path.split(zf.filename)[1]}"
         unzipped_size = sum(zf_info.file_size for zf_info in zf.infolist())
 
         # Fill in several fields of the package xml with calculated values.
@@ -47,3 +47,7 @@ json_string=build_index("/Users/mohamedmentis/Dropbox/Mac (2)/Documents/Mentis/D
 
 with open("../index.json", 'w') as outfile:
     json.dump(json_string, outfile)
+
+
+
+#print(md5_hexdigest("/Users/mohamedmentis/Dropbox/kolibri/packages/language_detection/lid.176.bin"))

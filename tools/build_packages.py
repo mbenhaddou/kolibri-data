@@ -30,37 +30,48 @@ def _get_sub_package_data(dirname, root, pkg_file):
     for f_root, d_names, f_names in os.walk(dirname):
         content = {"path": "/".join(_path_from(root, f_root)), "files": []}
         for f in f_names:
-            if f != "_package_.json" and f != pkg_file["name"]:
+            if f not in ["_package_.json",  pkg_file["name"], "_other_packages_.json", ".DS_Store"]:
                 content["files"].append(
-                    {"name": f, "path": "/".join(_path_from(root, os.path.join(f_root,f))), "checksum": md5_hexdigest(os.path.join(f_root,f))})
+                    {"name": f, "path": "/".join(_path_from(root, os.path.join(f_root,f))), "checksum": md5_hexdigest(os.path.join(f_root,f)), "url": f"https://github.com/mbenhaddou/kolibri-data/blob/main/packages/{os.path.relpath(f_root, root)}/{f}"})
         if len(content["files"]) > 0:
             pkg_file["sub_packages"].append(content)
+
     return pkg_file
 
 def find_packages(root, recreate_packages=False):
 
     for dirname, subdirs, files in os.walk(root):
         relpath = "/".join(_path_from(root, dirname))
-        for filename in files:
-            if filename=="_package_.json":
-                pkg_file = read_json_file(os.path.join(dirname, filename))
 
-                zipfilename = pkg_file["package_id"] + ".zip"
-                pkg_file["sub_packages"]=[]
-                zipfilename_full_path=os.path.join(dirname, zipfilename)
-                pkg_file["name"]=zipfilename
-                if not os.path.exists(zipfilename_full_path) or recreate_packages:
-                    zipdir(dirname, zipfilename_full_path, ["_package_.json", zipfilename])
+        pkg_filename="_package_.json"
+        other_pkg_filename = "_other_packages_.json"
+        try:
+            pkg_file = read_json_file(os.path.join(dirname, pkg_filename))
+        except:
+            continue
+        zipfilename = pkg_file["package_id"] + ".zip"
+        pkg_file["sub_packages"]=[]
+        zipfilename_full_path=os.path.join(dirname, zipfilename)
+        pkg_file["name"]=zipfilename
+        if not os.path.exists(zipfilename_full_path) or recreate_packages:
+            zipdir(dirname, zipfilename_full_path, ["_package_.json", zipfilename, "_other_packages_.json"])
 
 
-                _get_sub_package_data(dirname, root, pkg_file)
+        _get_sub_package_data(dirname, root, pkg_file)
 
+        try:
+            other_pkg_file = read_json_file(os.path.join(dirname, other_pkg_filename))
+            pkg_file["other_packages"]=[]
+            for pkg in other_pkg_file:
+                pkg_file["other_packages"].append(pkg)
+        except:
+            continue
 
-                try:
-                    zf = zipfile.ZipFile(zipfilename_full_path)
-                except Exception as e:
-                    raise ValueError(f"Error reading file {zipfilename_full_path!r}!\n{e}") from e
-                yield pkg_file, zf, relpath
+        try:
+            zf = zipfile.ZipFile(zipfilename_full_path)
+        except Exception as e:
+            raise ValueError(f"Error reading file {zipfilename_full_path!r}!\n{e}") from e
+        yield pkg_file, zf, relpath
 
 
 
