@@ -21,7 +21,8 @@ def build_index(root, recreate_packages=False):
         pkg_json["unzipped_size"]= "%s" % unzipped_size
         pkg_json["size"]= "%s" % zipstat.st_size
         pkg_json["checksum"]= "%s" % md5_hexdigest(zf.filename)
-        pkg_json["subdir"]= subdir
+        pkg_json["path"]= subdir
+        pkg_json["unzip"]= True
         # pkg_xml['svn_revision', _svn_revision(zf.filename))
         if not pkg_json.get("url"):
             pkg_json["url"]= url
