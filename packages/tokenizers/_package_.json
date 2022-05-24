@@ -1,5 +1,5 @@
 {
-  "package_id": "tokeniers",
+  "package_id": "tokenizers",
   "Description": "Regexes for kolibri tokenizer",
   "languages": ["all"],
   "type": "dictionary",
