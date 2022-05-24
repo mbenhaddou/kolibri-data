@@ -66,7 +66,7 @@ def find_packages(root, recreate_packages=False):
             for pkg in other_pkg_file:
                 pkg_file["other_packages"].append(pkg)
         except:
-            continue
+            pass
 
         try:
             zf = zipfile.ZipFile(zipfilename_full_path)
