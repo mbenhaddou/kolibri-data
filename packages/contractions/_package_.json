@@ -1,5 +1,5 @@
 {
-  "package_id": "contractions",
+  "id": "contractions",
   "Description": "Language contraction dictionary",
   "type": "dictionary",
   "fields": ["key", "value"],

@@ -40,7 +40,7 @@ def _get_sub_package_data(dirname, root, pkg_file):
         for f in f_names:
             if f not in ["_package_.json",  pkg_file["name"], "_other_packages_.json", ".DS_Store"]:
                 content["files"].append(
-                    {"name": f, "path": _path_from(root, os.path.join(f_root,f), base_dir="packages"), "checksum": md5_hexdigest(os.path.join(f_root,f)), "url": f"https://github.com/mbenhaddou/kolibri-data/raw/main/packages/{os.path.relpath(f_root, root)}/{f}", "unzip": False})
+                    {"id": f, "name": f, "path": _path_from(root, os.path.join(f_root,f), base_dir="packages"), "checksum": md5_hexdigest(os.path.join(f_root,f)), "url": f"https://github.com/mbenhaddou/kolibri-data/raw/main/packages/{os.path.relpath(f_root, root)}/{f}", "unzip": False})
         if len(content["files"]) > 0:
             pkg_file["sub_packages"].append(content)
 
@@ -57,7 +57,7 @@ def find_packages(root, recreate_packages=False):
             pkg_file = read_json_file(os.path.join(dirname, pkg_filename))
         except:
             continue
-        zipfilename = pkg_file["package_id"] + ".zip"
+        zipfilename = pkg_file["id"] + ".zip"
         pkg_file["sub_packages"]=[]
         zipfilename_full_path=os.path.join(dirname, zipfilename)
         pkg_file["name"]=zipfilename

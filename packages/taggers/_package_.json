@@ -1,5 +1,5 @@
 {
-  "package_id": "taggers",
+  "id": "taggers",
   "Description": "Tagger models",
   "languages": ["en"],
   "type": "model",

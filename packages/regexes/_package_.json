@@ -1,5 +1,5 @@
 {
-  "package_id": "regexes",
+  "id": "regexes",
   "Description": "Various regexes to mach various entities",
   "languages": ["all"],
   "type": "dictionary",

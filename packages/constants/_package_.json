@@ -1,5 +1,5 @@
 {
-  "package_id": "contants",
+  "id": "contants",
   "Description": "File that define various semantic constants",
   "languages": ["all"],
   "type": "dictionary",

@@ -1,5 +1,5 @@
 {
-  "package_id": "intents",
+  "id": "intents",
   "Description": "Intent regex library",
   "languages": ["fr"],
   "type": "dictionary",

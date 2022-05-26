@@ -1,6 +1,6 @@
 
 {
-  "package_id": "models",
+  "id": "models",
   "Description": "Kolibri models definitons",
   "languages": ["all"],
   "type": "models",

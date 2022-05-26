@@ -1,5 +1,5 @@
 {
-  "package_id": "clustering",
+  "id": "clustering",
   "Description": "Clustering ressources and thir party libraries",
   "languages": ["all"],
   "type": "models",

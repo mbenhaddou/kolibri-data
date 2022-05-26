@@ -1,6 +1,6 @@
 
 {
-  "package_id": "gazetteers",
+  "id": "gazetteers",
   "Description": "various list of values",
   "languages": ["all", "en", "fr", "nl"],
   "type": "list",

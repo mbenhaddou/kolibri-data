@@ -1,5 +1,5 @@
 {
-  "package_id": "stop-words",
+  "id": "stop-words",
   "Description": "Stop words list",
   "languages": ["all"],
   "type": "list",

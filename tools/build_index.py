@@ -34,13 +34,13 @@ def build_index(root, recreate_packages=False):
     # Check that all UIDs are unique
     uids = set()
     for item in packages:
-        if item.get("package_id") in uids:
-            raise ValueError("Duplicate UID: %s" % item.get("package_id"))
-        uids.add(item.get("package_id"))
+        if item.get("id") in uids:
+            raise ValueError("Duplicate UID: %s" % item.get("id"))
+        uids.add(item.get("id"))
 
     # Put it all together
     json_data = {"kolibri_data":{"packages":[]}}
-    json_data["kolibri_data"]["packages"].extend(sorted(packages, key=lambda package: package.get("package_id")))
+    json_data["kolibri_data"]["packages"].extend(sorted(packages, key=lambda package: package.get("id")))
     return json_data
 
 
