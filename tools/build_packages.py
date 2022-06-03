@@ -33,6 +33,21 @@ def _path_from(parent, child, base_dir=None):
     return path
 
 
+
+def _get_sub_datasts(dirname, root):
+    pkg_file={"datasets":[]}
+    for f_root, d_names, f_names in os.walk(dirname):
+        content = {"path": _path_from(root, f_root,base_dir="datasets"), "files": []}
+        for f in f_names:
+            if f not in ["_package_.json", "_other_packages_.json", ".DS_Store"]:
+                id= os.path.splitext(f)[0]
+                content["files"].append(
+                    {"id": id, "name": f, "path": os.path.dirname(_path_from(root, os.path.join(f_root,f), base_dir="datasets")), "checksum": md5_hexdigest(os.path.join(f_root,f)), "url": f"https://github.com/mbenhaddou/kolibri-data/raw/main/datasets/{os.path.relpath(f_root, root)}/{f}", "size": "%s" % os.path.getsize(os.path.join(f_root,f)),  "unzip": False})
+        if len(content["files"]) > 0:
+            pkg_file["datasets"].extend(content["files"])
+
+    return pkg_file
+
 def _get_sub_package_data(dirname, root, pkg_file):
 
     for f_root, d_names, f_names in os.walk(dirname):
