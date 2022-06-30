@@ -1,4 +1,4 @@
-from build_packages import find_packages, _get_sub_datasts
+from build_packages import find_packages, _get_sub_datasets
 import os, json
 from kdmt.checksum import md5_hexdigest
 
@@ -47,7 +47,7 @@ def build_index(root, recreate_packages=False):
     json_data["kolibri_data"]["packages"].extend(sorted(packages, key=lambda package: package.get("id")))
 
     data_sets_path="/Users/mohamedmentis/Dropbox/Mac (2)/Documents/Mentis/Development/Python/kolibri-data/datasets"
-    json_data["kolibri_data"]["datasets"]=_get_sub_datasts(data_sets_path, data_sets_path)["datasets"]
+    json_data["kolibri_data"]["datasets"]=_get_sub_datasets(data_sets_path, data_sets_path)["datasets"]
 
     return json_data
 

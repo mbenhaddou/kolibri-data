@@ -34,7 +34,7 @@ def _path_from(parent, child, base_dir=None):
 
 
 
-def _get_sub_datasts(dirname, root):
+def _get_sub_datasets(dirname, root):
     pkg_file={"datasets":[]}
     for f_root, d_names, f_names in os.walk(dirname):
         content = {"path": _path_from(root, f_root,base_dir="datasets"), "files": []}
