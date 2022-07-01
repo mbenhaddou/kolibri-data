@@ -4,6 +4,7 @@
   "url": "https://dl.fbaipublicfiles.com/fasttext/supervised-models/lid.176.bin",
   "path": "packages/language_detector",
   "name": "lid.176.bin",
-    "size": -1
+    "size": -1,
+    "unzip": false
 }
 ]
