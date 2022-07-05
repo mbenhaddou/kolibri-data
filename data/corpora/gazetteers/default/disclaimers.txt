@@ -1,125 +1,125 @@
-(\-+\s+)?^((AVISO|sGroup S disclaimer|Aviso Legal|CAUTION|ATTENTION|PRIVATE \& CONFIDENTIAL|CLASSIFIED PERSONNEL INFORMATION|CONFIDENTIALITY|DISCLAIMER|IMPORTANT(\s*-\s*PLEASE READ)?(:\s*PRIVATE COMMUNICATION TO DESIGNATED RECIPIENT \(S\) ONLY)?|(Confidentiality Statement and )?Disclaimer|IMPORTANT|In summary|Important|((IMPORTANT|CONFIDENTIALITY|Confidentiality|LEGAL)\s*)?(N(OT(IC)?E|(ot(ic)?e)))(\s*(of Confidentiality|OF CONFIDENTIALITY))?)\s*(:|-)*)
-^((CAUTION|ATTENTION|PRIVATE \& CONFIDENTIAL|CLASSIFIED PERSONNEL INFORMATION|CONFIDENTIALITY|DISCLAIMER|IMPORTANT(\s*-\s*PLEASE READ)?(:\s*PRIVATE COMMUNICATION TO DESIGNATED RECIPIENT \(S\) ONLY)?|(Confidentiality Statement and )?Disclaimer|IMPORTANT|In summary|Important|((IMPORTANT|CONFIDENTIALITY|Confidentiality|LEGAL)\s*)?(N(OT(IC)?E|(ot(ic)?e)))(\s*(of Confidentiality|OF CONFIDENTIALITY))?)\s*(:|-)?)?\s*((The )?((I|i)nformation|contents?)( contained)? (in|on|of) )?(t|T)(H|h)(i|I)(s|S)\s*(message|(e|E)-?(m|M)ail|mail|information|electronic (message|mail)|ELECTRONIC MESSAGE|communication|transmission|employee-mail)+,?(\s*\(?(inclusive of|including|and|or|together with)\s*(any(\s*files)?|its|the)?\s*(attach.*|content|materials.*|information.*))?\s*((may\s*)?contains?(\s*information that\s*(is?|may be))?|(that\s+)?is|are|may( be)?|have been)\s*((for the\s*)?(intended|designated)\s*((only\s*)?for the use of)?|classified as)?\s*((strictly\s*|(proprietary|private) and\s*|legally privileged,\s*)?confidential|limited|(legally\s*)?proprietary|(inten(d|t)ed)?\s*(only|solely)?\s*(for)?\s*(the)?\s*(above)?\s*(use)?\s*(of the)?\s*(by the)?\s*(named)?\s*(recipient|addressee|person)?)
+A
+_*\s*Disclaimer: The information contained in this e-mail message and
+-- The information contained in this communication an
+--- The content of this email is confidential and intended only for the specified recipient
+-critical NAV communication will be accepted only via IMT
 ((GO(ING)?\s*GREEN|Go(ing)?\s*(g|G)reen)(:)?)?\s*Please consider the environment before printing this e-?mail
-Protect our environment - please only print this if you have to
-Thank you for considering the environmental impact of printing emails
-Responsabilità ambientale\. Prima di stampare questo messaggio pensate all'ambiente
-Wanneer u niet de beoogde bestemmeling bent, dient u de afzender onmiddellijk
-LEGAL NOTICE\s*Unless expressly stated otherwise
+(\-+\s+)?^((AVISO|sGroup S disclaimer|Aviso Legal|CAUTION|ATTENTION|PRIVATE \& CONFIDENTIAL|CLASSIFIED PERSONNEL INFORMATION|CONFIDENTIALITY|DISCLAIMER|IMPORTANT(\s*-\s*PLEASE READ)?(:\s*PRIVATE COMMUNICATION TO DESIGNATED RECIPIENT \(S\) ONLY)?|(Confidentiality Statement and )?Disclaimer|IMPORTANT|In summary|Important|((IMPORTANT|CONFIDENTIALITY|Confidentiality|LEGAL)\s*)?(N(OT(IC)?E|(ot(ic)?e)))(\s*(of Confidentiality|OF CONFIDENTIALITY))?)\s*(:|-)*)
+(Disclaimer:|\")The information contained in this e-mail (including any attachments) is intended solely for the use of the intended recipient(s)
+\**Forecoming holidays:\s*\**\s*Training week: CONFIDENTIALITY NOTICE:
+\*Commentaires supplémentaires : Vous cherchez ce qu'il y a de mieux en termes de service
+^((CAUTION|ATTENTION|PRIVATE \& CONFIDENTIAL|CLASSIFIED PERSONNEL INFORMATION|CONFIDENTIALITY|DISCLAIMER|IMPORTANT(\s*-\s*PLEASE READ)?(:\s*PRIVATE COMMUNICATION TO DESIGNATED RECIPIENT \(S\) ONLY)?|(Confidentiality Statement and )?Disclaimer|IMPORTANT|In summary|Important|((IMPORTANT|CONFIDENTIALITY|Confidentiality|LEGAL)\s*)?(N(OT(IC)?E|(ot(ic)?e)))(\s*(of Confidentiality|OF CONFIDENTIALITY))?)\s*(:|-)?)?\s*((The )?((I|i)nformation|contents?)( contained)? (in|on|of) )?(t|T)(H|h)(i|I)(s|S)\s*(message|(e|E)-?(m|M)ail|mail|information|electronic (message|mail)|ELECTRONIC MESSAGE|communication|transmission|employee-mail)+,?(\s*\(?(inclusive of|including|and|or|together with)\s*(any(\s*files)?|its|the)?\s*(attach.*|content|materials.*|information.*))?\s*((may\s*)?contains?(\s*information that\s*(is?|may be))?|(that\s+)?is|are|may( be)?|have been)\s*((for the\s*)?(intended|designated)\s*((only\s*)?for the use of)?|classified as)?\s*((strictly\s*|(proprietary|private) and\s*|legally privileged,\s*)?confidential|limited|(legally\s*)?proprietary|(inten(d|t)ed)?\s*(only|solely)?\s*(for)?\s*(the)?\s*(above)?\s*(use)?\s*(of the)?\s*(by the)?\s*(named)?\s*(recipient|addressee|person)?)
+© \d{4} CareersinAudit\.com Ltd, a limited liability company registered in England and Wales under registered number 05521948, with its registered address at 2 Minster Court, London, EC3R 7BB, United Kingdom\.
+A Fundação Renova preza pela qualidade de vida e incentiva a realização das atividades dentro
+abbvie.it | Seguici: This communication may contain information that is proprietary, confidential
+Antes de imprimir este mensaje, asegúrese de que es necesario
+AstraZeneca UK Limited is a company incorporated in England and Wales with registered number
+ATENÇÃO: Este e-mail foi enviado automaticamente
+AVISO LEGAL: En función de las obligaciones legales
 AVISO: Este correo electrónico puede contener información confidencial
+BDO LLP, a UK limited liability partnership registered in England
 BE AWARE OF WIRE SCAM\s*(\!)* - Recently the mortgage industry received
 Because email is not secure, we strongly recommend
-© \d{4} CareersinAudit\.com Ltd, a limited liability company registered in England and Wales under registered number 05521948, with its registered address at 2 Minster Court, London, EC3R 7BB, United Kingdom\.
-For more information on Xerox products and solutions, please visit
-ATENÇÃO: Este e-mail foi enviado automaticamente
-Esta información es privada y confidencial y está dirigida únicamente a su destinatario
-Este mensaje, su contenido, así como cualquiera de sus documentos adjuntos se dirige exclusivamente 
-Diese E-Mail und ihre Anlagen gelten als vertraulich oder rechtlich geschützt
+CAUTION - This message may contain privileged and confidential information
 Ce message ainsi que les eventuelles pieces jointes constituent une correspondance privee
+Ce message e-mail ainsi que tous les fichiers transmis sont confidentiels
+Ce message et toutes les pièces jointes sont confidentiels et établis à l'intention exclusive
+Ce message, ainsi que toute piece jointe
+CONFIDENTIALITY NOTICE: This e-mail communication
+CONFIDENTIALITY NOTICE: This e-mail transmission may contain
+Confidentiality Notice: This message is private and may contain confidential
+CONFIDENTIALITY NOTICE: This transmission is intended solely
+CONFIDENTIALITY NOTICE: Unless expressly stated otherwise, this e-mail message
+Considere o ambiente antes de imprimir.
+Cuidemos el medio ambiente. No imprima si no es necesario
+De informatie uit dit bericht en eventuele bijlagen is uitsluitend
+Diese E-Mail und ihre Anlagen gelten als vertraulich oder rechtlich geschützt
+Disclaimer   Privacy   Personnes juridiques
+Disclaimer: Any unauthorised distribution or use of this message or attachments is unlawful
+DISCLAIMER: Information contained in and transmitted by this e-mail
+DISCLAIMER: The information contained in this communication
+Disclaimer: The information contained in this e-mail
+Disclaimer: The information in this e-mail (including any attachments)
+DISCLAIMER: This e-mail is for the intended recipient
+Disclaimer: This email and any attachments are confidential and for the sole use of the recipients
+Disclaimer:This email and any files transmitted with it are confidential and intended solely
+Disclaimer:This message and any attachment(s) contained here are information
+Disclaimer:Unless expressly stated otherwise, this e-mail message
+Dit e-mailbericht is bestemd voor de geadresseerde(n) en kan vertrouwelijk zijn
+Dit is een automatisch gegenereerde e-mail. Aan de inhoud van dit bericht
+Esta información es privada y confidencial y está dirigida únicamente a su destinatario
+Este correo electrónico y sus adjuntos se dirigen exclusivamente a su
+Este mensaje es confidencial y va dirigido únicamente a la persona
+Este mensaje lo recibe en virtud de la obligación legal que tienen las
+Este mensaje, su contenido, así como cualquiera de sus documentos adjuntos se dirige exclusivamente
+For information regarding how State Street and its authorized agents handle
+For more information on Xerox products and solutions, please visit
+Gelieve uitsluitend te reageren via de functionele mailbox
+Gemäß den Bestimmungen der Datenschutz-Grundverordnung
+Go green\. Consider the environment before printing this e-mail
 If the reader of this message, regardless of the address or routing, is not an intended recipient
 If you  are not the intended recipient of this mail,
+If you are a data processor under the GDPR, or a service provider
 If you have any pending questions please reply to this message
+If you have received it by mistake please let us know by reply and then delete
 If you received this transmission in error, please advise the sender
 If you're unsure an email is from HMRC:
 Il presente messaggio, inclusi gli eventuali allegati, ha natura aziendale e potrebbe contenere informazioni confidenziali
+IMPORTANT NOTICE: The information in this email
+IMPORTANT NOTICE: This email and any attachments may contain information
+Important: This e-mail is intended for the above named only
+In accordance with the provisions of the General Data Protection
+In conformità con le disposizioni del Regolamento Generale sulla Protezione dei Dati
 Le contenu de ce courriel et ses éventuelles pièces jointes sont confidentiels
+Le informazioni nel presente messaggio sono unicamente per i destinatari
+LEGAL NOTICE\s*Unless expressly stated otherwise
+Les informations contenues dans cet e-mail peuvent être
+Les renseignements figurant dans cette communication électronique sont destinés à
+Logalty le ha remitido este correo electrónico por encargo del remitente identificado
 NA: This is an automated email notification
 Need your own documents signed\? Adobe Sign can help save you time
 Note: To download the attachment, click on the link 'Click here to access the documents'
+NOTICE OF CONFIDENTIALITY: The contents of this e-mail
+NOTICE: This e-mail may contain confidential information, which should not be copied or distributed
+Op alle rechtsverhoudingen tussen Abbvie b.v. en zijn leveranciers zijn uitsluitend
 Please also use our Recruitment Toolkit which is there for your support 24 hours a day
+Please be advised that the above referenced phone numbers may be recorded
 Please do not share this email
 Please go to\s*https:\/\/ows01\.hireright\.com
+Pour de plus amples informations, contactez notre service clientèle au
+Privacy Notice: The information contained in this email and any attachment
+Production Control\s*-\*Cronacle Automated Notification System NOTICE OF CONFIDENTIALITY
+Protect our environment - please only print this if you have to
+Responsabilità ambientale\. Prima di stampare questo messaggio pensate all'ambiente
+Si vous souhaitez des informations complémentaires, vous pouvez nous contacter à
+Síguenos en : Este mensaje se dirige exclusivamente a su destinatario
+Souhaitez-vous plus d'informations ou avez-vous des questions? N'hésitez pas à nous contacter
+Stay Connected: The information in this e-mail communication together with any attachment
+Thank you for considering the environmental impact of printing emails
+The information contained in this communication from the sender is confidential
+The information in this e-mail communication together with any attachment
+The information transmitted, including any attachments
+This e-mail and any files transmitted with it are confidential
+This e-mail is for the intended recipient only
+This e-mail message (including attachments,
+This e-mail message and any attachments are confidential and may be privileged
+This e-mail message may contain confidential, proprietary
+This e-mail message, including attachments
+This email has been checked for viruses by
+This is an automatically generated email from the HR Inquiry Tool.  This e-mail may be privileged
+This message was sent from an external source\. Please be careful opening attachments\.
 This transmission was generated by our rate program and automatically forwarded to your attention
 ThyssenKrupp Presta message disclaimer:
 To view this screening report(.|\n)*HireRight website\.
+Umicore AG & Co. KG, Sitz Hanau, Registergericht Amtsgericht Hanau HR A 92422, Komplementärin:
+UpcomingOOO: This email is sent on behalf of Northgate Information Solutions Limited
 Vestas will as part of your communication, interaction and business relationship
 Von meinem iPhone gesendet und deshalb eher kurz gehalten
-You are being sent this mail as your email address is recorded in our
-Your information is more secure with us now\. Introducing the concept of Safe Box
-Σύμφωνα με τις διατάξεις του Γενικού Κανονισμού Προστασίας Δεδομένων
--critical NAV communication will be accepted only via IMT
-Ce message e-mail ainsi que tous les fichiers transmis sont confidentiels
-Pour de plus amples informations, contactez notre service clientèle au
-Disclaimer: This email and any attachments are confidential and for the sole use of the recipients
-(Disclaimer:|\")The information contained in this e-mail (including any attachments) is intended solely for the use of the intended recipient(s)
-Disclaimer:This email and any files transmitted with it are confidential and intended solely
-NOTICE: This e-mail may contain confidential information, which should not be copied or distributed
-Gelieve uitsluitend te reageren via de functionele mailbox
-Dit e-mailbericht is bestemd voor de geadresseerde(n) en kan vertrouwelijk zijn
-This email has been checked for viruses by
-Souhaitez-vous plus d'informations ou avez-vous des questions? N'hésitez pas à nous contacter
-Si vous souhaitez des informations complémentaires, vous pouvez nous contacter à
-This message was sent from an external source\. Please be careful opening attachments\.
-You have just received an HTML-rich eMessage that cannot be displayed
-Dit e-mailbericht is bestemd voor de geadresseerde(n) en kan vertrouwelijk zijn
-BDO LLP, a UK limited liability partnership registered in England
-Ce message et toutes les pièces jointes sont confidentiels et établis à l'intention exclusive
-Logalty le ha remitido este correo electrónico por encargo del remitente identificado
-AstraZeneca UK Limited is a company incorporated in England and Wales with registered number
-Confidentiality Notice: This message is private and may contain confidential
-UpcomingOOO: This email is sent on behalf of Northgate Information Solutions Limited
-A Fundação Renova preza pela qualidade de vida e incentiva a realização das atividades dentro
---- The content of this email is confidential and intended only for the specified recipient
-The information transmitted, including any attachments
-This e-mail message may contain confidential, proprietary
-Production Control\s*-\*Cronacle Automated Notification System NOTICE OF CONFIDENTIALITY
-Síguenos en : Este mensaje se dirige exclusivamente a su destinatario
-Op alle rechtsverhoudingen tussen Abbvie b.v. en zijn leveranciers zijn uitsluitend
-Dit is een automatisch gegenereerde e-mail. Aan de inhoud van dit bericht
-abbvie.it | Seguici: This communication may contain information that is proprietary, confidential
-CAUTION - This message may contain privileged and confidential information
+Wanneer u niet de beoogde bestemmeling bent, dient u de afzender onmiddellijk
 We inform you that your identifying data and the contents
-Considere o ambiente antes de imprimir.
-Umicore AG & Co. KG, Sitz Hanau, Registergericht Amtsgericht Hanau HR A 92422, Komplementärin:
-Go green\. Consider the environment before printing this e-mail
-This e-mail message and any attachments are confidential and may be privileged
-Disclaimer:This message and any attachment(s) contained here are information
-Disclaimer: Any unauthorised distribution or use of this message or attachments is unlawful
-Disclaimer:Unless expressly stated otherwise, this e-mail message
-CONFIDENTIALITY NOTICE: Unless expressly stated otherwise, this e-mail message
-\*Commentaires supplémentaires : Vous cherchez ce qu'il y a de mieux en termes de service
-Les renseignements figurant dans cette communication électronique sont destinés à
-CONFIDENTIALITY NOTICE: This transmission is intended solely
-Please be advised that the above referenced phone numbers may be recorded
-If you are a data processor under the GDPR, or a service provider
-Stay Connected: The information in this e-mail communication together with any attachment
-The information in this e-mail communication together with any attachment
-For information regarding how State Street and its authorized agents handle
 We respect your privacy and are committed to protecting your personal data
-Privacy Notice: The information contained in this email and any attachment
-Disclaimer: The information contained in this e-mail
-De informatie uit dit bericht en eventuele bijlagen is uitsluitend
-IMPORTANT NOTICE: This email and any attachments may contain information
-Este mensaje lo recibe en virtud de la obligación legal que tienen las
-Antes de imprimir este mensaje, asegúrese de que es necesario
-DISCLAIMER: This e-mail is for the intended recipient
-If you have received it by mistake please let us know by reply and then delete
-Cuidemos el medio ambiente. No imprima si no es necesario
-Este mensaje es confidencial y va dirigido únicamente a la persona
-AVISO LEGAL: En función de las obligaciones legales
-Disclaimer: The information in this e-mail (including any attachments)
-The information contained in this communication from the sender is confidential
-DISCLAIMER: Information contained in and transmitted by this e-mail
-This e-mail and any files transmitted with it are confidential
-Disclaimer   Privacy   Personnes juridiques
-Important: This e-mail is intended for the above named only
-_*\s*Disclaimer: The information contained in this e-mail message and
-DISCLAIMER: The information contained in this communication
--- The information contained in this communication an
-Gemäß den Bestimmungen der Datenschutz-Grundverordnung
-Este correo electrónico y sus adjuntos se dirigen exclusivamente a su
-In conformità con le disposizioni del Regolamento Generale sulla Protezione dei Dati
-This e-mail message, including attachments
-CONFIDENTIALITY NOTICE: This e-mail transmission may contain
-In accordance with the provisions of the General Data Protection
-NOTICE OF CONFIDENTIALITY: The contents of this e-mail
-This e-mail message (including attachments,
-Ce message, ainsi que toute piece jointe
-This e-mail is for the intended recipient only
-IMPORTANT NOTICE: The information in this email
-CONFIDENTIALITY NOTICE: This e-mail communication
-\**Forecoming holidays:\s*\**\s*Training week: CONFIDENTIALITY NOTICE:
-Le informazioni nel presente messaggio sono unicamente per i destinatari
-Les informations contenues dans cet e-mail peuvent être
-This is an automatically generated email from the HR Inquiry Tool.  This e-mail may be privileged
+You are being sent this mail as your email address is recorded in our
+You have just received an HTML-rich eMessage that cannot be displayed
+Your information is more secure with us now\. Introducing the concept of Safe Box
 Zgodnie z postanowieniami Rozporządzenia Parlamentu Europejskiego
+Σύμφωνα με τις διατάξεις του Γενικού Κανονισμού Προστασίας Δεδομένων
