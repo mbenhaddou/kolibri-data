@@ -5,7 +5,7 @@ _*\s*Disclaimer: The information contained in this e-mail message and
 -critical NAV communication will be accepted only via IMT
 ((GO(ING)?\s*GREEN|Go(ing)?\s*(g|G)reen)(:)?)?\s*Please consider the environment before printing this e-?mail
 (\-+\s+)?^((AVISO|sGroup S disclaimer|Aviso Legal|CAUTION|ATTENTION|PRIVATE \& CONFIDENTIAL|CLASSIFIED PERSONNEL INFORMATION|CONFIDENTIALITY|DISCLAIMER|IMPORTANT(\s*-\s*PLEASE READ)?(:\s*PRIVATE COMMUNICATION TO DESIGNATED RECIPIENT \(S\) ONLY)?|(Confidentiality Statement and )?Disclaimer|IMPORTANT|In summary|Important|((IMPORTANT|CONFIDENTIALITY|Confidentiality|LEGAL)\s*)?(N(OT(IC)?E|(ot(ic)?e)))(\s*(of Confidentiality|OF CONFIDENTIALITY))?)\s*(:|-)*)
-(Disclaimer:|\")The information contained in this e-mail (including any attachments) is intended solely for the use of the intended recipient(s)
+(Disclaimer:|\")The information contained in this e-mail \(including any attachments\) is intended solely for the use of the intended recipient(s)
 \**Forecoming holidays:\s*\**\s*Training week: CONFIDENTIALITY NOTICE:
 \*Commentaires supplémentaires : Vous cherchez ce qu'il y a de mieux en termes de service
 ^((CAUTION|ATTENTION|PRIVATE \& CONFIDENTIAL|CLASSIFIED PERSONNEL INFORMATION|CONFIDENTIALITY|DISCLAIMER|IMPORTANT(\s*-\s*PLEASE READ)?(:\s*PRIVATE COMMUNICATION TO DESIGNATED RECIPIENT \(S\) ONLY)?|(Confidentiality Statement and )?Disclaimer|IMPORTANT|In summary|Important|((IMPORTANT|CONFIDENTIALITY|Confidentiality|LEGAL)\s*)?(N(OT(IC)?E|(ot(ic)?e)))(\s*(of Confidentiality|OF CONFIDENTIALITY))?)\s*(:|-)?)?\s*((The )?((I|i)nformation|contents?)( contained)? (in|on|of) )?(t|T)(H|h)(i|I)(s|S)\s*(message|(e|E)-?(m|M)ail|mail|information|electronic (message|mail)|ELECTRONIC MESSAGE|communication|transmission|employee-mail)+,?(\s*\(?(inclusive of|including|and|or|together with)\s*(any(\s*files)?|its|the)?\s*(attach.*|content|materials.*|information.*))?\s*((may\s*)?contains?(\s*information that\s*(is?|may be))?|(that\s+)?is|are|may( be)?|have been)\s*((for the\s*)?(intended|designated)\s*((only\s*)?for the use of)?|classified as)?\s*((strictly\s*|(proprietary|private) and\s*|legally privileged,\s*)?confidential|limited|(legally\s*)?proprietary|(inten(d|t)ed)?\s*(only|solely)?\s*(for)?\s*(the)?\s*(above)?\s*(use)?\s*(of the)?\s*(by the)?\s*(named)?\s*(recipient|addressee|person)?)
@@ -39,13 +39,13 @@ Disclaimer: Any unauthorised distribution or use of this message or attachments 
 DISCLAIMER: Information contained in and transmitted by this e-mail
 DISCLAIMER: The information contained in this communication
 Disclaimer: The information contained in this e-mail
-Disclaimer: The information in this e-mail (including any attachments)
+Disclaimer: The information in this e-mail \(including any attachments\)
 DISCLAIMER: This e-mail is for the intended recipient
 Disclaimer: This email and any attachments are confidential and for the sole use of the recipients
 Disclaimer:This email and any files transmitted with it are confidential and intended solely
-Disclaimer:This message and any attachment(s) contained here are information
+Disclaimer:This message and any attachment\(s\) contained here are information
 Disclaimer:Unless expressly stated otherwise, this e-mail message
-Dit e-mailbericht is bestemd voor de geadresseerde(n) en kan vertrouwelijk zijn
+Dit e-mailbericht is bestemd voor de geadresseerde\(n\) en kan vertrouwelijk zijn
 Dit is een automatisch gegenereerde e-mail. Aan de inhoud van dit bericht
 Esta información es privada y confidencial y está dirigida únicamente a su destinatario
 Este correo electrónico y sus adjuntos se dirigen exclusivamente a su
@@ -101,7 +101,7 @@ The information in this e-mail communication together with any attachment
 The information transmitted, including any attachments
 This e-mail and any files transmitted with it are confidential
 This e-mail is for the intended recipient only
-This e-mail message (including attachments,
+This e-mail message \(including attachments,
 This e-mail message and any attachments are confidential and may be privileged
 This e-mail message may contain confidential, proprietary
 This e-mail message, including attachments
