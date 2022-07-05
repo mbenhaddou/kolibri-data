@@ -15,11 +15,11 @@ Warning: could not send message for past 2 hours
 Undelivered Mail Returned to Sender
 Delivery has failed to these recipients or groups
 Returned mail: see transcript for details
-Quarantine Summary: \[ \d message(s) quarantined from
+Quarantine Summary: \[ \d message\(s\) quarantined from
 Delivery status notification
 Returned mail: see transcript for details
 Your message couldn't be delivered to
-THIS IS A WARNING MESSAGE ONLY      **\r?\n?    **  YOU DO NOT NEED TO RESEND YOUR MESSAGE
+THIS IS A WARNING MESSAGE ONLY      \*\*\r?\n?    \*\*  YOU DO NOT NEED TO RESEND YOUR MESSAGE
 your message could not\r?\n?\s?be delivered to one or more recipients
-Delivery Status Notification (Failure)
+Delivery Status Notification \(Failure\)
 Delivery status notification
