@@ -54,6 +54,7 @@ Beste[ ]+Mevrouw,?[ ]+beste[ ]+heer,?
 (G|g)eachte[ ]+(H|h)eer,?[ ]+(G|g)eachte[ ]+(M|m)evrouw,?
 (G|g)eachte[ ]+(M|m)evrouw,?
 (G|g)eachte[ ]+(H|h)eer,?
+Sir,
 Geachte,?
 (m|M)evrouw,
 (M|m)erhabalar
