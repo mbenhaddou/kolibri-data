@@ -35,7 +35,11 @@
             ]
           }
         },
-        "name": "Ordinary least squares Linear Regression"
+        "description": "Ordinary least squares Linear Regression",
+        "name": "linear_regression",
+        "family": "linear",
+         "matrix": "sparse",
+        "performance": "fast"
       },
   "Ridge": {
         "class": "sklearn.linear_model.Ridge",
@@ -91,7 +95,11 @@
             ]
           }
         },
-        "name": "Linear least squares with l2 regularization"
+        "description": "Linear least squares with l2 regularization",
+            "name": "ridge_regressor",
+        "family": "linear",
+         "matrix": "sparse",
+        "performance": "fast"
       },
 
   "KNeighborsRegressor": {
@@ -126,25 +134,41 @@
             ]
           }
         },
-        "name": "Regression based on k-nearest neighbors"
+        "description": "Regression based on k-nearest neighbors",
+        "name": "knn_regressor",
+        "family": "linear",
+         "matrix": "sparse",
+        "performance": "fast"
       },
   "Lasso": {
         "class": "sklearn.linear_model.Lasso",
         "parameters": {
         },
-        "name": "Linear Model trained with L1 prior as regularizer (aka the Lasso)"
+        "description": "Linear Model trained with L1 prior as regularizer (aka the Lasso)",
+        "name": "lasso_regressor",
+        "family": "linear",
+         "matrix": "sparse",
+        "performance": "fast"
       },
   "Lars(": {
         "class": "sklearn.linear_model.Lars(",
         "parameters": {
         },
-        "name": "Least Angle Regression model a.k.a. LAR."
+        "description": "Least Angle Regression model a.k.a. LAR.",
+        "name": "lars_regressor",
+        "family": "linear",
+         "matrix": "sparse",
+        "performance": "fast"
       },
   "ElasticNet": {
         "class": "sklearn.linear_model.ElasticNet",
         "parameters": {
         },
-        "name": "Linear regression with combined L1 and L2 priors as regularizer"
+        "description": "Linear regression with combined L1 and L2 priors as regularizer",
+       "name": "elasticnet_regressor",
+        "family": "linear",
+         "matrix": "sparse",
+        "performance": "fast"
       },
   "SGDRegressor": {
         "class": "sklearn.linear_model.SGDRegressor",
@@ -200,115 +224,191 @@
             ]
           }
         },
-        "name": "Linear model fitted by minimizing a regularized empirical loss with SGD"
+        "description": "Linear model fitted by minimizing a regularized empirical loss with SGD",
+            "name": "sqg_regressor",
+        "family": "linear",
+         "matrix": "sparse",
+        "performance": "fast"
       },
   "LassoLars": {
         "class": "sklearn.linear_model.LassoLars",
         "parameters": {
         },
-        "name": "Linear Model trained with L1 prior as regularizer (aka the Lasso)"
+        "description": "Linear Model trained with L1 prior as regularizer (aka the Lasso)",
+            "name": "lasso_regressor",
+        "family": "linear",
+         "matrix": "sparse",
+        "performance": "fast"
       },
   "OrthogonalMatchingPursuit": {
         "class": "sklearn.linear_model.OrthogonalMatchingPursuit",
         "parameters": {
         },
-        "name": "Linear Model trained with L1 prior as regularizer (aka the Lasso)"
+        "description": "Linear Model trained with L1 prior as regularizer (aka the Lasso)",
+            "name": "omp_regressor",
+        "family": "linear",
+         "matrix": "sparse",
+        "performance": "fast"
       },
   "HuberRegressor": {
         "class": "sklearn.linear_model.HuberRegressor",
         "parameters": {
         },
-        "name": "Linear Model trained with L1 prior as regularizer (aka the Lasso)"
+        "description": "Linear Model trained with L1 prior as regularizer (aka the Lasso)",
+            "name": "hubber_regressor",
+        "family": "linear",
+         "matrix": "sparse",
+        "performance": "fast"
       },
   "QuantileRegressor": {
         "class": "sklearn.linear_model.QuantileRegressor",
         "parameters": {
         },
-        "name": "Linear Model trained with L1 prior as regularizer (aka the Lasso)"
+        "description": "Linear Model trained with L1 prior as regularizer (aka the Lasso)",
+            "name": "quantile_regressor",
+        "family": "linear",
+         "matrix": "sparse",
+        "performance": "fast"
       },
   "RANSACRegressor": {
         "class": "sklearn.linear_model.RANSACRegressor",
         "parameters": {
         },
-        "name": "Linear Model trained with L1 prior as regularizer (aka the Lasso)"
+        "description": "Linear Model trained with L1 prior as regularizer (aka the Lasso)",
+            "name": "ransac_regressor",
+        "family": "linear",
+         "matrix": "sparse",
+        "performance": "fast"
       },
   "TheilSenRegressor": {
         "class": "sklearn.linear_model.TheilSenRegressor",
         "parameters": {
         },
-        "name": "Linear Model trained with L1 prior as regularizer (aka the Lasso)"
+        "description": "Linear Model trained with L1 prior as regularizer (aka the Lasso)",
+            "name": "thiel_regressor",
+        "family": "linear",
+         "matrix": "sparse",
+        "performance": "fast"
       },
   "PassiveAggressiveRegressor": {
         "class": "sklearn.linear_model.PassiveAggressiveRegressor",
         "parameters": {
         },
-        "name": "Linear Model trained with L1 prior as regularizer (aka the Lasso)"
+        "description": "Linear Model trained with L1 prior as regularizer (aka the Lasso)",
+            "name": "passive_aggressive_regressor",
+        "family": "linear",
+         "matrix": "sparse",
+        "performance": "fast"
       },
   "BayesianRidge": {
         "class": "sklearn.linear_model.BayesianRidge",
         "parameters": {
         },
-        "name": "Bayesian ridge regression"
+        "description": "Bayesian ridge regression",
+            "name": "bayesian_regressor",
+        "family": "linear",
+         "matrix": "sparse",
+        "performance": "fast"
       },
   "ARDRegression": {
         "class": "sklearn.linear_model.ARDRegression",
         "parameters": {
         },
-        "name": "Bayesian ARD regression"
+        "description": "Bayesian ARD regression",
+            "name": "ard_regressor",
+        "family": "linear",
+         "matrix": "sparse",
+        "performance": "fast"
       },
   "KernelRidge": {
         "class": "sklearn.kernel_ridge.KernelRidge",
         "parameters": {
         },
-        "name": "Kernel ridge regression"
+        "description": "Kernel ridge regression",
+            "name": "kernel_regressor",
+        "family": "linear",
+         "matrix": "sparse",
+        "performance": "fast"
       },
   "SVR": {
         "class": "sklearn.svm.SVR",
         "parameters": {
         },
-        "name": "Linear Model trained with L1 prior as regularizer (aka the Lasso)"
+        "description": "Linear Model trained with L1 prior as regularizer (aka the Lasso)",
+            "name": "svr_regressor",
+        "family": "linear",
+         "matrix": "sparse",
+        "performance": "fast"
       },
   "DecisionTreeRegressor": {
         "class": "sklearn.tree.DecisionTreeRegressor",
         "parameters": {
         },
-        "name": "A decision tree regressor."
+        "description": "A decision tree regressor.",
+            "name": "dt_regressor",
+        "family": "linear",
+         "matrix": "sparse",
+        "performance": "fast"
       },
   "RandomForestRegressor": {
         "class": "sklearn.ensemble.RandomForestRegressor",
         "parameters": {
         },
-        "name": "A decision tree regressor."
+        "description": "A decision tree regressor.",
+            "name": "rf_regressor",
+        "family": "linear",
+         "matrix": "sparse",
+        "performance": "fast"
       },
   "ExtraTreeRegressor": {
         "class": "sklearn.tree.ExtraTreeRegressor",
         "parameters": {
         },
-        "name": "An extremely randomized tree regressor.\n\n"
+        "description": "An extremely randomized tree regressor.\n\n",
+            "name": "et_regressor",
+        "family": "linear",
+         "matrix": "sparse",
+        "performance": "fast"
       },
   "AdaBoostRegressor": {
         "class": "sklearn.ensemble.AdaBoostRegressor",
         "parameters": {
         },
-        "name": "An AdaBoost regressor"
+        "description": "An AdaBoost regressor",
+            "name": "adaboost_regressor",
+        "family": "linear",
+         "matrix": "sparse",
+        "performance": "fast"
       },
   "GradientBoostingRegressor": {
         "class": "sklearn.ensemble.GradientBoostingRegressor",
         "parameters": {
         },
-        "name": "Gradient Boosting for regression"
+        "description": "Gradient Boosting for regression",
+            "name": "grd_boost_regressor",
+        "family": "linear",
+         "matrix": "sparse",
+        "performance": "fast"
       },
   "MLPRegressor": {
         "class": "sklearn.neural_network.MLPRegressor",
         "parameters": {
         },
-        "name": "Multi-layer Perceptron regressor."
+        "description": "Multi-layer Perceptron regressor.",
+            "name": "mlp_regressor",
+        "family": "linear",
+         "matrix": "sparse",
+        "performance": "fast"
       },
   "XGBRegressor": {
         "class": "xgboost.XGBRegressor",
         "parameters": {
         },
-        "name": "An Xgboost regressor."
+        "description": "An Xgboost regressor.",
+            "name": "xgboost_regressor",
+        "family": "linear",
+         "matrix": "sparse",
+        "performance": "fast"
       },
   "CatBoostRegressor": {
     "class": "catboost.CatBoostRegressor",
@@ -325,6 +425,10 @@
         "value": false
       }
     },
-    "name": "An Boosted trees regressor."
+    "description": "An Boosted trees regressor.",
+    "name": "catboost_regressor",
+        "family": "linear",
+         "matrix": "sparse",
+        "performance": "fast"
     }
 }
