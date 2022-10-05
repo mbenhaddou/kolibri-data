@@ -201,7 +201,7 @@
             ]
           },
           "max_iter": {
-            "value": null,
+            "value": 1000,
             "type": "integer",
             "values": [
               1000,
