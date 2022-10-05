@@ -328,7 +328,7 @@
             "name": "kernel_regressor",
         "family": "linear",
          "matrix": "sparse",
-        "performance": "fast"
+        "performance": "slow"
       },
   "SVR": {
         "class": "sklearn.svm.SVR",
