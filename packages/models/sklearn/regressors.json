@@ -311,9 +311,18 @@
         "name": "An Xgboost regressor."
       },
   "CatBoostRegressor": {
-        "class": "catboost.CatBoostRegressor",
-        "parameters": {
-        },
-        "name": "An Boosted trees regressor."
-      }
+    "class": "catboost.CatBoostRegressor",
+    "parameters": {
+      "loss_function": {
+        "value": "RMSEWithUncertainty",
+        "type": "string",
+        "values": [
+          "RMSEWithUncertainty",
+          "RMSE",
+          "R2"
+        ]
+      },
+      "name": "An Boosted trees regressor."
+    }
+  }
 }
