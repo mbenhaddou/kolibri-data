@@ -94,6 +94,40 @@
         "name": "Linear least squares with l2 regularization"
       },
 
+  "KNeighborsRegressor": {
+        "class": "sklearn.neighbors.KNeighborsRegressor¶",
+        "parameters": {
+          "n_neighbors": {
+            "value": 5,
+            "type": "int",
+            "values": [3, 10]
+          },
+          "algorithm": {
+            "value": "auto",
+            "type": "string",
+            "values": [
+              "auto", "ball_tree", "kd_tree", "brute"
+            ]
+          },
+          "leaf_size": {
+            "value": 30,
+            "type": "int",
+            "values": [
+              10,
+              50
+            ]
+          },
+          "p": {
+            "value": 2,
+            "type": "int",
+            "values": [
+              1,
+              2
+            ]
+          }
+        },
+        "name": "Regression based on k-nearest neighbors"
+      },
   "SGDRegressor": {
         "class": "sklearn.linear_model.SGDRegressor",
         "parameters": {
