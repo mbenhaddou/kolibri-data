@@ -95,7 +95,7 @@
       },
 
   "KNeighborsRegressor": {
-        "class": "sklearn.neighbors.KNeighborsRegressor¶",
+        "class": "sklearn.neighbors.KNeighborsRegressor",
         "parameters": {
           "n_neighbors": {
             "value": 5,
