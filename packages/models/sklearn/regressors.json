@@ -321,8 +321,8 @@
           "RMSE",
           "R2"
         ]
-      },
+      }
+    },
       "name": "An Boosted trees regressor."
     }
-  }
 }
