@@ -764,5 +764,17 @@
         "family": "rule_based",
          "matrix": "sparse",
         "performance": "fast"
+  },
+
+    "CatBoostClassifier": {
+        "class": "catboost.CatBoostClassifier",
+        "description" : "CatBoost is a machine learning algorithm that uses gradient boosting on decision trees. It is available as an open source library.",
+        "parameters": {
+        }
+        },
+        "name": "catboost_classifier",
+        "family": "tree_based",
+         "matrix": "sparse",
+        "performance": "fast"
   }
 }

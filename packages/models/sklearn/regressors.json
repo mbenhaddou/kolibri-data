@@ -128,6 +128,24 @@
         },
         "name": "Regression based on k-nearest neighbors"
       },
+  "Lasso": {
+        "class": "sklearn.linear_model.Lasso",
+        "parameters": {
+        },
+        "name": "Linear Model trained with L1 prior as regularizer (aka the Lasso)"
+      },
+  "Lars(": {
+        "class": "sklearn.linear_model.Lars(",
+        "parameters": {
+        },
+        "name": "Least Angle Regression model a.k.a. LAR."
+      },
+  "ElasticNet": {
+        "class": "sklearn.linear_model.ElasticNet",
+        "parameters": {
+        },
+        "name": "Linear regression with combined L1 and L2 priors as regularizer"
+      },
   "SGDRegressor": {
         "class": "sklearn.linear_model.SGDRegressor",
         "parameters": {
@@ -183,5 +201,119 @@
           }
         },
         "name": "Linear model fitted by minimizing a regularized empirical loss with SGD"
+      },
+  "LassoLars": {
+        "class": "sklearn.linear_model.LassoLars",
+        "parameters": {
+        },
+        "name": "Linear Model trained with L1 prior as regularizer (aka the Lasso)"
+      },
+  "OrthogonalMatchingPursuit": {
+        "class": "sklearn.linear_model.OrthogonalMatchingPursuit",
+        "parameters": {
+        },
+        "name": "Linear Model trained with L1 prior as regularizer (aka the Lasso)"
+      },
+  "HuberRegressor": {
+        "class": "sklearn.linear_model.HuberRegressor",
+        "parameters": {
+        },
+        "name": "Linear Model trained with L1 prior as regularizer (aka the Lasso)"
+      },
+  "QuantileRegressor": {
+        "class": "sklearn.linear_model.QuantileRegressor",
+        "parameters": {
+        },
+        "name": "Linear Model trained with L1 prior as regularizer (aka the Lasso)"
+      },
+  "RANSACRegressor": {
+        "class": "sklearn.linear_model.RANSACRegressor",
+        "parameters": {
+        },
+        "name": "Linear Model trained with L1 prior as regularizer (aka the Lasso)"
+      },
+  "TheilSenRegressor": {
+        "class": "sklearn.linear_model.TheilSenRegressor",
+        "parameters": {
+        },
+        "name": "Linear Model trained with L1 prior as regularizer (aka the Lasso)"
+      },
+  "PassiveAggressiveRegressor": {
+        "class": "sklearn.linear_model.PassiveAggressiveRegressor",
+        "parameters": {
+        },
+        "name": "Linear Model trained with L1 prior as regularizer (aka the Lasso)"
+      },
+  "BayesianRidge": {
+        "class": "sklearn.linear_model.BayesianRidge",
+        "parameters": {
+        },
+        "name": "Bayesian ridge regression"
+      },
+  "ARDRegression": {
+        "class": "sklearn.linear_model.ARDRegression",
+        "parameters": {
+        },
+        "name": "Bayesian ARD regression"
+      },
+  "KernelRidge": {
+        "class": "sklearn.kernel_ridge.KernelRidge",
+        "parameters": {
+        },
+        "name": "Kernel ridge regression"
+      },
+  "SVR": {
+        "class": "sklearn.svm.SVR",
+        "parameters": {
+        },
+        "name": "Linear Model trained with L1 prior as regularizer (aka the Lasso)"
+      },
+  "DecisionTreeRegressor": {
+        "class": "sklearn.tree.DecisionTreeRegressor",
+        "parameters": {
+        },
+        "name": "A decision tree regressor."
+      },
+  "RandomForestRegressor": {
+        "class": "sklearn.ensemble.RandomForestRegressor",
+        "parameters": {
+        },
+        "name": "A decision tree regressor."
+      },
+  "ExtraTreeRegressor": {
+        "class": "sklearn.tree.ExtraTreeRegressor",
+        "parameters": {
+        },
+        "name": "An extremely randomized tree regressor.\n\n"
+      },
+  "AdaBoostRegressor": {
+        "class": "sklearn.ensemble.AdaBoostRegressor",
+        "parameters": {
+        },
+        "name": "An AdaBoost regressor"
+      },
+  "GradientBoostingRegressor": {
+        "class": "sklearn.ensemble.GradientBoostingRegressor",
+        "parameters": {
+        },
+        "name": "Gradient Boosting for regression"
+      },
+  "MLPRegressor": {
+        "class": "sklearn.neural_network.MLPRegressor",
+        "parameters": {
+        },
+        "name": "Multi-layer Perceptron regressor."
+      },
+  "XGBRegressor": {
+        "class": "xgboost.XGBRegressor",
+        "parameters": {
+        },
+        "name": "An Xgboost regressor."
+      },
+  "CatBoostRegressor": {
+        "class": "catboost.CatBoostRegressor",
+        "parameters": {
+        },
+        "name": "An Boosted trees regressor."
       }
 }
