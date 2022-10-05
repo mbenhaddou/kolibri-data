@@ -314,7 +314,7 @@
     "class": "catboost.CatBoostRegressor",
     "parameters": {
       "loss_function": {
-        "value": "RMSEWithUncertainty",
+        "value": "RMSE",
         "type": "string",
         "values": [
           "RMSEWithUncertainty",
