@@ -313,15 +313,6 @@
   "CatBoostRegressor": {
     "class": "catboost.CatBoostRegressor",
     "parameters": {
-      "loss_function": {
-        "value": "RMSE",
-        "type": "string",
-        "values": [
-          "RMSEWithUncertainty",
-          "RMSE",
-          "R2"
-        ]
-      },
       "posterior_sampling": {
         "value": true,
         "type": "bool",
