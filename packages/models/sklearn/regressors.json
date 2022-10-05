@@ -258,7 +258,7 @@
             "name": "hubber_regressor",
         "family": "linear",
          "matrix": "sparse",
-        "performance": "slow"
+        "performance": "fast"
       },
   "QuantileRegressor": {
         "class": "sklearn.linear_model.QuantileRegressor",
@@ -268,7 +268,7 @@
             "name": "quantile_regressor",
         "family": "linear",
          "matrix": "sparse",
-        "performance": "fast"
+        "performance": "slow"
       },
   "RANSACRegressor": {
         "class": "sklearn.linear_model.RANSACRegressor",
