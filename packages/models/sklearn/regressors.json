@@ -321,8 +321,19 @@
           "RMSE",
           "R2"
         ]
+      },
+      "posterior_sampling": {
+        "value": true,
+        "type": "bool",
+        "values": [
+          true,
+          false
+        ]
+      },
+      "verbose": {
+        "value": false
       }
     },
-      "name": "An Boosted trees regressor."
+    "name": "An Boosted trees regressor."
     }
 }
