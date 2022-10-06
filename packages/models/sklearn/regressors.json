@@ -430,5 +430,15 @@
         "family": "linear",
          "matrix": "sparse",
         "performance": "fast"
+    },
+  "HistGradientBoostingRegressor": {
+    "class": "sklearn.ensemble.HistGradientBoostingRegressor",
+    "parameters": {
+    },
+    "description": "Histogram-based Gradient Boosting Regression Tree.",
+    "name": "hist_gradient_regressor",
+        "family": "ensemble",
+         "matrix": "sparse",
+        "performance": "fast"
     }
 }
