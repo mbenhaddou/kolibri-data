@@ -101,7 +101,6 @@
          "matrix": "sparse",
         "performance": "fast"
       },
-
   "KNeighborsRegressor": {
         "class": "sklearn.neighbors.KNeighborsRegressor",
         "parameters": {
