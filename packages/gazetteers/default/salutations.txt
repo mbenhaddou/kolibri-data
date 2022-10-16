@@ -15,6 +15,7 @@ BONJOUR
 (B|b)onsoir
 (M|m)evr(;|)[ ]*(M|m)r([ ]+[A-Z][a-zA-Z-\+]{3,})*
 [ ]*((C|c)h(è|e)re?(e|s)?|(B|b)onjour)[ ]+(((M|m)on|(M|m)es)sieurs?|clients?)([ ]*(;|,|/|ou|et)[ ]*)?((M|m)adame)?([ ]+[A-Z][a-zA-Z-\+]{3,})*
+((((M|m)on|(M|m)es)sieurs?|(M|m)adame)[ ]*(;|,|/|ou|et))[ ]*(((M|m)on|(M|m)es)sieurs?|(M|m)adame),?
 Cher / Cher,?( cher / chère)?,?
 Cher / chère
 Geachte[ ]+(dame\/heer|heer)([ ]+[A-Z][a-zA-Z-\+]{3,})+
