@@ -3,6 +3,7 @@ All[ ]+the[ ]+best
 Alvast[ ]+bedankt[ ]+voor[ ]+de[ ]+verdere[ ]+opvolging
 Alvast[ ]+(be)?dankt?\!?(?!t?\s*voor)
 Alvast bedankt voor de vlotte verwerking
+Alvast bedankt!
 Amicalement
 Apologies[ ]+for[ ]+any[ ]+inconvenience
 Atenciosamente

@@ -18,8 +18,9 @@ BONJOUR
 ((C|c)h(e|è)re?[ ]*(client|équipe|M\.)?|Beste([ ]+Klant)?|(m|M)evrouw|(M|m)ijnheer)([ ]+[A-Z][a-zA-Z-\+]{3,})+
 Cher / Cher,?( cher / chère)?,?
 Cher / chère
-Geachte dame/heer
+Geachte[ ]+(dame\/heer|heer)([ ]+[A-Z][a-zA-Z-\+]{3,})+
 Beste[ ]+dames[ ]+en[ ]+heren
+Beste heer(([ ]+[A-Z][a-zA-Z-\+]{3,})+)?
 Geachte[ ]+dames,?[ ]*heren
 Beste,[ ]+Bonjour,?
 Bonjour,[ ]+Beste,?
