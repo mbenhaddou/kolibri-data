@@ -14,7 +14,7 @@ BONJOUR
 (B|b)onsoir[ ]+,merci
 (B|b)onsoir
 (M|m)evr(;|)[ ]*(M|m)r([ ]+[A-Z][a-zA-Z-\+]{3,})*
-[ ]*(C|c)h(è|e)re?(e|s)?[ ]+(((M|m)on|(M|m)es)sieurs?|clients?)([ ]*(;|,|/|ou|et)[ ]*)?((M|m)adame)?([ ]+[A-Z][a-zA-Z-\+]{3,})*
+[ ]*((C|c)h(è|e)re?(e|s)?|(B|b)onjour)[ ]+(((M|m)on|(M|m)es)sieurs?|clients?)([ ]*(;|,|/|ou|et)[ ]*)?((M|m)adame)?([ ]+[A-Z][a-zA-Z-\+]{3,})*
 Cher / Cher,?( cher / chère)?,?
 Cher / chère
 Geachte[ ]+(dame\/heer|heer)([ ]+[A-Z][a-zA-Z-\+]{3,})+
@@ -63,4 +63,3 @@ monsieur(([ ]+[A-Z][a-zA-Z-\+]{3,})+)
 (S|s)ehr[ ]+geehrte[ ]+(F|f)rauen[ ]+und[ ]+(H|h)erren
 (C|c)iao[ ]+a[ ]+tutti
 Geachte[ ]+heer/mevrouw
-(B|b)onjour[ ]+(M|m)adame/(M|m)onsieur
