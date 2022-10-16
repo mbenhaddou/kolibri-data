@@ -13,9 +13,8 @@ BONJOUR
 (B|b)onjour
 (B|b)onsoir[ ]+,merci
 (B|b)onsoir
-(M|m)evr(;|)[ ]*(M|m)r
-((Ch(è|e)r(e|s)[ ]+)?(M|m|Mes)a?dames?([ ]*(;|,|/|ou|et)[ ]+)?(((C|c)hers?)?[ ]*(m|M)(o|e)n?s?sieurs?)?|([ ]*(C|c)her)?[ ]*(m|M)onsieur([ ]*(;|,|/|ou|et)[ ]+)?(Ch(è|e)re[ ]+)?(M|m)adame)|Chers?[ ]+((Mon|Mes)sieurs?|clients?)|Monsieur(,|\.)?|Cher|Madame(,|\.)?
-((C|c)h(e|è)re?[ ]*(client|équipe|M\.)?|Beste([ ]+Klant)?|(m|M)evrouw|(M|m)ijnheer)([ ]+[A-Z][a-zA-Z-\+]{3,})+
+(M|m)evr(;|)[ ]*(M|m)r([ ]+[A-Z][a-zA-Z-\+]{3,})*
+[ ]*(C|c)h(è|e)re?(e|s)?[ ]+(((M|m)on|(M|m)es)sieurs?|clients?)([ ]*(;|,|/|ou|et)[ ]*)?((M|m)adame)?([ ]+[A-Z][a-zA-Z-\+]{3,})*
 Cher / Cher,?( cher / chère)?,?
 Cher / chère
 Geachte[ ]+(dame\/heer|heer)([ ]+[A-Z][a-zA-Z-\+]{3,})+
@@ -25,14 +24,12 @@ Geachte[ ]+dames,?[ ]*heren
 Beste,[ ]+Bonjour,?
 Bonjour,[ ]+Beste,?
 Geachte[ ]+klant,?
-Geachte (h|H)eer/(m|M)evrouw
+Geachte (h|H)eer/(m|M)evrouw([ ]+[A-Z][a-zA-Z-\+]{3,})*
 (Beste[ ]+)?(M|m)evrouw,?[[ ]+]+(M|m)ijnheer,
 (Beste[ ]+)?(M|m)eneer,?[ ]+(M|m)evrouw,?
 (Beste[ ]+)?(M|m)evrouw,?[ ]+(M|m)eneer,?
 (Beste[ ]+)?(M|m)ijnheer,?[ ]+(M|m)evrouw,?
 Geachte[ ]+(M|m)evrouw,?[ ]+(M|m)ijnheer(\.|,)?
-(C|c)her[ ]+(M|m)onsieur
-(C|c)h(è|e)re[ ]+(M|m)adame
 (G|g)uten[ ]+Tag
 (G|)uten[ ]+(M|m)orgen
 (G|g)oeiedag
