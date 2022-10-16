@@ -76,6 +76,7 @@ En[ ]+vous[ ]+remerciant[ ]+(d’avance\.?)?(\s*pour[ ]+votre[ ]+suivi)?
 Avec[ ]+mes[ ]+salutations
 (E|É|e)nergiquement[ ]+v(ô|o)tre
 En[ ]+vous[ ]+remerciant
+En vous remerciant d'avance
 Energetically[ ]+your
 Excellente[ ]+journ(é|e)e
 Fax[ ]+Reception[ ]+Report[ ]+[ ]+Received[ ]+Time
