@@ -55,8 +55,9 @@ Beste[ ]+Mevrouw,?[ ]+beste[ ]+heer,?
 (G|g)eachte[ ]+(H|h)eer,?[ ]+(G|g)eachte[ ]+(M|m)evrouw,?
 (G|g)eachte[ ]+(M|m)evrouw,?
 (G|g)eachte[ ]+(H|h)eer,?
-Sir,
+Sir,?(([ ]+[A-Z][a-zA-Z-\+]{3,})+)?
 Geachte,?
+monsieur(([ ]+[A-Z][a-zA-Z-\+]{3,})+)
 (m|M)evrouw,
 (M|m)erhabalar
 (G|g)entilissimi
