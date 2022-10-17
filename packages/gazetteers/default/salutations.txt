@@ -10,25 +10,25 @@ BONJOUR
 (g|G)ood[ ]+evening
 (H|h)allo
 (H|h)ola
-((H|h)ell?o|Dag)([ ]*[A-Z][a-zA-Z-\+])*,?
-^(B|b)onjour,?([ ]*[A-Z][a-zA-Z-\+])*,?
+((H|h)ell?o|Dag)([ ]*[A-Z][a-zA-Z-\+]+)*,?
+^(B|b)onjour,?([ ]*[A-Z][a-zA-Z-\+]+)*,?
 (B|b)onsoir[ ]+,merci
 (B|b)onsoir
-(M|m)evr(;|)[ ]*(M|m)r([ ]+[A-Z][a-zA-Z-\+])*
-((C|c)h(è|e)re?(e|s)?|(B|b)onjour|(S|r)ir)[ ]*(((M|m)on|(M|m)es)sieurs?|clients?)?([ ]*(;|,|/|ou|et)[ ]*)?((M|m)adame)?([ ]*[A-Z][a-zA-Z-\+])*,?
+(M|m)evr(;|)[ ]*(M|m)r([ ]+[A-Z][a-zA-Z-\+]+)*
+((C|c)h(è|e)re?(e|s)?|(B|b)onjour|(S|r)ir)[ ]*(((M|m)on|(M|m)es)sieurs?|clients?)?([ ]*(;|,|/|ou|et)[ ]*)?((M|m)adame)?([ ]*[A-Z][a-zA-Z-\+]+)*,?
 ((((M|m)on|(M|m)es)sieurs?|(M|m)adame)[ ]*(;|,|/|ou|et))[ ]*(((M|m)on|(M|m)es)sieurs?|(M|m)adame),?
 madame,?[ ]*monsieur
 Cher / Cher,?( cher / chère)?,?
 Cher / chère
-Geachte[ ]+(dame\/heer|heer)([ ]+[A-Z][a-zA-Z-\+])+
+Geachte[ ]+(dame\/heer|heer)([ ]+[A-Z][a-zA-Z-\+]+)+
 Beste[ ]+dames[ ]+en[ ]+heren
 Beste heer(([ ]*[A-Z][a-zA-Z-\+]+)+)?,?
 Geachte[ ]+dames,?[ ]*heren
 Beste,[ ]+Bonjour,?
 Bonjour,[ ]+Beste,?
 Geachte[ ]+klant,?
-Geachte (h|H)eer/(m|M)evrouw([ ]+[A-Z][a-zA-Z-\+])*
-(Beste[ ,]*)?(M|m)evrouw,?([ ]*(M|m)eneer,?)?([ ]+[A-Z][a-zA-Z-\+])*,?
+Geachte (h|H)eer/(m|M)evrouw([ ]+[A-Z][a-zA-Z-\+]+)*
+(Beste[ ,]*)?(M|m)evrouw,?([ ]*(M|m)eneer,?)?([ ]+[A-Z][a-zA-Z-\+]+)*,?
 (Beste[ ,]+)?(M|m)eneer,?[ ]+(M|m)evrouw,?
 (Beste[ ]+)?(M|m)evrouw,?[ ]+(M|m)eneer,?
 (Beste[ ]+)?(M|m)ijnheer,?[ ]+(M|m)evrouw,?
@@ -55,9 +55,9 @@ Beste[ ]+Mevrouw,?[ ]+beste[ ]+heer,?
 (G|g)eachte[ ]+(H|h)eer,?[ ]+(G|g)eachte[ ]+(M|m)evrouw,?
 (G|g)eachte[ ]+(M|m)evrouw,?
 (G|g)eachte[ ]+(H|h)eer,?
-Sir,?(([ ]+[A-Z][a-zA-Z-\+])+)?
+Sir,?(([ ]+[A-Z][a-zA-Z-\+]+)+)?
 Geachte,?
-monsieur(([ ]+[A-Z][a-zA-Z-\+])+)
+monsieur(([ ]+[A-Z][a-zA-Z-\+]+)+)
 (m|M)evrouw,
 (M|m)erhabalar
 (G|g)entilissimi
