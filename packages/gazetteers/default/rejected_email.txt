@@ -23,3 +23,6 @@ THIS IS A WARNING MESSAGE ONLY      \*\*\r?\n?    \*\*  YOU DO NOT NEED TO RESEN
 your message could not\r?\n?\s?be delivered to one or more recipients
 Delivery Status Notification \(Failure\)
 Delivery status notification
+The email address you entered couldn't be found.
+A communication failure occurred during the delivery of this message
+The recipient's email address isn't correct\.
