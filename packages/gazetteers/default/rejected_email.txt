@@ -26,3 +26,5 @@ Delivery status notification
 The email address you entered couldn't be found.
 A communication failure occurred during the delivery of this message
 The recipient's email address isn't correct\.
+Warning: message still undelivered after 1 hour
+421 #4.x.2 Too many messages for this session

@@ -11,7 +11,7 @@ BONJOUR
 (H|h)allo
 (H|h)ola
 ((H|h)ell?o|Dag)([ ]*[A-Z][a-zA-Z-\+]+)*,?
-^(B|b)onjour,?([ ]*[A-Z][a-zA-Z-\+]+)*,?
+^(Re)?(B|b)onjour,?([ ]*[A-Z][a-zA-Z-\+]+)*,?
 (B|b)onsoir[ ]+,merci
 (B|b)onsoir
 (M|m)evr(;|)[ ]*(M|m)r([ ]+[A-Z][a-zA-Z-\+]+)*
