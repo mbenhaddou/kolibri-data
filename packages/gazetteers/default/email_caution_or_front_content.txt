@@ -25,7 +25,7 @@ Début du message transféré\s*:
 \[cid:\w+\]
 -*\s*(Oorspronkelijk|Forwarded message|Origineel bericht|Message original|Message transféré|Oorspronkelijk bericht|mail transféré|Doorgestuurd bericht|Message transmis|Message d'origine)\s*-*
 L'email ne s'affiche pas correctement ? Voir la version en ligne
--+
+-{2,}
 \[On met plus d’énergie à vous servir\.\]
 (<|\[)image\d\.(jpeg|png|gif)(>|\])
 Begin doorgestuurd bericht:
@@ -60,8 +60,8 @@ L'électricité 100% belge, du gaz naturel et un service 5 étoiles \!
 \[\w+(\.|\/)jpe?g\]
 \[Logo Total Energies\]
 \** EXTERNAL EMAIL \**
-\* pauze \**
-\**
+\** pauze \**
+\*{2,}
 \**Gelieve deze email niet via \"beantwoorden\" te verwerken, uw email zal niet opgevolgd worden\.\**
 \**External email warning: This email originated outside the company\. Please do not click links or open attachments
  unless you were expecting this communication\**
