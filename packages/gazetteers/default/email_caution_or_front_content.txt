@@ -66,5 +66,6 @@ L'électricité 100% belge, du gaz naturel et un service 5 étoiles \!
 \**External email warning: This email originated outside the company. Please do not click links or open attachments
  unless you were expecting this communication\**
 \**This is an external email message. Confirm the sender before opening attachments or clicking links. Avoid content that looks suspicious.\**
+\s*L'absence de virus dans ce courrier électronique a été vérifiée par le logiciel antivirus Avast\.
 \*\|MC:SUBJECT\|\*
 (\/\*\*\/)+
