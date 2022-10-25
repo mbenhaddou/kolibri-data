@@ -69,3 +69,5 @@ L'électricité 100% belge, du gaz naturel et un service 5 étoiles \!
 \s*L'absence de virus dans ce courrier électronique a été vérifiée par le logiciel antivirus Avast\.
 \*\|MC:SUBJECT\|\*
 (\/\*\*\/)+
+\[?image: Afbeelding verwijderd door afzender\.\]?
+Garanti sans virus\. www\.avast\.com
