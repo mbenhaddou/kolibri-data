@@ -1,5 +1,5 @@
 (Get Outlook for )(iOS|Android)
-Envoyé depuis mon appareil mobile Samsung
+Envoyé depuis mon appareil (mobile Samsung|Galaxy)
 Envoyé de mon iPhone
 Verstuurd vanaf mijn iPhone
 Envoyé par Appli pour Gmail
@@ -27,6 +27,7 @@ Outlook voor iOS downloaden
 الحصول على Outlook for Android
 Expédié de ma galaxie
 Outlook voor iOS downloaden
+Sent from Android device
 Mail voor Windows 10
 ز گوشی هوشمند Samsung Galaxy ارسال شده است.
 Envoyé depuis l'application Universal Email App pour Android
@@ -38,3 +39,4 @@ Veuillez cliquer sur mon fichier merci.
 [image: width=]
 Sans virus.www.avast.com
 VOIR DANS UN NAVIGATEUR
+Verzonden vanaf mijn Galaxy
