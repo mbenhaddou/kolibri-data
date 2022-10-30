@@ -11,11 +11,11 @@ BONJOUR
 (H|h)allo
 (H|h)ola
 ((H|h)ell?o|Dag(?!:))([ ]*[A-Z][a-zA-Z-\+]+)*,?
-^(Re)?(B|b)onjour,?([ ]*[A-Z][a-zA-Z-\+]+)*,?
+^(((R|r)e)?\s*(B|b)onjour|Monsieur|Madame),?([ ]*[A-Z][a-zA-Z-\+]+)*,?
 (B|b)onsoir[ ]+,merci
 (B|b)onsoir
 (M|m)evr(;|)[ ]*(M|m)r([ ]+[A-Z][a-zA-Z-\+]+)*
-((C|c)h(è|e)re?(e|s)?|(B|b)onjour|(S|r)ir)[ ]*(((M|m)on|(M|m)es)sieurs?|clients?)?([ ]*(;|,|/|ou|et)[ ]*)?((M|m)adame)?([ ]*[A-Z][a-zA-Z-\+]+)*,?
+((C|c)h(è|e)r\(?e?\)?(e|s)?|(B|b)onjour|(S|r)ir)[ ]*(((M|m)on|(M|m)es)sieurs?|clients?|Madame)?([ ]*(;|,|/|ou|et)[ ]*)?((M|m)adame)?([ ]*[A-Z][a-zA-Z-\+]+)*,?
 ((((M|m)on|(M|m)es)sieurs?|(M|m)adame)[ ]*(;|,|/|ou|et))[ ]*(((M|m)on|(M|m)es)sieurs?|(M|m)adame),?
 madame,?[ ]*monsieur
 (Monsieur|Madame),
@@ -30,11 +30,8 @@ Beste Klant,?
 Chère cliente,? cher client
 Geachte[ ]+dames,?[ ]*heren
 Beste,[ ]+Bonjour,?
-Cher Monsieur,
-re\s*Bonjour,
-Chère Madame,
 Bonjour,[ ]+Beste,?
-Geachte[ ]+klant,?
+Geachte[ ]+(k|K)lant(/Leverancier)?,?
 Geachte ((h|H)eer\/)?(m|M)evrouw([ ]+[A-Z][a-zA-Z-\+\.]+)*
 (Beste[ ,]*)?(M|m)evrouw,?([ ]*(M|m)eneer,?)?([ ]+[A-Z][a-zA-Z-\+\.]+)*,?
 (Beste[ ,]+)?(M|m)eneer,?[ ]+(M|m)evrouw,?
@@ -57,12 +54,15 @@ Geachte[ ]+(M|m)evrouw,?[ ]+(M|m)ijnheer(\.|,)?
 (C|c)ari[ ]+(C|c)olleghi
 Geachte[ ]+mevrouw,[ ]+heer
 (Beste|(G|g)eachte)[ ]+heer,[ ]+mevrouw,?
-(B|b)este([ ]*(heer|mevrouw|klant))?
+(B|b)este([ ]*(heer/mevrouw|heer|mevrouw|klant))?,?
 Mevrouw,[ ]+Mijnheer,?
+M(a|es)dames?,?\sM(on|es)sieurs?,?
+Mijnheer,
 Beste[ ]+Mevrouw,?[ ]+beste[ ]+heer,?
 (G|g)eachte[ ]+(M|m)evrouw,?[ ]+(G|g)eachte[ ]+Heer
 (G|g)eachte[ ]+(H|h)eer,?[ ]+(G|g)eachte[ ]+(M|m)evrouw,?
-(G|g)eachte[ ]+(M|m)evrouw,?
+(G|g)eachte[ ]+(H|h)eer,?(\s*(M|m)evrouw,?)?
+(G|g)eachte[ ]+\s*(M|m)evrouw,?(\s*(H|h)eer,?)?
 (G|g)eachte[ ]+(H|h)eer,?
 Sir,?(([ ]+[A-Z][a-zA-Z-\+]+)+)?
 Geachte,?
