@@ -3,7 +3,8 @@
 (h|H)ey
 (h|H)ello
 (t|T)hanks[ ]+you[ ]+for
-All
+^All
+Gr,mjw
 BONJOUR
 (g|G)ood[ ]+morning
 (g|G)ood[ ]+afternoon

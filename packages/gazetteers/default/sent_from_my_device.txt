@@ -13,7 +13,7 @@ Verzonden vanuit Outlook
 Android için Outlook'(u|U) edinin
 Verstuurd vanaf mijn iPad
 Verzonden vanuit Mail
-Verzonden vanuit Mail voor Windows 10
+Verzonden vanuit Mail voor Windows( \d+)?
 Envoyé d’Outlook Mobile
 Téléchargez Outlook pour iOS
 Téléchargez Outlook pour Android
@@ -33,10 +33,10 @@ Mail voor Windows 10
 Envoyé depuis l'application Universal Email App pour Android
 Outlook voor Android downloaden
 Verstuurd via de Outlook Email App-app voor Android
-Verzonden met Genius Scan voor iOS.
+Verzonden met Genius Scan voor iOS\.
 https://dl.tglapp.com/genius-scan
-Veuillez cliquer sur mon fichier merci.
-[image: width=]
-Sans virus.www.avast.com
+Veuillez cliquer sur mon fichier merci\.
+\[image: width=\]
+Sans virus\.www\.avast\.com
 VOIR DANS UN NAVIGATEUR
 Verzonden vanaf mijn Galaxy
