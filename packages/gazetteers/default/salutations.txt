@@ -40,7 +40,7 @@ Geachte ((h|H)eer\/)?(m|M)evrouw([ ]+[A-Z][a-zA-Z-\+\.]+)*
 (Beste[ ,]+)?(M|m)eneer,?[ ]+(M|m)evrouw,?
 (Beste[ ]+)?(M|m)evrouw,?[ ]+(M|m)eneer,?
 (Beste[ ]+)?(M|m)ijnheer,?[ ]+(M|m)evrouw,?
-Bonjour (Mme ou Mr|[A-Z][a-zA-Z-\+\.]+)*,?)
+Bonjour (Mme ou Mr|[A-Z][a-zA-Z-\+\.]+)*,?
 Geachte[ ]+(M|m)evrouw,?[ ]+(M|m)ijnheer(\.|,)?
 (G|g)uten[ ]+Tag
 (G|)uten[ ]+(M|m)orgen
