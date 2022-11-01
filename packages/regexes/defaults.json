@@ -244,10 +244,8 @@
     "FILE_NAME" : "\\b([A-Za-z0-9\\(\\)\\. _,-])+(\\.)(docx|docx?|xlsx?|pdf|png|jpg|pptx?|rtf|csv|txt)\\b",
     "QUARTER" : "\\bQ[1-4]\\s*(19|20)\\d{2}\\b",
     "DURATION" :  {
-        "EN": {
-            "value":"(\\d+[\\.,]?\\d*\\s*(?:\\w+)?\\s*(days?|hours?|minutes?)\\s*(\\d+[?.]?\\d*\\s*(days?|hours?|minutes?))?)|\\b((\\d+)|(half|one|two|three|four|five|six|seven|eight|nine|ten|eleven|twelve|thirteen|fourteen|fifteen|sixteen|seventeen|eighteen|nineteen|twenty|thirty|forty|fifty|sixty|seventy|eighty|ninety| ))+\\s+(seconds?|minutes?|hours?|days?|weeks?|months?|years?)\\b",
+            "value":"\\b((\\d+)|(half|one|two|three|four|five|six|seven|eight|nine|ten|eleven|twelve|thirteen|fourteen|fifteen|sixteen|seventeen|eighteen|nineteen|twenty|thirty|forty|fifty|sixty|seventy|eighty|ninety| ))+\\s+(seconde?s?n?|minutes?n?|h?(o|u)ur?s?|heures?|days?|jours?|dag(en)?|semaines?|weeks?|weken|maand(en)?|months?|mois|years?|ann(é|e)e?s?|jaar(en)?)\\b",
             "flags": "re.IGNORECASE"
-        }
     },
     "TIME_POINT" :{
         "EN": {
