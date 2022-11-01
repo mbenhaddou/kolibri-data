@@ -139,5 +139,10 @@
         "IBAN" : {
                 "value": "(?P<IBAN>[A-Z]{2}[0-9]{2}(?:[ ]?[0-9X]{4}){3,4}(?:[ ]?[0-9X]{1,2})?)",
                 "label": "IBAN"
+        },
+        "CLIENT_NR": {
+                "value": "((k|K|C)(l|L)a?n?t?e?n?n?u?m?m?e?r?(fiche?)?|(C|c)lient).?(\\s\\w+)?\\s*(;|:|est( le)?|is)?\\s*\\(?(n°)?\\d{6,}\\)?",
+                "label": "CLIENT_NR"
         }
+
 }
