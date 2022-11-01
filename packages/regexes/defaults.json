@@ -211,15 +211,15 @@
     },
     "MONTH" : {
         "EN": {
-            "value": "(?:(jan|febr)uary|march|april|jui?ne?|jully|august|(septem|octo|novem|decem)ber|(jan|feb|mar|apr|may|jun|jul|aug|sep|oct|nov|dec)\\.?)",
+            "value": "(?:\\b(jan|febr)uary|march|april|jui?ne?|jully|august|(septem|octo|novem|decem)ber|(jan|feb|mar|apr|may|jun|jul|aug|sep|oct|nov|dec)\\b\\.?)",
             "flags": "re.IGNORECASE"
         },
         "NL" : {
-            "value": "\\b(?:an(uari)?|u(?:ni?|li?))|feb(ruari)?|m(?:aart|ei)|a(?:pril|ug(ustus)?)|(?:(?:(?:sept|nov|dec)(em)?)|o(k|c)to?)(ber)?",
+            "value": "\\b(?:an(uari)?|u(?:ni?|li?))|feb(ruari)?|m(?:aart|ei)|a(?:pril|ug(ustus)?)|(?:(?:(?:sept|nov|dec)(em)?)|o(k|c)to?)(ber)?\\b",
             "flags": "re.IGNORECASE"
         },
         "FR": {
-            "value":"(?:janv|f(?:é|e)vr|mars|avr|mai|juin|juil|ao(?:û|u)t|sept|oct|nov|d(?:é|e)c)(?:\\.|i(?:er|l)|let|(?:em|o)bre)?",
+            "value":"\\b(?:janv|f(?:é|e)vr|mars|avr|mai|juin|juil|ao(?:û|u)t|sept|oct|nov|d(?:é|e)c)(?:\\.|i(?:er|l)|let|(?:em|o)bre)\\b?",
             "flags": "re.IGNORECASE"
         }
 
