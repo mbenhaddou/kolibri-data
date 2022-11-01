@@ -12,7 +12,6 @@ Verzonden vanaf mijn Huawei mobiele telefoon
 Verzonden vanuit Outlook
 Android için Outlook'(u|U) edinin
 Verstuurd vanaf mijn iPad
-Verzonden vanuit Mail
 Verzonden vanuit Mail voor Windows( \d+)?
 Envoyé d’Outlook Mobile
 Téléchargez Outlook pour iOS
