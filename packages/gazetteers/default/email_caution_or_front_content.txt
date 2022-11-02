@@ -2,6 +2,7 @@
 This message\scontains?\s[A-Z ]*.*\s+(Sensitivity: [\w ]+)?
 ^##-\s+Please type your reply above this line\s+-##
 ##- N’écrivez pas sous cette ligne -##
+##- Veuillez saisir votre réponse au-dessus de cette ligne -##
 \[EXTERNAL EMAIL\].*
 \[EXTERNAL\].*
 \[Image\]

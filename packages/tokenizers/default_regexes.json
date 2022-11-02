@@ -133,7 +133,7 @@
                 "label": "URL"
         },
         "EAN_NUMBER":{
-                "value":"EAN\\s*:?\\s*\\d{18}\\b",
+                "value":"(EAN\\s*:?)?\\s*\\d{17,}\\b",
                 "label": "EAN_NUMBER"
         },
         "IBAN" : {
@@ -143,6 +143,11 @@
         "CLIENT_NR": {
                 "value": "((k|K|C)(l|L)a?n?t?e?n?n?u?m?m?e?r?(fiche?)?|(C|c)lient).?(\\s\\w+)?\\s*(;|:|est( le)?|is)?\\s*\\(?(n°)?\\d{6,}\\)?",
                 "label": "CLIENT_NR"
+        },
+
+        "ENERGY_INDEX": {
+                "value": "(index était de|Index gaz.*:|Jour|soir|index|Nuit|Gaz|(E|é)lectricit(é|e))\\s*(:|;)?\\s*\\d+(,|\\.)?\\d*\\s*(\\m3|kwh?)?|\\d+(\\.|,)?\\d*\\s(m3|kwh?|\\s*\\(?(de )?(jour|nuit)\\)?)",
+                "label": "ENERGY_INDEX"
         }
 
 }
