@@ -281,5 +281,5 @@
     "EMOTICONS": "(?:[<>]?[:;=8][\\-o\\*\\']?[\\)\\]\\(\\[dDpP/\\:\\}\\{@\\|\\]|[\\)\\\\]|\\(\\[dDpP/\\:\\}\\{@\\|\\][\\-o\\*\\']?[:;=8][<>]?|</?3)",
     "CLIENT_NR": "((k|K|C)(l|L)a?n?t?e?n?n?u?m?m?e?r?(fiche?)?|(C|c)lient).?(\\s\\w+)?\\s*(;|:|est( le)?|is)?\\s*\\(?(n°)?\\d{6,}\\)?",
     "BELGIAN_REGION": "\\b(Antwerpen|Anvers|Antwerpen|Oost[- ]Vlaanderen|Flandre orientale|Ostflandern|Vlaams[- ]Brabant|Brabant flamand|Flämisch[- ]Brabant|Limburg|Limbourg|Limburg|West[- ]Vlaanderen|Flandre occidentale|Westflandern|Henegouwen|Hainaut|Hennegau|Luik|Liège|Lüttich|Luxemburg|Luxembourg|Luxemburg|Namen|Namur|Namür|Waals[- ]Brabant|Brabant wallon|Wallonisch[- ]Brabant|Brussels Hoofdstedelijk Gewest|Région de Bruxelles[-| ]Capitale|Region Brüssel[- ]Hauptstadt)\\b",
-    "STREET_ADDRESS": "\\b(\\d+[A-Z]?)(\\/?\\d+)?,?\\s+(\\w+(laan|weg)|N\\d+|([A-Z][a-zâ-]+[, ]*)+)\\s*\\d+,?\\s*([A-Z][a-zâ]+[, ]*)+|(Rue|Avenue|Place|Route|Chemin|Blv|Boulevard)\\s*((du|de la|de)\\s)?([A-Z][a-zâéè]+[, ]*)+\\s\\d+,?\\s\\d+\\s([A-Z][a-zâéè-]+[, ]*)+\\b"
+    "STREET_ADDRESS": "\\b(\\d+[A-Z]?)(\\/?\\d+)?,?\\s+(\\w+(laan|weg)|N\\d+|([A-Z][a-zâ-]+[, ]*)+)\\s*\\d+,?\\s*([A-Z][a-zâ]+[, ]*)+|((Rue|Avenue|Place|Route|Chemin|Blv|Boulevard)\\s*((du|de la|de)\\s))?([A-Z][a-zâéè]+[, ]*)+\\s(\\d+(\\/\\d+)?),?\\s\\d+\\s([A-Z][a-zâéè-]+[, ]*)+\\b"
 }
