@@ -183,7 +183,7 @@
     "BE": "[0-9]-?[A-Z]{3}-?[0-9]{3}"
     },
     "TIME_24H_FORMAT" : "(24:00|2[0-3]:[0-5][0-9]|[0-1][0-9]:[0-5][0-9])",
-    "ISO_8601_DATETIME" : "(?P<full>((?P<year>\\d{4})([/-]?(?P<mon>(0[1-9])|(1[012]))([/-]?(?P<mday>(0[1-9])|([12]\\d)|(3[01])))?)?(?:T(?P<hour>([01][0-9])|(?:2[0123]))(\\:?(?P<min>[0-5][0-9])(\\:?(?P<sec>[0-5][0-9]([\\,\\.]\\d{1,10})?))?)?(?:Z|([\\-+](?:([01][0-9])|(?:2[0123]))(\\:?(?:[0-5][0-9]))?))?)?))",
+    "ISO_8601_DATETIME" : "\\b(?P<full>((?P<year>\\d{4})([/-]?(?P<mon>(0[1-9])|(1[012]))([/-]?(?P<mday>(0[1-9])|([12]\\d)|(3[01])))?)?(?:T(?P<hour>([01][0-9])|(?:2[0123]))(\\:?(?P<min>[0-5][0-9])(\\:?(?P<sec>[0-5][0-9]([\\,\\.]\\d{1,10})?))?)?(?:Z|([\\-+](?:([01][0-9])|(?:2[0123]))(\\:?(?:[0-5][0-9]))?))?)?))\\b",
     "ISBN" : "(?:ISBN(?:-1[03])?:? )?(?=[-0-9 ]{17}$|[-0-9X ]{13}$|[0-9X]{10}$)(?:97[89][- ]?)?[0-9]{1,5}[- ]?(?:[0-9]+[- ]?){2}[0-9X]",
     "ROMAN_NUMERALS" : "\b(?=[MDCLXVI])M*(C[MD]|D?C*)(X[CL]|L?X*)(I[XV]|V?I*)\b",
     "URL" : "(?:http|ftp)s?://(?:(?:[A-Z0-9](?:[A-Z0-9-]{0,61}[A-Z0-9])?\\.)+(?:[A-Z]{2,6}\\.?|[A-Z0-9-]{2,}\\.?)|localhost|\\d{1,3}\\.\\d{1,3}\\.\\d{1,3}\\.\\d{1,3}|\\[?[A-F0-9]*:[A-F0-9:]+\\]?)(?::\\d+)?(?:/?|[/?]\\s+)",
@@ -279,5 +279,7 @@
     },
     "TIME" : "(\\d{1,2}[:hH]\\d{2}\\sGMT)|(\\d{1,2}[:hH]\\d{2})",
     "EMOTICONS": "(?:[<>]?[:;=8][\\-o\\*\\']?[\\)\\]\\(\\[dDpP/\\:\\}\\{@\\|\\]|[\\)\\\\]|\\(\\[dDpP/\\:\\}\\{@\\|\\][\\-o\\*\\']?[:;=8][<>]?|</?3)",
-    "CLIENT_NR": "((k|K|C)(l|L)a?n?t?e?n?n?u?m?m?e?r?(fiche?)?|(C|c)lient).?(\\s\\w+)?\\s*(;|:|est( le)?|is)?\\s*\\(?(n°)?\\d{6,}\\)?"
+    "CLIENT_NR": "((k|K|C)(l|L)a?n?t?e?n?n?u?m?m?e?r?(fiche?)?|(C|c)lient).?(\\s\\w+)?\\s*(;|:|est( le)?|is)?\\s*\\(?(n°)?\\d{6,}\\)?",
+    "BELGIAN_REGION": "\\b(Antwerpen|Anvers|Antwerpen|Oost[- ]Vlaanderen|Flandre orientale|Ostflandern|Vlaams[- ]Brabant|Brabant flamand|Flämisch[- ]Brabant|Limburg|Limbourg|Limburg|West[- ]Vlaanderen|Flandre occidentale|Westflandern|Henegouwen|Hainaut|Hennegau|Luik|Liège|Lüttich|Luxemburg|Luxembourg|Luxemburg|Namen|Namur|Namür|Waals[- ]Brabant|Brabant wallon|Wallonisch[- ]Brabant|Brussels Hoofdstedelijk Gewest|Région de Bruxelles[-| ]Capitale|Region Brüssel[- ]Hauptstadt)\\b",
+    "STREET_ADDRESS": "\\b(\\d+[A-Z]?)(\\/?\\d+)?,?\\s+(\\w+(laan|weg)|N\\d+|([A-Z][a-zâ-]+[, ]*)+)\\s*\\d+,?\\s*([A-Z][a-zâ]+[, ]*)+|(Rue|Avenue|Place|Route|Chemin|Blv|Boulevard)\\s*((du|de la|de)\\s)?([A-Z][a-zâéè]+[, ]*)+\\s\\d+,?\\s\\d+\\s([A-Z][a-zâéè-]+[, ]*)+\\b"
 }
