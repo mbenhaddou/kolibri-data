@@ -2,6 +2,7 @@
     "CRF": {
         "class": "sklearn_crfsuite.CRF",
         "name": "crf",
+        "library": "sklearn",
         "parameters": {
             "min_freq": {
                 "value": 0,

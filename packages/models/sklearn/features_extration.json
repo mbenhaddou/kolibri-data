@@ -26,6 +26,7 @@
         "name": "bernoulli_rbm_classfier",
         "family": "neural_network",
         "matrix": "sparse",
-        "performance": "fast"
+        "performance": "fast",
+          "library": "sklearn"
         }
 }

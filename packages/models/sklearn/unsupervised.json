@@ -29,7 +29,8 @@
       "name": "k_means",
         "family": "",
         "matrix": "sparse",
-        "performance": "fast"
+        "performance": "fast",
+        "library": "sklearn"
   },
       "AgglomerativeClustering": {
       "class": "sklearn.cluster.AgglomerativeClustering",
@@ -53,7 +54,8 @@
       "name": "agglomerative_clustering",
         "family": "",
         "matrix": "sparse",
-        "performance": "fast"
+        "performance": "fast",
+        "library": "sklearn"
   },
       "Birch": {
       "class": "sklearn.cluster.Birch",
@@ -77,7 +79,8 @@
       "name": "birch_clustering",
         "family": "",
         "matrix": "sparse",
-        "performance": "fast"
+        "performance": "fast",
+        "library": "sklearn"
   },
       "DBSCAN": {
       "class": "sklearn.cluster.DBSCAN",
@@ -106,7 +109,8 @@
       "name": "dbscan_clustering",
         "family": "",
         "matrix": "sparse",
-        "performance": "fast"
+        "performance": "fast",
+        "library": "sklearn"
   },
       "AffinityPropagation": {
       "class": "sklearn.cluster.AffinityPropagation",
@@ -130,7 +134,8 @@
       "name": "affinity_propagation_clustering",
         "family": "",
         "matrix": "sparse",
-        "performance": "fast"
+        "performance": "fast",
+        "library": "sklearn"
   },
       "MiniBatchKMeans": {
       "class": "sklearn.cluster.MiniBatchKMeans",
@@ -154,6 +159,7 @@
       "name": "mini_batch_kmeans_clustering",
         "family": "",
         "matrix": "sparse",
-        "performance": "fast"
+        "performance": "fast",
+        "library": "sklearn"
   }
 }

@@ -48,7 +48,8 @@
     "name": "Principal Component Analysis",
     "family": "linear",
     "matrix": "sparse",
-    "performance": "fast"
+    "performance": "fast",
+    "library": "pyod"
   },
   "IForest": {
     "class": "pyod.models.iforest.IForest",
@@ -110,7 +111,8 @@
     "name": "Isolation Forest",
     "family": "linear",
     "matrix": "sparse",
-    "performance": "fast"
+    "performance": "fast",
+    "library": "pyod"
   },
   "KNN": {
     "class": "pyod.models.knn.KNN",
@@ -169,7 +171,8 @@
     "name": "k-Nearest Neighbors Detector",
     "family": "linear",
     "matrix": "sparse",
-    "performance": "fast"
+    "performance": "fast",
+    "library": "pyod"
   },
   "ABOD": {
     "class": "pyod.models.abod.ABOD",
@@ -203,7 +206,8 @@
     "name": "Angle-base Outlier Detection",
     "family": "linear",
     "matrix": "sparse",
-    "performance": "fast"
+    "performance": "fast",
+    "library": "pyod"
   },
   "CBLOF":  {
     "class": "pyod.models.cblof.CBLOF",
@@ -256,7 +260,8 @@
     "name": "Clustering Based Local Outlier Factor (CBLOF)",
     "family": "linear",
     "matrix": "sparse",
-    "performance": "fast"
+    "performance": "fast",
+    "library": "pyod"
   },
   "SVM":  {
     "class": "pyod.models.ocsvm.OCSVM",
@@ -298,7 +303,8 @@
     "name": "One-class SVM detector. Implemented on scikit-learn library",
     "family": "linear",
     "matrix": "sparse",
-    "performance": "fast"
+    "performance": "fast",
+    "library": "pyod"
   },
   "XGBOD":  {
     "class": "pyod.models.xgbod.XGBOD",
@@ -344,7 +350,8 @@
     "name": "Supervised Outlier Detection with Unsupervised Representation Learning",
     "family": "linear",
     "matrix": "sparse",
-    "performance": "fast"
+    "performance": "fast",
+    "library": "pyod"
   },
   "COF":  {
     "class": "pyod.models.cof.COF",
@@ -378,7 +385,8 @@
     "name": "Connectivity-Based Outlier Factor (COF) Algorithm",
     "family": "linear",
     "matrix": "sparse",
-    "performance": "fast"
+    "performance": "fast",
+    "library": "pyod"
   },
   "HBOS":  {
     "class": "pyod.models.hbos.HBOS",
@@ -412,7 +420,8 @@
     "name": "Histogram-based Outlier Detection (HBOS)",
     "family": "linear",
     "matrix": "sparse",
-    "performance": "fast"
+    "performance": "fast",
+    "library": "pyod"
   },
   "LOF":  {
     "class": "pyod.models.lof.LOF",
@@ -454,7 +463,8 @@
     "name": "Local Outlier Factor (LOF)",
     "family": "linear",
     "matrix": "sparse",
-    "performance": "fast"
+    "performance": "fast",
+    "library": "pyod"
   },
   "SOD":  {
     "class": "classpyod.models.sod.SOD",
@@ -497,7 +507,8 @@
     "name": "Subspace Outlier Detection (SOD)\n\n",
     "family": "linear",
     "matrix": "sparse",
-    "performance": "fast"
+    "performance": "fast",
+    "library": "pyod"
   },
   "SOS":  {
     "class": "pyod.models.sos.SOS",
@@ -531,6 +542,7 @@
     "name": "Stochastic Outlier Selection (SOS)",
     "family": "linear",
     "matrix": "sparse",
-    "performance": "fast"
+    "performance": "fast",
+    "library": "pyod"
   }
 }

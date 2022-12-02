@@ -39,7 +39,8 @@
         "name": "linear_regression",
         "family": "linear",
          "matrix": "sparse",
-        "performance": "fast"
+        "performance": "fast",
+    "library": "sklearn"
       },
   "Ridge": {
         "class": "sklearn.linear_model.Ridge",
@@ -99,7 +100,8 @@
             "name": "ridge_regressor",
         "family": "linear",
          "matrix": "sparse",
-        "performance": "fast"
+        "performance": "fast",
+    "library": "sklearn"
       },
   "KNeighborsRegressor": {
         "class": "sklearn.neighbors.KNeighborsRegressor",
@@ -137,7 +139,8 @@
         "name": "knn_regressor",
         "family": "linear",
          "matrix": "sparse",
-        "performance": "fast"
+        "performance": "fast",
+    "library": "sklearn"
       },
   "Lasso": {
         "class": "sklearn.linear_model.Lasso",
@@ -147,7 +150,8 @@
         "name": "lasso_regressor",
         "family": "linear",
          "matrix": "sparse",
-        "performance": "fast"
+        "performance": "fast",
+    "library": "sklearn"
       },
   "Lars(": {
         "class": "sklearn.linear_model.Lars(",
@@ -157,7 +161,8 @@
         "name": "lars_regressor",
         "family": "linear",
          "matrix": "sparse",
-        "performance": "fast"
+        "performance": "fast",
+    "library": "sklearn"
       },
   "ElasticNet": {
         "class": "sklearn.linear_model.ElasticNet",
@@ -167,7 +172,8 @@
        "name": "elasticnet_regressor",
         "family": "linear",
          "matrix": "sparse",
-        "performance": "fast"
+        "performance": "fast",
+    "library": "sklearn"
       },
   "SGDRegressor": {
         "class": "sklearn.linear_model.SGDRegressor",
@@ -227,7 +233,8 @@
             "name": "sqg_regressor",
         "family": "linear",
          "matrix": "sparse",
-        "performance": "fast"
+        "performance": "fast",
+    "library": "sklearn"
       },
   "LassoLars": {
         "class": "sklearn.linear_model.LassoLars",
@@ -237,7 +244,8 @@
             "name": "lasso_regressor",
         "family": "linear",
          "matrix": "sparse",
-        "performance": "fast"
+        "performance": "fast",
+    "library": "sklearn"
       },
   "OrthogonalMatchingPursuit": {
         "class": "sklearn.linear_model.OrthogonalMatchingPursuit",
@@ -247,7 +255,8 @@
             "name": "omp_regressor",
         "family": "linear",
          "matrix": "sparse",
-        "performance": "fast"
+        "performance": "fast",
+    "library": "sklearn"
       },
   "HuberRegressor": {
         "class": "sklearn.linear_model.HuberRegressor",
@@ -257,7 +266,8 @@
             "name": "hubber_regressor",
         "family": "linear",
          "matrix": "sparse",
-        "performance": "fast"
+        "performance": "fast",
+    "library": "sklearn"
       },
   "QuantileRegressor": {
         "class": "sklearn.linear_model.QuantileRegressor",
@@ -267,7 +277,8 @@
             "name": "quantile_regressor",
         "family": "linear",
          "matrix": "sparse",
-        "performance": "slow"
+        "performance": "slow",
+    "library": "sklearn"
       },
   "RANSACRegressor": {
         "class": "sklearn.linear_model.RANSACRegressor",
@@ -277,7 +288,8 @@
             "name": "ransac_regressor",
         "family": "linear",
          "matrix": "sparse",
-        "performance": "fast"
+        "performance": "fast",
+    "library": "sklearn"
       },
   "TheilSenRegressor": {
         "class": "sklearn.linear_model.TheilSenRegressor",
@@ -287,7 +299,8 @@
             "name": "thiel_regressor",
         "family": "linear",
          "matrix": "sparse",
-        "performance": "fast"
+        "performance": "fast",
+    "library": "sklearn"
       },
   "PassiveAggressiveRegressor": {
         "class": "sklearn.linear_model.PassiveAggressiveRegressor",
@@ -297,7 +310,8 @@
             "name": "passive_aggressive_regressor",
         "family": "linear",
          "matrix": "sparse",
-        "performance": "fast"
+        "performance": "fast",
+    "library": "sklearn"
       },
   "BayesianRidge": {
         "class": "sklearn.linear_model.BayesianRidge",
@@ -307,7 +321,8 @@
             "name": "bayesian_regressor",
         "family": "linear",
          "matrix": "sparse",
-        "performance": "fast"
+        "performance": "fast",
+    "library": "sklearn"
       },
   "ARDRegression": {
         "class": "sklearn.linear_model.ARDRegression",
@@ -317,7 +332,8 @@
             "name": "ard_regressor",
         "family": "linear",
          "matrix": "sparse",
-        "performance": "fast"
+        "performance": "fast",
+    "library": "sklearn"
       },
   "KernelRidge": {
         "class": "sklearn.kernel_ridge.KernelRidge",
@@ -327,7 +343,8 @@
             "name": "kernel_regressor",
         "family": "linear",
          "matrix": "sparse",
-        "performance": "slow"
+        "performance": "slow",
+    "library": "sklearn"
       },
   "SVR": {
         "class": "sklearn.svm.SVR",
@@ -337,7 +354,8 @@
             "name": "svr_regressor",
         "family": "linear",
          "matrix": "sparse",
-        "performance": "fast"
+        "performance": "fast",
+    "library": "sklearn"
       },
   "DecisionTreeRegressor": {
         "class": "sklearn.tree.DecisionTreeRegressor",
@@ -347,7 +365,8 @@
             "name": "dt_regressor",
         "family": "linear",
          "matrix": "sparse",
-        "performance": "fast"
+        "performance": "fast",
+    "library": "sklearn"
       },
   "RandomForestRegressor": {
         "class": "sklearn.ensemble.RandomForestRegressor",
@@ -357,7 +376,8 @@
             "name": "rf_regressor",
         "family": "linear",
          "matrix": "sparse",
-        "performance": "fast"
+        "performance": "fast",
+    "library": "sklearn"
       },
   "ExtraTreeRegressor": {
         "class": "sklearn.tree.ExtraTreeRegressor",
@@ -367,7 +387,8 @@
             "name": "et_regressor",
         "family": "linear",
          "matrix": "sparse",
-        "performance": "fast"
+        "performance": "fast",
+    "library": "sklearn"
       },
   "AdaBoostRegressor": {
         "class": "sklearn.ensemble.AdaBoostRegressor",
@@ -377,7 +398,8 @@
             "name": "adaboost_regressor",
         "family": "linear",
          "matrix": "sparse",
-        "performance": "fast"
+        "performance": "fast",
+    "library": "sklearn"
       },
   "GradientBoostingRegressor": {
         "class": "sklearn.ensemble.GradientBoostingRegressor",
@@ -387,7 +409,8 @@
             "name": "grd_boost_regressor",
         "family": "linear",
          "matrix": "sparse",
-        "performance": "fast"
+        "performance": "fast",
+    "library": "sklearn"
       },
   "MLPRegressor": {
         "class": "sklearn.neural_network.MLPRegressor",
@@ -397,7 +420,8 @@
             "name": "mlp_regressor",
         "family": "linear",
          "matrix": "sparse",
-        "performance": "fast"
+        "performance": "fast",
+    "library": "sklearn"
       },
   "XGBRegressor": {
         "class": "xgboost.XGBRegressor",
@@ -407,7 +431,8 @@
             "name": "xgboost_regressor",
         "family": "linear",
          "matrix": "sparse",
-        "performance": "fast"
+        "performance": "fast",
+    "library": "xgboost"
       },
   "CatBoostRegressor": {
     "class": "catboost.CatBoostRegressor",
@@ -428,7 +453,8 @@
     "name": "catboost_regressor",
         "family": "linear",
          "matrix": "sparse",
-        "performance": "fast"
+        "performance": "fast",
+    "library": "catboost"
     },
   "HistGradientBoostingRegressor": {
     "class": "sklearn.ensemble.HistGradientBoostingRegressor",
@@ -438,6 +464,7 @@
     "name": "hist_gradient_regressor",
         "family": "ensemble",
          "matrix": "sparse",
-        "performance": "fast"
+        "performance": "fast",
+    "library": "sklearn"
     }
 }

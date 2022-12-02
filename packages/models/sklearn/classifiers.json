@@ -35,7 +35,8 @@
         "name": "logistic_regression",
         "family": "linear",
         "matrix": "sparse",
-        "performance": "fast"
+        "performance": "fast",
+          "library": "sklearn"
   },
       "KNeighborsClassifier": {
         "class": "sklearn.neighbors.KNeighborsClassifier",
@@ -68,7 +69,8 @@
         "name": "knn",
         "family":"neighbors",
         "matrix": "sparse",
-        "performance": "fast"
+        "performance": "fast",
+        "library": "sklearn"
       },
        "RadiusNeighborsClassifier": {
         "class": "sklearn.neighbors.RadiusNeighborsClassifier",
@@ -95,7 +97,8 @@
         "name": "radius_nn_classifier",
         "family":"neighbors",
           "matrix": "sparse",
-        "performance": "fast"
+        "performance": "fast",
+         "library": "sklearn"
       },
       "MLPClassifier": {
           "class": "sklearn.neural_network.MLPClassifier",
@@ -139,7 +142,8 @@
           "name": "mlp",
         "family": "neural_network",
          "matrix": "sparse",
-        "performance": "fast"
+        "performance": "fast",
+        "library": "sklearn"
         },
       "SVC": {
           "class": "sklearn.svm.SVC",
@@ -182,7 +186,8 @@
           "name": "svm",
         "family": "svm",
          "matrix": "sparse",
-        "performance": "slow"
+        "performance": "slow",
+        "library": "sklearn"
         },
       "LinearSVC": {
           "class": "sklearn.svm.LinearSVC",
@@ -207,7 +212,8 @@
           "name": "linear_svc",
         "family": "svm",
          "matrix": "sparse",
-        "performance": "medium"
+        "performance": "medium",
+        "library": "sklearn"
         },
       "MultinomialNB": {
           "class": "sklearn.naive_bayes.MultinomialNB",
@@ -225,7 +231,8 @@
           },
           "family": "probabilistic",
          "matrix": "sparse",
-        "performance": "fast"
+        "performance": "fast",
+        "library": "sklearn"
         },
       "SGDClassifier": {
           "class": "sklearn.linear_model.SGDClassifier",
@@ -250,7 +257,8 @@
           },
         "family": "linear",
          "matrix": "sparse",
-        "performance": "fast"
+        "performance": "fast",
+        "library": "sklearn"
         },
         "RandomForestClassifier": {
           "class": "sklearn.ensemble.RandomForestClassifier",
@@ -309,7 +317,8 @@
           },
         "family": "ensemble_tree",
          "matrix": "sparse",
-        "performance": "fast"
+        "performance": "fast",
+          "library": "sklearn"
         },
       "DecisionTreeClassifier": {
           "class": "sklearn.tree.DecisionTreeClassifier",
@@ -357,7 +366,8 @@
           },
         "family": "tree",
          "matrix": "sparse",
-        "performance": "fast"
+        "performance": "fast",
+        "library": "sklearn"
         },
       "XGBClassifier": {
           "class": "xgboost.XGBClassifier",
@@ -428,7 +438,8 @@
           },
             "family": "ensemble_tree",
            "matrix": "sparse",
-            "performance": "slow"
+            "performance": "slow",
+        "library": "xgboost"
         },
       "EcocEstimator": {
         "class": "kolibri.backend.sklearn.meta.EcocEstimator",
@@ -436,6 +447,7 @@
         "family": "ensemble",
          "matrix": "sparse",
         "performance": "medium",
+        "library": "kolibri",
         "parameters": {
           "code_matrix": {
               "value": "rand",
@@ -475,7 +487,8 @@
       "name": "perceptron",
         "family": "linear",
        "matrix": "sparse",
-        "performance": "fast"
+        "performance": "fast",
+        "library": "sklearn"
   },
       "PassiveAggressiveClassifier": {
       "class": "sklearn.linear_model.PassiveAggressiveClassifier",
@@ -498,7 +511,8 @@
       "name": "passive_aggressive_classier",
         "family":"linear",
       "matrix": "sparse",
-        "performance": "fast"
+        "performance": "fast",
+        "library": "sklearn"
   },
       "LabelPropagation":  {
         "class": "sklearn.semi_supervised.LabelPropagation",
@@ -521,7 +535,8 @@
         "name": "label_propagation",
         "family": "semi_supervised",
          "matrix": "dense",
-        "performance": "fast"
+        "performance": "fast",
+        "library": "sklearn"
   },
       "LabelSpreading": {
         "class": "sklearn.semi_supervised.LabelSpreading",
@@ -549,7 +564,8 @@
         "name": "label_spreading",
         "family": "semi_supervised",
          "matrix": "dense",
-        "performance": "fast"
+        "performance": "fast",
+        "library": "sklearn"
   },
       "GradientBoostingClassifier": {
         "class": "sklearn.ensemble.GradientBoostingClassifier",
@@ -590,7 +606,8 @@
           "name": "gradient_boosting_classifier",
         "family": "ensemble",
         "matrix": "sparse",
-        "performance": "slow"
+        "performance": "slow",
+        "library": "sklearn"
         },
       "QuadraticDiscriminantAnalysis": {
         "class": "sklearn.discriminant_analysis.QuadraticDiscriminantAnalysis",
@@ -605,7 +622,8 @@
         "name": "quadratic_discriminant_analysis",
         "family": "discriminant_analysis",
         "matrix": "dense",
-        "performance": "fast"
+        "performance": "fast",
+        "library": "sklearn"
   },
       "HistGradientBoostingClassifier": {
         "class": "sklearn.ensemble.HistGradientBoostingClassifier",
@@ -620,7 +638,8 @@
         "name": "hist_radient_boosting_classifier",
         "family": "ensemble",
          "matrix": "dense",
-        "performance": "fast"
+        "performance": "fast",
+        "library": "sklearn"
   },
       "RidgeClassifier": {
         "class": "sklearn.linear_model.RidgeClassifier",
@@ -644,7 +663,8 @@
         },
         "name": "ridge_classifier",
          "matrix": "sparse",
-        "performance": "fast"
+        "performance": "fast",
+        "library": "sklearn"
   },
       "ExtraTreesClassifier": {
         "class": "sklearn.ensemble.ExtraTreesClassifier",
@@ -667,7 +687,8 @@
         "name": "label_propagation",
         "family": "ensemble_tree",
          "matrix": "sparse",
-        "performance": "fast"
+        "performance": "fast",
+        "library": "sklearn"
 
   },
       "BernoulliNB": {
@@ -683,7 +704,8 @@
         "name": "bernoulli_nb_classifier",
         "family": "probabilistic",
          "matrix": "sparse",
-        "performance": "fast"
+        "performance": "fast",
+        "library": "sklearn"
   },
       "LinearDiscriminantAnalysis": {
         "class": "sklearn.discriminant_analysis.LinearDiscriminantAnalysis",
@@ -698,7 +720,8 @@
         "name": "linear_descriminent_analysis",
         "family": "discriminant_analysis",
         "matrix": "dense",
-        "performance": "fast"
+        "performance": "fast",
+        "library": "sklearn"
   },
       "GaussianNB": {
         "class": "sklearn.naive_bayes.GaussianNB",
@@ -713,7 +736,8 @@
         "name": "gaussian_nb_classifier",
         "family": "probabilistic",
          "matrix": "dense",
-        "performance": "fast"
+        "performance": "fast",
+        "library": "sklearn"
   },
       "NearestCentroid": {
         "class": "sklearn.neighbors.NearestCentroid",
@@ -728,7 +752,8 @@
         "name": "nearest_centroid",
         "family": "neighbors",
          "matrix": "sparse",
-        "performance": "fast"
+        "performance": "fast",
+        "library": "sklearn"
   },
       "ExtraTreeClassifier": {
         "class": "sklearn.tree.ExtraTreeClassifier",
@@ -748,7 +773,8 @@
         "name": "extra_tree_classifier",
         "family": "tree",
          "matrix": "sparse",
-        "performance": "fast"
+        "performance": "fast",
+        "library": "sklearn"
   },
       "DummyClassifier": {
         "class": "sklearn.dummy.DummyClassifier",
@@ -763,7 +789,8 @@
         "name": "dummy_classifier",
         "family": "rule_based",
          "matrix": "sparse",
-        "performance": "fast"
+        "performance": "fast",
+        "library": "sklearn"
   },
 
     "CatBoostClassifier": {
@@ -774,6 +801,7 @@
         "name": "catboost_classifier",
         "family": "tree_based",
          "matrix": "sparse",
-        "performance": "fast"
+        "performance": "fast",
+      "library": "catboost"
   }
 }
