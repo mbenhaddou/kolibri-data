@@ -451,8 +451,7 @@
         "values": [
           "RMSE",
           "MAE",
-          "MAPE",
-          "R2"
+          "MAPE"
         ]
       },
       "rsm": {
