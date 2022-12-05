@@ -439,10 +439,60 @@
     "parameters": {
       "posterior_sampling": {
         "value": true,
-        "type": "integer",
+        "type": "boolean",
+        "values": [
+          true,
+          false
+        ]
+      },
+      "objective": {
+        "value": "RMSE",
+        "type": "categorical",
+        "values": [
+          "RMSE",
+          "MAE",
+          "MAPE",
+          "R2"
+        ]
+      },
+      "rsm": {
+        "value": 1,
+        "type": "float",
         "values": [
           0,
           1
+        ]
+      },
+      "depth": {
+        "value": 6,
+        "type": "integer",
+        "values": [
+          1,
+          12
+        ]
+      },
+      "boosting_type": {
+        "value": "Ordered",
+        "type": "categorical",
+        "values": [
+          "Ordered",
+          "Plain"
+        ]
+      },
+      "bootstrap_type": {
+        "value": "Bayesian",
+        "type": "categorical",
+        "values": [
+          "Bayesian",
+           "Bernoulli",
+          "MVS"
+        ]
+      },
+      "bagging_temperature": {
+        "value": 1,
+        "type": "float",
+        "values": [
+          1, 10
         ]
       },
       "verbose": {
