@@ -6,7 +6,7 @@
       "penalty": {
         "value": "l2",
         "type" : "categorical",
-        "values": ["l1", "l2", "None", "elasticne"]
+        "values": ["l1", "l2", "None", "elasticnet"]
       },
       "class_weight":  {
         "value": null,
