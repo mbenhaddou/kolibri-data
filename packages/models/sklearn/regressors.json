@@ -42,6 +42,60 @@
         "performance": "fast",
     "library": "sklearn"
       },
+  "LazyRegression":  {
+        "class": "kolibri.backend.sklearn.LinearRegression",
+        "parameters": {
+          "n_neighbors": {
+            "value": 5,
+            "type": "int",
+            "values": [
+              3,
+              11
+            ]
+          },
+          "algorithm": {
+            "value": "auto",
+            "type": "string",
+            "values": [
+              "auto",
+              "ball_tree",
+              "kd_tree",
+              "brute"
+            ]
+          },
+          "distance": {
+            "value": "heom",
+            "type": "string",
+            "values": [
+              "heom",
+              "hvdm"
+            ]
+          },
+          "leaf_size": {
+            "value": 30,
+            "type": "int",
+            "values": [
+              20,
+              50
+            ]
+          },
+
+          "weight_by_distance": {
+            "value": false,
+            "type": "boolean",
+            "values": [
+              true,
+              false
+            ]
+          }
+        },
+        "description": "Lazy Learning Regression",
+        "name": "lazy_regression",
+        "family": "linear",
+         "matrix": "sparse",
+        "performance": "fast",
+    "library": "sklearn"
+      },
   "Ridge": {
         "class": "sklearn.linear_model.Ridge",
         "parameters": {
