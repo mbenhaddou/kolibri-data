@@ -207,8 +207,8 @@
         "performance": "fast",
     "library": "sklearn"
       },
-  "Lars(": {
-        "class": "sklearn.linear_model.Lars(",
+  "Lars": {
+        "class": "sklearn.linear_model.Lars",
         "parameters": {
         },
         "description": "Least Angle Regression model a.k.a. LAR.",
