@@ -43,7 +43,7 @@
     "library": "sklearn"
       },
   "LazyRegression":  {
-        "class": "kolibri.backend.sklearn.LinearRegression",
+        "class": "kolibri.backend.sklearn.extensions.lazy_learner.LinearRegression",
         "parameters": {
           "n_neighbors": {
             "value": 5,
