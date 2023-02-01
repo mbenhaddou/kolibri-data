@@ -79,7 +79,38 @@
               50
             ]
           },
-
+          "weights": {
+            "value": "uniform",
+            "type": "string",
+            "values": [
+             "uniform",
+             "distance"
+            ]
+          },
+          "nb_features_to_keep": {
+            "value": 8,
+            "type": "int",
+            "values": [
+              1,
+              20
+            ]
+          },
+          "nb_buckets":{
+            "value": 100,
+            "type": "int",
+            "values": [
+              30,
+              200
+            ]
+          },
+          "num_futures_dist_importance":{
+                      "value": 10,
+                      "type": "float",
+                      "values": [
+                        0,
+                        20
+                      ]
+                    },
           "weight_by_distance": {
             "value": false,
             "type": "boolean",
@@ -87,6 +118,66 @@
               true,
               false
             ]
+          },
+                "posterior_sampling": {
+        "value": true,
+        "type": "boolean",
+        "values": [
+          true,
+          false
+        ]
+      },
+          "objective": {
+            "value": "RMSE",
+            "type": "categorical",
+            "values": [
+              "RMSE",
+              "MAE",
+              "MAPE"
+            ]
+          },
+          "rsm": {
+            "value": 1,
+            "type": "float",
+            "values": [
+              0,
+              1
+            ]
+          },
+          "depth": {
+            "value": 6,
+            "type": "integer",
+            "values": [
+              1,
+              12
+            ]
+          },
+          "boosting_type": {
+            "value": "Ordered",
+            "type": "categorical",
+            "values": [
+              "Ordered",
+              "Plain"
+            ]
+          },
+          "bootstrap_type": {
+            "value": "Bayesian",
+            "type": "categorical",
+            "values": [
+              "Bayesian",
+               "Bernoulli",
+              "MVS"
+            ]
+          },
+          "bagging_temperature": {
+            "value": 1,
+            "type": "float",
+            "values": [
+              1, 10
+            ]
+          },
+          "verbose": {
+            "value": false
           }
         },
         "description": "Lazy Learning Regression",
