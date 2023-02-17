@@ -202,7 +202,18 @@
           },
           "verbose": {
             "value": false
+          },
+          "linear_model": {
+            "value": false
+          },
+          "augment_samples": {
+            "value": false
+          },
+          "inddependent_var_name": {
+            "value": "none"
           }
+
+
         },
         "description": "Lazy Learning Regression",
         "name": "lazy_regression",
