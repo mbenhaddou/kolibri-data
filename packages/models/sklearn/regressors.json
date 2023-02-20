@@ -206,8 +206,8 @@
           "linear_model": {
             "value": false
           },
-          "augment_samples": {
-            "value": false
+          "augment_samples_ratio": {
+            "value": 0.0
           },
           "inddependent_var_name": {
             "value": null
