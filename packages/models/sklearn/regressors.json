@@ -255,7 +255,7 @@
               50
             ]
           },
-          "num_futures_dist_importance":{
+          "num_features_dist_importance":{
                       "value": 10,
                       "type": "float",
                       "values": [
