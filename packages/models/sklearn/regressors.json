@@ -227,7 +227,7 @@
         "parameters": {
           "n_neighbors": {
             "value": 2,
-            "type": "int",
+            "type": "int"
           },
           "algorithm": {
             "value": "auto",
