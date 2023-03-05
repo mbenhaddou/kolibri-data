@@ -222,6 +222,143 @@
         "performance": "fast",
     "library": "sklearn"
       },
+  "LazyLookupRegression":  {
+        "class": "kolibri.backend.sklearn.extensions.lookup_learner.LazyLookupRegression",
+        "parameters": {
+          "n_neighbors": {
+            "value": 2,
+            "type": "int",
+          },
+          "algorithm": {
+            "value": "auto",
+            "type": "string",
+            "values": [
+              "auto",
+              "ball_tree",
+              "kd_tree",
+              "brute"
+            ]
+          },
+          "distance": {
+            "value": "heom",
+            "type": "string",
+            "values": [
+              "heom",
+              "hvdm"
+            ]
+          },
+          "leaf_size": {
+            "value": 30,
+            "type": "int",
+            "values": [
+              20,
+              50
+            ]
+          },
+          "num_futures_dist_importance":{
+                      "value": 10,
+                      "type": "float",
+                      "values": [
+                        0,
+                        20
+                      ]
+                    },
+          "posterior_sampling": {
+        "value": true,
+        "type": "boolean",
+        "values": [
+          true,
+          false
+        ]
+      },
+          "learning_rate": {
+        "value": 0.03,
+        "type": "float",
+        "values": [
+          0.001,
+          1
+        ]
+      },
+          "objective": {
+            "value": "RMSE",
+            "type": "categorical",
+            "values": [
+              "RMSE",
+              "MAE",
+              "MAPE"
+            ]
+          },
+          "rsm": {
+            "value": 1,
+            "type": "float",
+            "values": [
+              0,
+              1
+            ]
+          },
+          "depth": {
+            "value": 6,
+            "type": "integer",
+            "values": [
+              1,
+              12
+            ]
+          },
+          "boosting_type": {
+            "value": "Ordered",
+            "type": "categorical",
+            "values": [
+              "Ordered",
+              "Plain"
+            ]
+          },
+          "bootstrap_type": {
+            "value": "Bayesian",
+            "type": "categorical",
+            "values": [
+              "Bayesian",
+               "Bernoulli",
+              "MVS"
+            ]
+          },
+          "bagging_temperature": {
+            "value": 1,
+            "type": "float",
+            "values": [
+              1, 10
+            ]
+          },
+          "l2_leaf_reg":{
+        "value": 3.0,
+        "type": "float",
+        "values": [
+          1.0,
+          10.0
+        ]
+      },
+          "iterations": {
+            "value": 1000,
+            "type": "integer",
+            "values": [
+              200,
+              2000
+            ]
+          },
+          "verbose": {
+            "value": false
+          },
+          "linear_model": {
+            "value": false
+          }
+
+        },
+        "description": "Lazy Lookup Learning Regression, builds a lookup table for models and fill it lazyly",
+        "name": "lazy_lookup_regression",
+        "family": "linear",
+         "matrix": "sparse",
+        "performance": "fast",
+    "library": "sklearn"
+      },
   "Ridge": {
         "class": "sklearn.linear_model.Ridge",
         "parameters": {
