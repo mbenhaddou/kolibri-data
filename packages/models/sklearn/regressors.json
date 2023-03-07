@@ -207,10 +207,10 @@
             "value": false
           },
           "augment_samples_ratio": {
-            "value": 0.0
+            "value": []
           },
           "inddependent_var_name": {
-            "value": null
+            "value": []
           }
 
 
