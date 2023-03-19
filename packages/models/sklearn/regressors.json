@@ -242,6 +242,22 @@
               "brute"
             ]
           },
+          "handle_outliers": {
+            "value": false,
+            "type": "boolean",
+            "values": [
+              true,
+              false
+            ]
+          },
+          "return_db_value_if_input_maches": {
+            "value": false,
+            "type": "boolean",
+            "values": [
+              true,
+              false
+            ]
+          },
           "distance": {
             "value": "heom",
             "type": "string",
